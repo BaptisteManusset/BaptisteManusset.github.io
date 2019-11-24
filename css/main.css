@@ -2407,3 +2407,7 @@
      display: inline-block;
 }
  
+
+ header .post-title{    
+    margin-bottom: 2rem
+ }

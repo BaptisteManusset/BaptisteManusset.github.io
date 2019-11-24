@@ -5,14 +5,13 @@
 	<body id="top">
     <header id="header">
       <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/logo.svg" alt="{{ site.author.name }}"></a>
-      <h1 class="editable">Je suis <strong>Baptiste Manusset</strong>,<br>étudiant en M1 MTI3D à Laval. </h1>
+      <h1 class="editable">Je suis <strong>Baptiste Manusset</strong>,<br>étudiant en <a href="http://mti3d.artsetmetiers.fr/" target="_blank">Master 1 MTI3D</a> à Laval. </h1>
       
     </header>
 
     {{ content }}
 
     <footer id="footer">
-      <p class="editor-link"><a href="cloudcannon:collections/_data/social.yml" class="button"><strong>&#9998;</strong> Update Social Icons</a></p>
       <ul class="icons">
         {% for account in site.data.social %}
 					<li>
@@ -21,13 +20,7 @@
 						</a>
 					</li>
 				{% endfor %}
-        {% if site.author.email %}
-        <li>
-          <a href="mailto:{{ site.author.email }}" class="icon fa-envelope-o">
-            <span class="label">Email</span>
-          </a>
-        </li>
-        {% endif %}
+
       </ul>
     </footer>
 

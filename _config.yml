@@ -46,6 +46,10 @@ social_icons:
   - Github
 
 
+collections:
+  timelines:
+    output: true
+
 _editable_regions:
   image:
     url_src: true

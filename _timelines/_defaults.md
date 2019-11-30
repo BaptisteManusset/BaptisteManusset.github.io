@@ -1,5 +1,7 @@
 ---
 layout: timeline
 title:
-image: 
+start_time:
+end_time:
+duree_number:
 ---

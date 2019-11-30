@@ -1169,7 +1169,7 @@
 }
  a:hover {
      border-bottom-color: transparent;
-     color: #ffffff !important;
+     color: #666666 !important;
      text-decoration: none;
 }
  strong, b {
@@ -1918,7 +1918,8 @@
  #main {
      margin-left: 35%;
      max-width: 54em;
-     padding: 8em 4em 4em 4em;
+     /*padding: 8em 4em 4em 4em;*/
+     padding: 4em 4em 4em 4em;
      width: calc(100% - 35%);
 }
  #main > section {

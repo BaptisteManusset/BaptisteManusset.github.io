@@ -22,7 +22,8 @@ social:
   links:
     - https://twitter.com/ItsBaptiste
 
-permalink: pretty
+# permalink: pretty
+permalink: :title/
 
 gems:
   - "jekyll-feed"

@@ -1693,13 +1693,16 @@
  dl {
      margin: 0 0 2em 0;
 }
-
+ul.category-list {
+    padding-left: 0;
+}
 ul.category-list li {
     list-style: none;
     display: inline-block;
     background: gainsboro;
     padding-right: 10px;
     border-radius: 5px;
+	padding-right: 0;
 }
 /* Table */
  .table-wrapper {

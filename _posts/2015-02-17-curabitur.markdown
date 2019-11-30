@@ -1,6 +1,7 @@
 ---
 layout: post
 title: curabitur
-image: 01.jpg
+image: /images/fulls/02.jpg
 ---
-Je suis un étudiant, qui vient du developpement web mais qui fait actuellement du developpement avec Unity, avec la spécialité de savoir developper pour la réalité virtuel.  
+
+Je suis un &eacute;tudiant, qui vient du developpement web mais qui fait actuellement du developpement avec Unity, avec la sp&eacute;cialit&eacute; de savoir developper pour la r&eacute;alit&eacute; virtuel.

@@ -20,12 +20,12 @@ layout: default
         <article class="{% cycle '6u', '6u$' %} 12u(small)">
           <header>
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p>
+            <ul>
                 {% for category in post.categories %} 
-                <b>{{category}}</b>
+                <li>{{category}}</li>
                 {% endfor %}
 
-            </p>
+            </ul>
           </header>
           <section>
           <img src="{{ post.image }}" class="fit image" />

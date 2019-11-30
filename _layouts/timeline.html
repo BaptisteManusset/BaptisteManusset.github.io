@@ -6,10 +6,19 @@ layout: default
     <header>
     <img src="{{ page.image }}" class="fit image">
       <h1 class="post-title">{{ page.title }}</h1>
-      <p>Debut: {{page.start_date | date: '%y'}}</p>
-      <p>Fin:   {{page.end_date | date: '%y'}}</p>
-      <p></p>
+      <p>Date <b>{{page.start_date | date: '%d/%m/%Y'}}</b> ⟹ <b>{{page.end_date | date: '%d/%m/%Y'}}</b></p>
       
+      {% capture start_date_month %}{{ page.start_date | date: '%m' }}{% endcapture %}  
+      {% capture end_date_month %}{{ page.end_date | date: '%m' }}{% endcapture %} 
+      {% capture months %}  {{ end_date_month | minus: start_date_month}}{% endcapture %}
+
+      {% capture start_date_year %}{{ page.start_date | date: '%Y' }}{% endcapture %}  
+      {% capture end_date_year %}{{ page.end_date | date: '%Y' }}{% endcapture %} 
+      {% capture year %}  {{ end_date_year | minus: start_date_year}}{% endcapture %}
+       {% capture months %}{{ year | times: 12 | plus: months}}{% endcapture %}
+
+      <p>Durée {{ months}}</p>
+
         <ul class="category-list">
         {% for category in page.categories %} 
             <li class="category-item">{{category}}</li>

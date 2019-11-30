@@ -1,6 +1,6 @@
 locale: "fr-FR"
 title: Baptiste Manusset # Title of your site
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://baptistemanusset.github.io/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 

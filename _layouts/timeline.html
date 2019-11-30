@@ -6,6 +6,9 @@ layout: default
     <header>
     <img src="{{ page.image }}" class="fit image">
       <h1 class="post-title">{{ page.title }}</h1>
+      <p>Debut: {{page.start_date}}</p>
+      <p>Fin:   {{page.end_date}}</p>
+      
         <ul class="category-list">
         {% for category in page.categories %} 
             <li class="category-item">{{category}}</li>

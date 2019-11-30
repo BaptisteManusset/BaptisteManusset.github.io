@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Unamed
-categories: [jeux video,c++]
-date: 2019-11-30
-image: unamed.jpg
+categories:
+  - jeux video
+  - c++
+date: 2019-11-30 00:00:00
+image: /images/fulls/unamed.jpg
 ---
+
 salut
-
-

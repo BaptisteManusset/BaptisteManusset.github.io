@@ -1693,6 +1693,14 @@
  dl {
      margin: 0 0 2em 0;
 }
+
+ul.category-list li {
+    list-style: none;
+    display: inline-block;
+    background: gainsboro;
+    padding-right: 10px;
+    border-radius: 5px;
+}
 /* Table */
  .table-wrapper {
      -webkit-overflow-scrolling: touch;

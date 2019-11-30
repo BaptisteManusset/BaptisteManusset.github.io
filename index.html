@@ -4,7 +4,6 @@ layout: default
 
 <div id="main">
   <section>
-    {% for post in site.posts limit:1 %}
       <header>
         <h1 class="editable">
         		Hey! je suis Baptiste Manusset
@@ -13,7 +12,6 @@ layout: default
       <section class="editable">
       		<p>Je suis un &eacute;tudiant et Master <strong>MTI3D</strong> au Laval Virtual Center qui fait partie de l'ENSAM (Arts et M&eacute;tiers), qui vient du d&eacute;veloppement web mais qui fait actuellement une formation dans le d&eacute;veloppement avec Unity, avec la sp&eacute;cialit&eacute; du <strong>r&eacute;alit&eacute; virtuel </strong>!</p>
       </section>
-    {% endfor %}
   </section>
 
   <section>
@@ -23,8 +21,8 @@ layout: default
           <header>
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <p>
-                {% for category in post.categories %}
-<b>{{category}}</b>
+                {% for category in post.categories %} 
+                <b>{{category}}</b>
                 {% endfor %}
 
             </p>

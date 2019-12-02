@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Azakov"
-date: "2019-12-02 12:43:13 +0100"
+title: Azakov
+date: 2019-12-02 00:00:00
 categories:
-  Unity
+  - Unity
+  - Réalité Virtuelle
 image:
 ---
 
-**Azakov** est une expérience en Vr developper sur Unity, vous mettant dans le role d'une personne qui prend le metro pour rejoindre sa maison via le metro. Mais tout ne se passe comme prevue et vous serez confronté a des événements surnaturels.
+**Azakov** est une exp&eacute;rience en R&eacute;alit&eacute; virtuelle d&eacute;velopper sur **Unity**, vous mettant dans le r&ocirc;le d'une personne qui prend le m&eacute;tro pour rejoindre sa maison. Mais tout ne se passe comme pr&eacute;vue et vous serez confront&eacute; a des &eacute;v&eacute;nements surnaturels.
 
-Ce projet est un projet de groupe fait durant ma premiere année de master à Chambéry.
+Ce projet est un projet de groupe fait durant ma premi&egrave;re ann&eacute;e de master &agrave; Chamb&eacute;ry.

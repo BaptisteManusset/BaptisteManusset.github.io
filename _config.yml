@@ -29,8 +29,8 @@ gems:
   - "jekyll-feed"
   - "jekyll-seo-tag"
   - "jekyll-paginate"
-  - "jekyll-sitemap" 
-  - "jekyll-youtube"  
+  - "jekyll-sitemap"
+  - "jekyll-youtube" 
 
 # Jekyll SEO Tag
 webmaster_verifications:
@@ -54,6 +54,3 @@ collections:
 _editable_regions:
   image:
     url_src: true
-
- 
-

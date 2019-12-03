@@ -6,12 +6,15 @@ categories:
   - Unity
   - Réalité Virtuelle
 date: 2019-11-27 00:00:00
-image: /images/bg.png
+image: /images/projects/ico/ico.jpg
 ---
-ICO est un projet en réalité Vr réalisé sous Unity et destiné aux casques Gear VR. Il est réalisé dans le cadre du projet est un projet en réalité Vr réalisé sous Unity et destiné aux casques Gear VR. Il est réalisé durant mon Master 1 Création numérique à l'Université de Chambéry.
 
-##Présentation
-Cette expérience vous permet de prendre place dans ce qui semble être les ruines d'un temple en ruine, dans un désert qui semble infini. Dissimulé par le bruit du vent, il semble qu'un bruit provient de cette structure en ruine. C'est un bip répétitif. Du morse. Lorsque vous vous rapprochez de cette structure, vous apercevez, au centre, une pile d'écrans cathodiques qui s'entassent. Sur ces écrans, du morse. Ils sont reliés à un orbe qui grandit et rétrécit selon les bips. Sur le cote un terminal, lorsque vous vous en rapprochez un bruit en sort, et le message sur les écrans changent, c'est maintenant des messages en anglais qui apparaissent. Ce sont des Tweets.
+ICO est un projet en r&eacute;alit&eacute; Vr r&eacute;alis&eacute; sous Unity et destin&eacute; aux casques Gear VR. Il est r&eacute;alis&eacute; dans le cadre du projet est un projet en r&eacute;alit&eacute; Vr r&eacute;alis&eacute; sous Unity et destin&eacute; aux casques Gear VR. Il est r&eacute;alis&eacute; durant mon Master 1 Cr&eacute;ation num&eacute;rique &agrave; l'Universit&eacute; de Chamb&eacute;ry.
 
-##Fonctionnement
-Ce projet utilise l'API Twitter pour récolter des tweets de personnes lambda pour ensuite les convertir en morse. Dans cette expérience je mes en relation l'obsolescence du message. D'un côté, le morse qui est quasiment pas utilisé actuellement et d'un autre le tweet qui est un message volatile qui disparaît dans le torrent de message posté chaque second sur Twitter.
+## Pr&eacute;sentation
+
+Cette exp&eacute;rience vous permet de prendre place dans ce qui semble &ecirc;tre les ruines d'un temple en ruine, dans un d&eacute;sert qui semble infini. Dissimul&eacute; par le bruit du vent, il semble qu'un bruit provient de cette structure en ruine. C'est un bip r&eacute;p&eacute;titif. Du morse. Lorsque vous vous rapprochez de cette structure, vous apercevez, au centre, une pile d'&eacute;crans cathodiques qui s'entassent. Sur ces &eacute;crans, du morse. Ils sont reli&eacute;s &agrave; un orbe qui grandit et r&eacute;tr&eacute;cit selon les bips. Sur le cote un terminal, lorsque vous vous en rapprochez un bruit en sort, et le message sur les &eacute;crans changent, c'est maintenant des messages en anglais qui apparaissent. Ce sont des Tweets.
+
+## Fonctionnement
+
+Ce projet utilise l'API Twitter pour r&eacute;colter des tweets de personnes lambda pour ensuite les convertir en morse. Dans cette exp&eacute;rience je mes en relation l'obsolescence du message. D'un c&ocirc;t&eacute;, le morse qui est quasiment pas utilis&eacute; actuellement et d'un autre le tweet qui est un message volatile qui dispara&icirc;t dans le torrent de message post&eacute; chaque second sur Twitter.

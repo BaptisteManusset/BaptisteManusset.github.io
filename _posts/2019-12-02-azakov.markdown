@@ -5,9 +5,21 @@ date: 2019-12-02 00:00:00
 categories:
   - Unity
   - Réalité Virtuelle
-image:
+image: /uploads/azakov.jpg
 ---
 
 **Azakov** est une exp&eacute;rience en R&eacute;alit&eacute; virtuelle d&eacute;velopper sur **Unity**, vous mettant dans le r&ocirc;le d'une personne qui prend le m&eacute;tro pour rejoindre sa maison. Mais tout ne se passe comme pr&eacute;vue et vous serez confront&eacute; a des &eacute;v&eacute;nements surnaturels.
 
 Ce projet est un projet de groupe fait durant ma premi&egrave;re ann&eacute;e de master &agrave; Chamb&eacute;ry.
+
+Les graphismes ne sont pas tr&egrave;s d&eacute;taill&eacute;s car ce jeu est destin&eacute; au Samsung Gear (qui est un casque pour la r&eacute;alit&eacute; virtuel fonctionnant gr&acirc;ce &agrave; un t&eacute;l&eacute;phone Samsung).
+
+![](/images/projects/azakov/azakov noclip.png "zone de la station de métro vu de l'exterieur."){: width="3840" height="2160"}
+
+![](/images/projects/azakov/azakov noclip.png "zone de la station de métro vu de l'exterieur."){: width="3840" height="2160"}
+
+![](/images/projects/azakov/azakov noclip.png "zone de la station de métro vu de l'exterieur."){: width="3840" height="2160"}
+
+![](/images/projects/azakov/azakov noclip.png "zone de la station de métro vu de l'exterieur."){: width="3840" height="2160"}
+
+![](/images/projects/azakov/azakov noclip.png "zone de la station de métro vu de l'exterieur."){: width="3840" height="2160"}

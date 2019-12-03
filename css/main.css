@@ -1288,7 +1288,6 @@ article.article img.image.fit{
 }
  header h2 + p {
      font-size: 1.25em;
-     margin-top: -1em;
      line-height: 1.5em;
 }
  header h3 + p {
@@ -2425,8 +2424,8 @@ ul.category-list li {
  .cms-editor-active .editor-link {
      display: inline-block;
 }
- 
 
- header .post-title{    
+
+ header .post-title{
     margin-bottom: 2rem
  }

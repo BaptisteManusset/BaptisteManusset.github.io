@@ -8,9 +8,24 @@
     <h1 class="editable">Je suis <strong>Baptiste Manusset</strong>,<br>étudiant en <a href="http://mti3d.artsetmetiers.fr/" target="_blank">Master 1 MTI3D</a> à Laval. </h1>
 
   </header>
+  <div id="main">
+  <section>
+    <div class="row">
+      {% for post in site.timelines %}
+        <header style="border: 1px solid #000;">
 
-  {{ content }}
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p>Date <b>{{post.start_date | date: '%d/%m/%Y'}}</b> ⟹ <b>{{post.end_date | date: '%d/%m/%Y'}}</b></p>
 
+
+            {{post.content}}
+
+        </header>
+  
+      {% endfor %}
+    </div>
+  </section>
+  </div>
   <footer id="footer">
     <ul class="icons">
       {% for account in site.data.social %}
@@ -20,7 +35,6 @@
         </a>
       </li>
       {% endfor %}
-
     </ul>
   </footer>
 
@@ -48,7 +62,6 @@
     ga("send", "pageview");
   </script>
   {% endif %}
-
 </body>
 
 </html>

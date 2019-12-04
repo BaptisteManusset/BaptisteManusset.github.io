@@ -30,7 +30,10 @@ gems:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-sitemap"
-  - "jekyll-youtube" 
+  - "jekyll-youtube"
+  - "jekyll-menus"
+
+
 
 # Jekyll SEO Tag
 webmaster_verifications:
@@ -54,8 +57,3 @@ collections:
 _editable_regions:
   image:
     url_src: true
-
-
-sass:
-  sass_dir:           _sass
-  style:              compressed

@@ -6,7 +6,13 @@
   <header id="header">
     <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/logo.svg" alt="{{ site.author.name }}"></a>
     <h1 class="editable">Je suis <strong>Baptiste Manusset</strong>,<br>étudiant en <a href="http://mti3d.artsetmetiers.fr/" target="_blank">Master 1 MTI3D</a> à Laval. </h1>
-
+    <ul class="menu-container">
+    {% for item in site.menus.header %}
+      <li class="menu-item">
+        <a href="{{site.url}}{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
   </header>
 
   {{ content }}

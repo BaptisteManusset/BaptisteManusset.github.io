@@ -34,23 +34,6 @@ layout: default
           </footer>
         </article>
       {% endif %}
-
-      {% if page.next %}
-        <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right">
-          <header>
-           <img src="{{ page.next.image }}" class="fit image">
-            <h2><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
-          </header>
-          <section>
-            {{ page.next.excerpt | markdownify }}
-          </section>
-          <footer>
-            <ul class="actions">
-              <li><a href="{{ page.next.url }}" class="button">Lire la suite</a></li>
-            </ul>
-          </footer>
-        </article>
-      {% endif %}
       </div>
     </footer>
   </article>

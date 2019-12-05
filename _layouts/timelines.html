@@ -10,7 +10,6 @@
     <div class="row">
       {% for post in site.timelines %}
         <header class="timeline-item">
-
             <small class="timeline-item-date">{{post.start_date | date: '%b %Y'}} {{post.end_date | date: '%b %Y'}}</small>
           <h2>{{ post.title }}</h2>
             {{post.content}}

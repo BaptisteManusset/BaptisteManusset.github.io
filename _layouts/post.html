@@ -7,7 +7,7 @@ layout: default
     <img src="{{ page.image }}" class="fit image">
       <h1 class="post-title">{{ page.title }}</h1>
         <ul class="category-list">
-        {% for category in page.categories %} 
+        {% for category in page.categories %}
             <li class="category-item">{{category}}</li>
         {% endfor %}
         </ul>
@@ -19,7 +19,7 @@ layout: default
 
     <footer>
       <div class="row">
-      {% if page.previous %}
+      <!-- {% if page.previous %}
         <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
           <header>
             <h2><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
@@ -33,7 +33,7 @@ layout: default
             </ul>
           </footer>
         </article>
-      {% endif %}
+      {% endif %} -->
       </div>
     </footer>
   </article>

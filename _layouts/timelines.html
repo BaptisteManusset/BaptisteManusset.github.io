@@ -3,25 +3,28 @@
 {% include head.html %}
 
 <body id="top">
-  <header id="header">
-    <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/logo.svg" alt="{{ site.author.name }}"></a>
-    <h1 class="editable">Je suis <strong>Baptiste Manusset</strong>,<br>étudiant en <a href="http://mti3d.artsetmetiers.fr/" target="_blank">Master 1 MTI3D</a> à Laval. </h1>
+{% include header.html %}
 
-  </header>
   <div id="main">
   <section>
     <div class="row">
       {% for post in site.timelines %}
-        <header style="border: 1px solid #000;">
+        <header class="timeline-item">
 
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p>Date <b>{{post.start_date | date: '%d/%m/%Y'}}</b> ⟹ <b>{{post.end_date | date: '%d/%m/%Y'}}</b></p>
-
-
+            <small class="timeline-item-date">{{post.start_date | date: '%b %Y'}} {{post.end_date | date: '%b %Y'}}</small>
+          <h2>{{ post.title }}</h2>
             {{post.content}}
+            {% capture start_date_month %}{{ page.start_date | date: '%m' }}{% endcapture %}
+            {% capture end_date_month %}{{ page.end_date | date: '%m' }}{% endcapture %}
+            {% capture months %} {{ end_date_month | minus: start_date_month}}{% endcapture %}
 
+            {% capture start_date_year %}{{ page.start_date | date: '%Y' }}{% endcapture %}
+            {% capture end_date_year %}{{ page.end_date | date: '%Y' }}{% endcapture %}
+            {% capture year %} {{ end_date_year | minus: start_date_year}}{% endcapture %}
+            {% capture months %}{{ year | times: 12 | plus: months}}{% endcapture %}
+            <small>Durée <b>{{ months}} mois</b> - Lieu <b>{{ page.lieu}}</b></small>
         </header>
-  
+
       {% endfor %}
     </div>
   </section>

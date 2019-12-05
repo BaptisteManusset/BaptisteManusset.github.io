@@ -1,1 +1,5 @@
-blblblbl
+portfolio fait avec le cms static jekyll
+
+```
+bundle exec jekyll serve --watch
+```

@@ -21,7 +21,7 @@
             {% capture end_date_year %}{{ page.end_date | date: '%Y' }}{% endcapture %}
             {% capture year %} {{ end_date_year | minus: start_date_year}}{% endcapture %}
             {% capture months %}{{ year | times: 12 | plus: months}}{% endcapture %}
-            <small>Durée <b>{{ months}} mois</b> - Lieu <b>{{ page.lieu}}</b></small>
+            <p><small>Durée <b>{{ months}} mois</b> - Lieu <b>{{ page.lieu}}</b></small></p>
         </header>
 
       {% endfor %}

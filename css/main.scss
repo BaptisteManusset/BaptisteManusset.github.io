@@ -255,8 +255,57 @@ pre {
 /* Section/Article */
 
 article.article{
+    position: relative;
+
+   header {
+   display:none;
+    
+  }
   img.image.fit {
     margin-bottom: 0;
+    height: 100%;
+  }
+   &:hover{
+   h2{
+    font-variant-caps: all-small-caps;
+         line-height: 1em; 
+padding: 0 0.5rem ;
+   }
+   header {
+     display:block;
+          position: absolute;
+          bottom: 0;
+          z-index: 10;
+          background:white;
+          padding: 0;
+
+      }
+    img{
+    &::after{
+       position: absolute;
+          bottom: 0;
+          top:0;
+          left: 0;
+          right: 0;
+
+        content: "";
+        z-index: 10;
+
+    }
+    }
+    section{   
+     a::before{
+    position: absolute;
+          bottom: 0;
+          top:0;
+          left: 0;
+          right: 0;
+
+        content: "";
+        z-index: 10;
+    background: #ffffff61;
+    }
+    }
   }
 }
 
@@ -1849,6 +1898,6 @@ article {
   }
   iframe,
   img{
-    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
+    /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);*/
   }
 }

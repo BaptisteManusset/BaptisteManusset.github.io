@@ -1,3 +1,27 @@
 ---
-layout: timelines
+layout: default
 ---
+
+<div id="main">
+  <section>
+    <div class="row">
+      {% for post in site.timelines %}
+      <header class="timeline-item">
+        <small class="timeline-item-date">{{post.start_date | date: '%b %Y'}} ➡ {{post.end_date | date: '%b %Y'}}</small>
+        <h2>{{ post.title }}</h2>
+        {{post.content}}
+        {% capture start_date_month %}{{ post.start_date | date: '%m' }}{% endcapture %}
+        {% capture end_date_month %}{{ post.end_date | date: '%m' }}{% endcapture %}
+        {% capture months %} {{ end_date_month | minus: start_date_month}}{% endcapture %}
+
+        {% capture start_date_year %}{{ post.start_date | date: '%Y' }}{% endcapture %}
+        {% capture end_date_year %}{{ post.end_date | date: '%Y' }}{% endcapture %}
+        {% capture year %} {{ end_date_year | minus: start_date_year}}{% endcapture %}
+        {% capture months %}{{ year | times: 12 | plus: months}}{% endcapture %}
+        <p><small>Durée <b>{{ months}} mois</b> - Lieu <b>{{ post.lieu}}</b></small></p>
+      </header>
+
+      {% endfor %}
+    </div>
+  </section>
+</div>

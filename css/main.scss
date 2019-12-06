@@ -382,6 +382,8 @@ color: #fff;
     }
 
     img {
+     transform: scale(1.2);
+
       // &::after {
       //   position: absolute;
       //   bottom: 0;
@@ -1422,8 +1424,8 @@ input {
       img {
         max-width: 100%;
         height: auto;
-       transform: scale(1.2);
-      }
+       
+       }
     }
   }
 }

@@ -351,6 +351,8 @@ pre {
 /* Section/Article */
 article.article {
   position: relative;
+ border-radius: .5rem;
+overflow: hidden;
   a{
 color: #fff;
 }
@@ -1420,6 +1422,7 @@ input {
       img {
         max-width: 100%;
         height: auto;
+       transform: scale(1.2);
       }
     }
   }

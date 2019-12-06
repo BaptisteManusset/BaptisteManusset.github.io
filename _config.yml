@@ -31,7 +31,6 @@ gems:
   - "jekyll-paginate"
   - "jekyll-sitemap"
   - "jekyll-youtube"
-  - "jekyll-menus"
 
 
 
@@ -53,6 +52,10 @@ social_icons:
 collections:
   timelines:
     output: true
+
+sass:
+  sass_dir: _scss
+  style: :compressed
 
 _editable_regions:
   image:

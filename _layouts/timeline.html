@@ -6,6 +6,7 @@ layout: default
     <header>
       <img src="{{ page.image }}" class="fit image">
       <h1 class="post-title">{{ page.title }} </h1>
+
       <p>Date <b>{{page.start_date | date: '%d/%m/%Y'}}</b> ⟹ <b>{{page.end_date | date: '%d/%m/%Y'}}</b></p>
 
       {% capture start_date_month %}{{ page.start_date | date: '%m' }}{% endcapture %}

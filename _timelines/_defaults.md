@@ -1,6 +1,7 @@
 ---
 layout: timeline
 title:
+date:
 start_date:
 end_date:
 duree_number:

@@ -8,7 +8,7 @@ layout: default
 
       {% assign sorted = (site.timelines | sort: 'start_date') | reverse %}
       {% for post in sorted %}
-      <header class="timeline-item">
+      <header class="timeline-item" style="{% include diff2date.html start_date=post.start_date end_date=post.start_date %}">
         <span>
           <small class="timeline-item-date">
             {% if post.show_month == true %}
@@ -22,32 +22,38 @@ layout: default
         <div>
           {{post.content}}
         </div>
-        {% capture start_date_month %}{{ post.start_date | date: '%m' }}{% endcapture %}
-        {% capture end_date_month %}{{ post.end_date | date: '%m' }}{% endcapture %}
-        {% capture months %} {{ end_date_month | minus: start_date_month}}{% endcapture %}
-
-        {% capture start_date_year %}{{ post.start_date | date: '%Y' }}{% endcapture %}
-        {% capture end_date_year %}{{ post.end_date | date: '%Y' }}{% endcapture %}
-        {% capture year %} {{ end_date_year | minus: start_date_year}}{% endcapture %}
-
-        {% capture months %}{{ year | times: 12 | plus: months}}{% endcapture %}
+        {% assign start_date_month = post.start_date | date: '%m' %}
+        {% assign end_date_month = post.end_date | date: '%m' %}
+        {% assign months = end_date_month | minus: start_date_month %}
+        {% assign start_date_year = start_date | date: '%Y' %}
+        {% assign end_date_year = post.end_date | date: '%Y' %}
+        {% assign year = end_date_year | minus: start_date_year %}
+        {% assign months = year | times: 12 | plus: months%}
         {% if post.show_month == true %}
         <p>{{ post.duree_number}} mois - {{ post.lieu}}</p>
         {% else %}
         {% capture months %} {{ post.duree_number | divided_by: 12}}{% endcapture %}
         <span>{{ months}} ans - {{ post.lieu}}</span>
         {% endif %}
-
-
-
-        {% include diff2date.html start_date=post.start_date end_date=post.end_date %}
-        <!--
-
-
-       -->
       </header>
 
       {% endfor %}
     </div>
   </section>
 </div>
+
+<style media="screen">
+  div.row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(30, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  div.row .timeline-item {
+    border: 1px solid red;
+    grid-row: 1 / 1;
+    background: radial-gradient(#e66465, #9198e5);
+  }
+</style>

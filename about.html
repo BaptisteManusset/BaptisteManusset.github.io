@@ -8,34 +8,39 @@ layout: default
 
       {% assign sorted = (site.timelines | sort: 'start_date') | reverse %}
       {% for post in sorted %}
-      <header class="timeline-item" style="{% include diff2date.html start_date=post.start_date end_date=post.start_date %}">
-        <span>
-          <small class="timeline-item-date">
-            {% if post.show_month == true %}
-            {{post.start_date | date: '%b %Y'}} - {{post.end_date | date: '%b %Y'}}
-            {% else %}
-            {{post.start_date | date: '%Y'}} - {{post.end_date | date: '%Y'}}
-            {% endif %}
-          </small>
-        </span>
-        <h2>{{ post.title }}</h2>
-        <div>
-          {{post.content}}
-        </div>
-        {% assign start_date_month = post.start_date | date: '%m' %}
-        {% assign end_date_month = post.end_date | date: '%m' %}
-        {% assign months = end_date_month | minus: start_date_month %}
-        {% assign start_date_year = start_date | date: '%Y' %}
-        {% assign end_date_year = post.end_date | date: '%Y' %}
-        {% assign year = end_date_year | minus: start_date_year %}
-        {% assign months = year | times: 12 | plus: months%}
-        {% if post.show_month == true %}
-        <p>{{ post.duree_number}} mois - {{ post.lieu}}</p>
-        {% else %}
-        {% capture months %} {{ post.duree_number | divided_by: 12}}{% endcapture %}
-        <span>{{ months}} ans - {{ post.lieu}}</span>
-        {% endif %}
-      </header>
+      {% assign start_date_month = post.start_date | date: '%m' %}
+      {% assign end_date_month = post.end_date | date: '%m' %}
+      {% assign months = end_date_month | minus: start_date_month %}
+      {% assign start_date_year = start_date | date: '%Y' %}
+      {% assign end_date_year = post.end_date | date: '%Y' %}
+      {% assign year = end_date_year | minus: start_date_year %}
+
+      <div class="timeline-item item-{{ post.title | remove: " " }}" style="grid-column:  {% include diff2date.html start_date=post.start_date end_date=post.start_date %}/ span   {{ post.duree_number}};
+{% if post.show_month == true%} grid-row: 2;{% endif%}">
+        <header>
+          {% assign months = year | times: 12 | plus: months%}
+          <span>
+            <small class="timeline-item-date">
+              {% if post.show_month == true %}
+              {{post.start_date | date: '%b %Y'}} - {{post.end_date | date: '%b %Y'}}
+              {% else %}
+              {{post.start_date | date: '%Y'}} - {{post.end_date | date: '%Y'}}
+              {% endif %}
+            </small>
+          </span>
+          <h2>{{ post.title }}</h2>
+          <div>
+            {{post.content}}
+          </div>
+          {% if post.show_month == true %}
+          <p>{{ post.duree_number}} mois - {{ post.lieu}}</p>
+          {% else %}
+          {% capture months %} {{ post.duree_number | divided_by: 12}}{% endcapture %}
+          <span>{{ months}} ans - {{ post.lieu}}</span>
+          {% endif %}
+
+        </header>
+      </div>
 
       {% endfor %}
     </div>
@@ -44,16 +49,35 @@ layout: default
 
 <style media="screen">
   div.row {
+    margin-top: 30em;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(30, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(60, 1fr);
+    width: 3000px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
 
   div.row .timeline-item {
-    border: 1px solid red;
-    grid-row: 1 / 1;
-    background: radial-gradient(#e66465, #9198e5);
+
+    /*grid-row: 1 / 1;*/
+
+    grid-column: 1 / 1;
+    background: red;
+    border-radius: 10px;
+    height: 10px;
+    margin: 5px 0;
+  }
+
+  .timeline-item header {
+    width: 15em;
+
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+  }
+
+  .timeline-item[class*="Stage"] {
+    background: green !important;
   }
 </style>

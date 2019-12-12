@@ -1,7 +1,7 @@
 
 - name: Portfolio
   link: ''
-- name: A propos
-  link: 'about'
+# - name: A propos
+#   link: 'about'
 - name: Me contacter
   link: 'contact'

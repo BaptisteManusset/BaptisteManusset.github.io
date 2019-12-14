@@ -2067,8 +2067,8 @@ section.newtimeline{
 // ----------------------------------------------
 $grid-background-color:             #0F0F0F;
 $grid-line-color:                   #000;
-$grid-width:                        100px;
-$timeline-events-no:                5;
+$grid-width:                        150px;
+$timeline-events-no:                7;
 $timeline-events-line-height:       8px;
 $timeline-years-no:                 8;
 
@@ -2119,6 +2119,8 @@ h1 {
 	white-space: nowrap;
 	/* Fix display: inline-block spacing issue */;
 	font-size: 0;
+  display: grid;
+  grid-template-columns: repeat(20,$grid-width);
 }
 .timeline-events h2,
 .timeline-events h3,
@@ -2146,7 +2148,9 @@ h1 {
 	height: $timeline-events-line-height;
 	border-radius: $timeline-events-line-height;
 	content: '';
+  background: lime;
 }
+
 @for $i from 1 through $timeline-events-no {
     .timeline-events li:nth-child(#{$i}) {
     bottom: #{((($timeline-events-line-height * 2) * $i)) - ($timeline-events-line-height * 2)};
@@ -2186,11 +2190,15 @@ h1 {
 /* Aqua/Grey */
 .timeline-events li:nth-child(5):before {
     background: #4A8B8F;
-    border-radius: 6px 0 0 6px;
 }
 .timeline-events li:nth-child(5) h3 {
     color: #4A8B8F;
 }
+
+.timeline-events li:last-child:before {
+    border-radius: 6px 0 0 6px;
+}
+
 /* Timeline - Events - Grid */
 @for $i from 0 through $timeline-years-no {
     /* X years */
@@ -2202,6 +2210,11 @@ h1 {
     .timeline-event-years-#{$i}-5,
     .timeline-event-years-#{$i}-5:before {
 	      width: #{($grid-width * $i) + ($grid-width / 2)};
+    }
+    /* X.25 years */
+    .timeline-event-years-#{$i}-25,
+    .timeline-event-years-#{$i}-25:before {
+	      width: #{($grid-width * $i) + ($grid-width / 4)};
     }
 }
 

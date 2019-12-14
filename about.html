@@ -9,13 +9,13 @@ layout: default
 
       {% assign sorted = (site.timelines | sort: 'start_date')  %}
       {% for post in sorted %}
-      <li class="timeline-event-years-2">
+      <li class="timeline-event-years-{{post.year_number | replace: ".","-"}} {% if post.is_stage == true%}no-flow{% endif %}">
         <h2>{{post.start_date | date: '%Y'}}-{{post.end_date | date: '%Y'}}</h2>
         <h3>{{ post.lieu}}</h3>
-        <h4>{{ post.title }}</h4>
+        <h4>{{ post.title }} > {{post.is_stage}}</h4>
       </li>
       {% endfor %}
-      <li class="timeline-event-years-2">
+      <!--<li class=" timeline-event-years-2">
         <h2>2006-2008</h2>
         <h3>Pint, Inc</h3>
         <h4>Associate Creative Director</h4>
@@ -29,7 +29,7 @@ layout: default
         <h2>2011-Present</h2>
         <h3>Independent</h3>
         <h4>Interactive Art Director</h4>
-      </li>
+      </li>-->
     </ul>
     <ul class="timelines-years">
 

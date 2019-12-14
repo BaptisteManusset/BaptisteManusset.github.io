@@ -1,9 +1,1 @@
-{% assign start_date = "2015-09-01 00:00:00" %}
-{% assign start_date_month = start_date | date: '%m' %}
-{% assign end_date_month = include.end_date | date: '%m' %}
-{% assign start_date_year = start_date | date: '%Y' %}
-{% assign end_date_year = include.end_date | date: '%Y' %}
-{% assign months = end_date_month | minus: start_date_month %}
-{% assign year = end_date_year | minus: start_date_year %}
-{% assign result = year | times: 12 | plus: months %}
-{{result | plus:1}}
+{% assign start_date = "2015-09-01 00:00:00" %}{% assign start_date_month = start_date | date: '%m' %}{% assign end_date_month = include.end_date | date: '%m' %}{% assign start_date_year = start_date | date: '%Y' %}{% assign end_date_year = include.end_date | date: '%Y' %}{% assign months = end_date_month | minus: start_date_month %}{% assign year = end_date_year | minus: start_date_year %}{% assign result = year | times: 12 | plus: months %}{{result | plus:1}}

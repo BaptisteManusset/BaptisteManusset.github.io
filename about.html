@@ -3,81 +3,77 @@ layout: default
 ---
 
 <div id="main">
-  <section>
-    <div class="row">
+  <section class="newtimeline">
+    <h1>Timeline</h1>
+    <ul class="timeline-events">
 
-      {% assign sorted = (site.timelines | sort: 'start_date') | reverse %}
+      {% assign sorted = (site.timelines | sort: 'start_date')  %}
       {% for post in sorted %}
-      {% assign start_date_month = post.start_date | date: '%m' %}
-      {% assign end_date_month = post.end_date | date: '%m' %}
-      {% assign months = end_date_month | minus: start_date_month %}
-      {% assign start_date_year = start_date | date: '%Y' %}
-      {% assign end_date_year = post.end_date | date: '%Y' %}
-      {% assign year = end_date_year | minus: start_date_year %}
-
-      <div class="timeline-item item-{{ post.title | remove: " " }}" style="grid-column:  {% include diff2date.html start_date=post.start_date end_date=post.start_date %}/ span   {{ post.duree_number}};
-{% if post.show_month == true%} grid-row: 2;{% endif%}">
-        <header>
-          {% assign months = year | times: 12 | plus: months%}
-          <span>
-            <small class="timeline-item-date">
-              {% if post.show_month == true %}
-              {{post.start_date | date: '%b %Y'}} - {{post.end_date | date: '%b %Y'}}
-              {% else %}
-              {{post.start_date | date: '%Y'}} - {{post.end_date | date: '%Y'}}
-              {% endif %}
-            </small>
-          </span>
-          <h2>{{ post.title }}</h2>
-          <div>
-            {{post.content}}
-          </div>
-          {% if post.show_month == true %}
-          <p>{{ post.duree_number}} mois - {{ post.lieu}}</p>
-          {% else %}
-          {% capture months %} {{ post.duree_number | divided_by: 12}}{% endcapture %}
-          <span>{{ months}} ans - {{ post.lieu}}</span>
-          {% endif %}
-
-        </header>
-      </div>
-
+      <li class="timeline-event-years-2">
+        <h2>{{post.start_date | date: '%Y'}}-{{post.end_date | date: '%Y'}}</h2>
+        <h3>{{ post.lieu}}</h3>
+        <h4>{{ post.title }}</h4>
+      </li>
       {% endfor %}
-    </div>
+      <li class="timeline-event-years-2">
+        <h2>2006-2008</h2>
+        <h3>Pint, Inc</h3>
+        <h4>Associate Creative Director</h4>
+      </li>
+      <li class="timeline-event-years-3">
+        <h2>2008-2011</h2>
+        <h3>Cuker Interactive</h3>
+        <h4>Creative</h4>
+      </li>
+      <li class="timeline-event-years-7">
+        <h2>2011-Present</h2>
+        <h3>Independent</h3>
+        <h4>Interactive Art Director</h4>
+      </li>
+    </ul>
+    <ul class="timelines-years">
+
+      <li>2015</li>
+      <li>2016</li>
+      <li>2017</li>
+      <li>2018</li>
+      <li>2019</li>
+      <li>2020</li>
+    </ul>
   </section>
 </div>
 
 <style media="screen">
   div.row {
-    margin-top: 30em;
     display: grid;
-    grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(60, 1fr);
-    width: 3000px;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-template-rows: : repeat(10, 1fr);
+
+    width: 100vw;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-auto-flow: row dense
   }
 
-  div.row .timeline-item {
 
-    /*grid-row: 1 / 1;*/
-
-    grid-column: 1 / 1;
-    background: red;
-    border-radius: 10px;
-    height: 10px;
-    margin: 5px 0;
+  div.row .timeline-item:first-of-type {
+    /*background: linear-gradient(90deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 1) 50%);*/
   }
+
+  div.row .timeline-item:last-of-type {
+    /*background: linear-gradient(90deg, rgba(255, 0, 0, 1) 50%, rgba(255, 0, 0, 0.1) 100%);*/
+
+  }
+
+  div.row .timeline-item {}
 
   .timeline-item header {
-    width: 15em;
+    /*  width: 15em;
 
     position: absolute;
     bottom: 60px;
-    left: 0;
+    left: 0;*/
   }
 
-  .timeline-item[class*="Stage"] {
-    background: green !important;
-  }
+  .timeline-item[class*="stage"] {}
 </style>

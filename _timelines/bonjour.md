@@ -6,4 +6,5 @@ end_date: 2019-08-01 00:00:00
 duree_number: 12
 lieu: Chambéry
 show_month: false
+is_stage: false
 ---

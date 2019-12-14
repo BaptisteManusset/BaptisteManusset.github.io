@@ -6,4 +6,5 @@ end_date: 2020-07-01 00:00:00
 duree_number: 12
 lieu: Laval
 show_month: false
+is_stage: false
 ---

@@ -7,4 +7,5 @@ end_date:
 duree_number:
 lieu:
 show_month: false
+is_stage: false
 ---

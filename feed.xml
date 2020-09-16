@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.5.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-16T16:22:15+02:00</updated><id>http://localhost:4000/</id><title>Baptiste Manusset</title><subtitle>Baptiste Manusset est un étudiant qui se destine à devenir developpeur. Il a commencé sa formation par le developpement pour internet mais depuis 2 ans il se forme au developpement pour le jeu vidéo avec Unity ou d'autre language.
+</subtitle><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><entry><title>Haute Tension</title><link href="http://localhost:4000/haute-tension/" rel="alternate" type="text/html" title="Haute Tension" /><published>2020-05-06T00:00:00+02:00</published><updated>2020-05-06T00:00:00+02:00</updated><id>http://localhost:4000/haute-tension</id><content type="html" xml:base="http://localhost:4000/haute-tension/">&lt;p&gt;Le projet &lt;strong&gt;Haute tension&lt;/strong&gt; est un projet fait durant la 1er année de master MTI3D. Je travaille avec 3 amis sur le développement d’un outil de formation en réalité virtuelle “Projet Haute Tension”. C’est un outil de formation destiné à la formation d’élèves, électriciens à d’Angers. Cet outil de formation est destiné à l’origine pour le HTC vive.&lt;/p&gt;
+
+&lt;p&gt;Mais avec le confinement, nous avons décidé de réorienter le développement pour fournir un outil de formation sur ordinateur. Il pourra aussi servir de base pour le développement d’une version en réalité virtuelle.&lt;/p&gt;
+
+&lt;p&gt;Le projet permet de simuler la mise en tension d’un poste de livraison, ici une réplique de celui de l’université, qui fait la jonction entre les bâtiments et les câbles hautes-tensions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/scene-haute-tension.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nous avons réparti les tâches en deux équipes une de deux développeurs et une de deux graphistes/modélisateurs. Pour ma part, j’ai fait une partie du développement, ce que j’ai trouvé le plus intéressant, c’est de faire la gestion des différentes étapes du scénario.&lt;/p&gt;
+
+&lt;p&gt;J’ai décomposé le fonctionnement en deux éléments:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Le premier est un script &lt;strong&gt;Quest Manager&lt;/strong&gt; qui permet de gérer les différentes étapes. (le cerveau sur la capture)&lt;/li&gt;
+  &lt;li&gt;Le second est un script &lt;strong&gt;Quest Element&lt;/strong&gt; qui regroupe toutes les informations nécessaire pour le fonctionnement d’une étape (les yeux). Il suffit via un autre script d’appeler le quest Element pour valider l’étape pour passer à la suivante.&lt;/li&gt;
+  &lt;li&gt;Des gizmos permettent de visualiser les liens entre chaque étape&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;J’ai aussi fait un EditorWindow permettant de tester rapidement le fonctionnement des étapes sans avoir à les faire en jeu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/all-ui.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour permettre à l’utilisateur de suivre sa progression, il a accès à une interface et grâce à des feed-backs sonores (Le visuel de l’interface est encore en WIP).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/interaction_entre_elements.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Quest Manager&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Quest Element&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Quest Outline&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Lien entre un &lt;strong&gt;QuestElement&lt;/strong&gt; et une erreur&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;J’ai décomposé le fonctionnement en deux éléments:&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Le premier est un script &lt;strong&gt;Quest Manager&lt;/strong&gt; qui permet de gérer les différentes étapes. (le cerveau sur la capture)&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Le second est un script &lt;strong&gt;Quest Element&lt;/strong&gt; qui regroupe toutes les informations nécessaire pour le fonctionnement d’une étape (les yeux). Il suffit via un autre script d’appeler le quest Element pour valider l’étape pour passer à la suivante.
+&lt;br /&gt;Des gizmos permettent de visualiser les liens entre chaque étape&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;J’ai aussi fait un EditorWindow permettant de tester rapidement le fonctionnement des étapes sans avoir à les faire en jeu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/all-ui.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour permettre à l’utilisateur de suivre sa progression, il a accès à une interface et reçoit des feed-backs sonores. Malheuresement nous n’avons pas eu le temps de finir l’interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/uiQuest.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><summary>Le projet Haute tension est un projet fait durant la 1er année de master MTI3D. Je travaille avec 3 amis sur le développement d’un outil de formation en réalité virtuelle “Projet Haute Tension”. C’est un outil de formation destiné à la formation d’élèves, électriciens à d’Angers. Cet outil de formation est destiné à l’origine pour le HTC vive.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/projects/hautetension/hautetension.jpg" /></entry><entry><title>Battleship</title><link href="http://localhost:4000/battleship/" rel="alternate" type="text/html" title="Battleship" /><published>2019-12-20T01:00:00+01:00</published><updated>2019-12-20T01:00:00+01:00</updated><id>http://localhost:4000/battleship</id><content type="html" xml:base="http://localhost:4000/battleship/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Le projet &lt;strong&gt;Battleship Console&lt;/strong&gt; est un projet de trois jours, fait durant les cours d’introduction au C# en 1re année de Master MTI3D à Laval,
+Il est développé pour la &lt;strong&gt;console de commande de Windows&lt;/strong&gt;. C’est un remake de la bataille navale qui se joue au tour par tour à &lt;strong&gt;deux joueurs en local&lt;/strong&gt;.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;https://github.com/BaptisteManusset/battleship&quot;&gt;&lt;strong&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt;&lt;/strong&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/BaptisteManusset/battleship/raw/master/Build.zip&quot;&gt;&lt;strong&gt; Lien de téléchargement&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;contrôle&quot;&gt;Contrôle&lt;/h2&gt;
+&lt;p&gt;Le jeu se joue au clavier, avec les &lt;strong&gt;touches directionnelles&lt;/strong&gt; ou les touches &lt;strong&gt;ZQSD&lt;/strong&gt;. La validation d’une étape se fait grâce à touche &lt;strong&gt;Entrer&lt;/strong&gt; ou &lt;strong&gt;Espace&lt;/strong&gt;.Dans l’écran de placement des bateaux vous pouvez changer l’orientation du bateau grâceà la touche &lt;strong&gt;R&lt;/strong&gt; et changer de bateau grâce à la touche &lt;strong&gt;Tab&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;déroulement&quot;&gt;Déroulement&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/battleship/placement-bateau-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;placement-des-bateaux&quot;&gt;Placement des bateaux&lt;/h3&gt;
+
+&lt;p&gt;Après avoir choisi leur pseudo, les joueurs peuvent placer leurs vaisseaux.
+L’écran est divisé en 3. En haut à gauche, ​la carte avec les bateaux déjà placés en gris.
+Le curseur de placement en vert si la case est libre et la rouge si elle est déjà prise.
+En haut à droite le pseudo, puis en dessous, ​la liste des bateaux disponible avec leurs nombres, leurs tailles et leurs noms. En dessous, une zone permettant d’afficher des messages (placement impossible ou autre information).
+Pour rendre le placement des bateaux le plus simple possible, j’ai choisi de le gérer avec un curseur. Celui-ci est contrôlé grâce aux touches directionnelles ou ZQSD​.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images\projects\battleship\tour-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;la-partie&quot;&gt;La Partie&lt;/h3&gt;
+
+&lt;p&gt;Le jeu se présente sous la forme de deux grilles une pour afficher ses bateaux et une autre pour afficher les bateaux de l’autre joueur.
+Dans votre carte, il y a les différents bateaux qui sont affichés avec les zones déjà touchées en rouges avec des points noirs.&lt;/p&gt;
+
+&lt;p&gt;Sur la carte ennemie, le joueur peut viser une case grâce au curseur qu’il déplace de la même façon que pour placer les bateaux, il est lui aussi représenté par une case rouge.
+Les coups ratés sont représentés par une case bleue foncé avec un ​X.&lt;/p&gt;
+
+&lt;h3 id=&quot;changement-de-joueur&quot;&gt;Changement de joueur&lt;/h3&gt;
+&lt;p&gt;Il y a un écran de transition, pour éviter qu’un joueur puisse voir la carte de l’adversaire.&lt;/p&gt;
+
+&lt;h2 id=&quot;technique&quot;&gt;Technique&lt;/h2&gt;
+&lt;h3 id=&quot;les-cartes&quot;&gt;Les cartes&lt;/h3&gt;
+&lt;p&gt;Pour ce projet, je n’ai pas utilisé de librairie particulière, tout est affiché grâce à la console de Windows.
+Les cartes sont affichées en plusieurs étapes.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;La première est d’afficher le fond bleu.&lt;/li&gt;
+  &lt;li&gt;puis j’affiche les bateaux et les autres informations nécessaires.&lt;/li&gt;
+  &lt;li&gt;En dernier, j’affiche, le curseur.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour afficher ces éléments, j’utilise &lt;strong&gt;​Console.SetCursorPosition();&lt;/strong&gt; qui permet d’informer la console où elle doit modifier l’affichage et par quel caractère.&lt;/p&gt;
+
+&lt;h3 id=&quot;les-déplacements&quot;&gt;Les déplacements&lt;/h3&gt;
+&lt;p&gt;Les déplacements du curseur sont gérer grâce à la fonction &lt;strong&gt;​Console.ReadKey()​&lt;/strong&gt; qui est une fonction assez similaire à &lt;strong&gt;Console.ReadLine()&lt;/strong&gt;, mais qui n’attends qu’un seul caractère.&lt;/p&gt;
+
+&lt;h3 id=&quot;les-joueurs&quot;&gt;Les joueurs&lt;/h3&gt;
+&lt;p&gt;Les joueurs sont stockés dans une liste de ​Joueur​. La classe &lt;strong&gt;Joueur&lt;/strong&gt; contient deux matrices d’entier de 10 cases de côté (grille et radar). Le nom du joueur, et une couleur qui est définie par le programme qui ne peut être modifiée. La classe contient aussi une variable vie qui est calculée en listant le nombre de cases que couvrent les bateaux moins les cases déjà touchées par le joueur adverse.&lt;/p&gt;
+
+&lt;h3 id=&quot;la-victoire&quot;&gt;La victoire&lt;/h3&gt;
+&lt;p&gt;La victoire est définie quand un joueur arrive à 0 point de vie. Cela arrête la boucle permettant la gestion des tours.&lt;/p&gt;
+
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;Le code source est disponible sur github à l’adresse &lt;a href=&quot;https://github.com/BaptisteManusset/battleship&quot;&gt;github.com/BaptisteManusset/battleship&lt;/a&gt; vous pourrez trouver &lt;a href=&quot;https://www.virustotal.com/gui/file/e3604347e6ec01d60035a5a93428f78b33c083f724568fa32d1771942ad75ea5/detection&quot;&gt;la verification VirusTotal&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><summary>Introduction
+Le projet Battleship Console est un projet de trois jours, fait durant les cours d’introduction au C# en 1re année de Master MTI3D à Laval,
+Il est développé pour la console de commande de Windows. C’est un remake de la bataille navale qui se joue au tour par tour à deux joueurs en local.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/projects/battleship/battleship.png" /></entry><entry><title>Unamed</title><link href="http://localhost:4000/unamed/" rel="alternate" type="text/html" title="Unamed" /><published>2019-11-29T01:00:00+01:00</published><updated>2019-11-29T01:00:00+01:00</updated><id>http://localhost:4000/unamed</id><content type="html" xml:base="http://localhost:4000/unamed/">&lt;h2 id=&quot;présentation&quot;&gt;Présentation&lt;/h2&gt;
+&lt;p&gt;Ce jeu est inspiré du jeu &lt;strong&gt;Adventures of Lolo&lt;/strong&gt;. Il reprend les mêmes éléments de gameplay. Le jeu se présente comme une série de niveaux. Le joueur doit récupérer 4 &lt;strong&gt;pièces&lt;/strong&gt; par niveaux pour ouvrir le &lt;strong&gt;coffre,&lt;/strong&gt; qui lui contient la &lt;strong&gt;clé&lt;/strong&gt;. Celle-ci qui ouvre la porte pour accéder au niveau suivant.&lt;/p&gt;
+
+&lt;p&gt;Le joueur peut interagir avec les éléments du décor pour compléter le niveau. Il peut pousser des &lt;strong&gt;blocs,&lt;/strong&gt; pour en faire des ponts, écraser des ennemis ou se protéger de tir.&lt;/p&gt;
+
+&lt;p&gt;Si vous êtes bloqué vous pouvez réinitialiser le niveau actuel, cela vous coûtera une vie. Vous pouvez aussi perdre des vies en prenant des coups. Mais attention, quand le compteur arrive à zéro, c’est le &lt;strong&gt;Game Over&lt;/strong&gt; ! Vous pouvez remonter vos points de vie en récoltant des &lt;strong&gt;fioles rouges&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;https://itsbaptiste.itch.io/unamed&quot;&gt;&lt;strong&gt; Lien de téléchargement&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;yt-container&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/si4HAdCtQVk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+  &lt;p&gt;Vous pouvez activer le cheat mode en gardant la touche F11 pressée lorsque vous faite Play dans le menu principal. Cela vous donnera &lt;strong&gt;999 vies&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;synopsis&quot;&gt;Synopsis&lt;/h2&gt;
+&lt;p&gt;Vous incarnez un explorateur masqué qui s’engouffre dans un temple abandonné. Ce temple est un mélange de pierre et de mécanismes variés. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Oui, l’histoire du jeu est aussi développée, intelligemment conçue et profonde qu’un film de Michael fucking Bay.&lt;/em&gt; &lt;/p&gt;
+
+&lt;h2 id=&quot;contrôle&quot;&gt;Contrôle&lt;/h2&gt;
+&lt;p&gt;Les contrôles du jeu sont inspirés de &lt;strong&gt;Binding of isaac&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ZQSD&lt;/strong&gt; pour le déplacement.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Flèches directionnelles&lt;/strong&gt; pour tirer dans la direction souhaitée.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;R&lt;/strong&gt; pour recharger le niveau en échange d’une vie.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Echap&lt;/strong&gt; pour mettre le jeu en pause.&lt;br /&gt;
+&lt;img src=&quot;/images/projects/unamed/clavier.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;inspiration&quot;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;Pour développer ce jeu je me suis inspiré de plusieurs œuvres :
+&lt;img src=&quot;/images/projects/unamed/adventures of lolo.png&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Adventures of Lolo&lt;/strong&gt; qui est le numéro dont je me suis inspiré référence.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/unamed/hyper light drifter.png&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Hyperlight Drifter&lt;/strong&gt;, un action-RPG en pixel-art développé par &lt;strong&gt;Heart Machine&lt;/strong&gt;. Les graphismes sont très beaux, il en ressort une esthétique unique.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/unamed/binding of isaac.png&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Binding of isaac&lt;/strong&gt; le célèbre jeu indépendant où vous suivez Isaac dans son combat pour sa survie.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/unamed/simon stalenhag.png&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Simon Stålenhag&lt;/strong&gt;, un artiste suédois qui, à travers ses œuvres, propose un univers rétro-futuriste où les machines et les ruines font partie du décor.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><summary>Présentation
+Ce jeu est inspiré du jeu Adventures of Lolo. Il reprend les mêmes éléments de gameplay. Le jeu se présente comme une série de niveaux. Le joueur doit récupérer 4 pièces par niveaux pour ouvrir le coffre, qui lui contient la clé. Celle-ci qui ouvre la porte pour accéder au niveau suivant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/projects/unamed/unamed.jpg" /></entry><entry><title>Void Vr</title><link href="http://localhost:4000/void-vr/" rel="alternate" type="text/html" title="Void Vr" /><published>2019-06-11T02:00:00+02:00</published><updated>2019-06-11T02:00:00+02:00</updated><id>http://localhost:4000/void-vr</id><content type="html" xml:base="http://localhost:4000/void-vr/">&lt;p&gt;Void est projet en réalité virtuelle persistante où la destruction du monde ne dépend que des actions du joueur. Il a été fait durant mon année en Master Création numérique. Le projet propose de s’immerger dans une réalité virtuelle en noir et blanc qui dénonce la pollution de l’environnement par les mégots et autres détritus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/void-vr/exterieur.png&quot; alt=&quot;&quot; /&gt;
+L’expérience se compose de deux lieux : le premier qui représente un parc avec un arbre en son centre et le second qui est une salle vide avec juste une poubelle.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/void-vr/cigarette.png&quot; alt=&quot;&quot; /&gt;
+Le but est de récuperer une cigarette pour ensuite la lancer dans la poubelle, attention ça demande un peut d’adresse.
+Lorsque vous lancez un mégot dans la poubelle, cela augmentera votre score et inversement si vous la ratez.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/void-vr/arbres.png&quot; alt=&quot;&quot; /&gt;
+L’état de l’arbre dépend directement de ce score.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><summary>Void est projet en réalité virtuelle persistante où la destruction du monde ne dépend que des actions du joueur. Il a été fait durant mon année en Master Création numérique. Le projet propose de s’immerger dans une réalité virtuelle en noir et blanc qui dénonce la pollution de l’environnement par les mégots et autres détritus.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/projects/void-vr/void-vr.png" /></entry><entry><title>Azakov</title><link href="http://localhost:4000/azakov/" rel="alternate" type="text/html" title="Azakov" /><published>2019-05-02T02:00:00+02:00</published><updated>2019-05-02T02:00:00+02:00</updated><id>http://localhost:4000/azakov</id><content type="html" xml:base="http://localhost:4000/azakov/">&lt;p&gt;&lt;strong&gt;Azakov&lt;/strong&gt; est une expérience en Réalité virtuelle développé sur &lt;strong&gt;Unity&lt;/strong&gt;, vous mettant dans le rôle d’une personne qui prend le métro pour rejoindre sa maison. Mais tout ne se passe pas comme prévu et vous serez confronté à des événements surnaturels.&lt;/p&gt;
+
+&lt;p&gt;Ce projet est un projet de groupe fait durant ma première année de master à Chambéry.&lt;/p&gt;
+
+&lt;p&gt;Les graphismes ne sont pas très détaillés, car ce jeu est destiné au Samsung Gear (qui est un casque pour la réalité virtuel fonctionnant grâce à un téléphone Samsung).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/azakov/azakov noclip.png&quot; alt=&quot;&quot; title=&quot;zone de la station de métro vu de l'exterieur.&quot; width=&quot;3840&quot; height=&quot;2160&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/azakov/azakov quai.png&quot; alt=&quot;&quot; title=&quot;zone de la station de métro vu de l'exterieur.&quot; width=&quot;3840&quot; height=&quot;2160&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/azakov/image_000017h18m025.png&quot; alt=&quot;&quot; title=&quot;zone de la station de métro vu de l'exterieur.&quot; width=&quot;3840&quot; height=&quot;2160&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/azakov/image_000017h43m001.png&quot; alt=&quot;&quot; title=&quot;zone de la station de métro vu de l'exterieur.&quot; width=&quot;3840&quot; height=&quot;2160&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><summary>Azakov est une expérience en Réalité virtuelle développé sur Unity, vous mettant dans le rôle d’une personne qui prend le métro pour rejoindre sa maison. Mais tout ne se passe pas comme prévu et vous serez confronté à des événements surnaturels.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/projects/azakov/azakov.jpg" /></entry><entry><title>Ico</title><link href="http://localhost:4000/ico/" rel="alternate" type="text/html" title="Ico" /><published>2019-04-01T02:00:00+02:00</published><updated>2019-04-01T02:00:00+02:00</updated><id>http://localhost:4000/ico</id><content type="html" xml:base="http://localhost:4000/ico/">&lt;p&gt;ICO est un projet en réalité Vr réalisé sous Unity et destiné aux casques Gear VR. Il est réalisé dans le cadre du projet est un projet en réalité Vr réalisé sous Unity et destiné aux casques Gear VR. Il est réalisé durant mon Master 1 Création numérique à l’Université de Chambéry.&lt;/p&gt;
+
+&lt;h2 id=&quot;présentation&quot;&gt;Présentation&lt;/h2&gt;
+
+&lt;p&gt;Cette expérience vous permet de prendre place dans ce qui semble être les ruines d’un temple en ruine, dans un désert qui semble infini. Dissimulé par le bruit du vent, il semble qu’un bruit provienne de cette structure en ruine. C’est un bip répétitif. Du morse. Lorsque vous vous rapprochez de cette structure, vous apercevez, au centre, une pile d’écrans cathodiques qui s’entassent. Sur ces écrans, du morse. Ils sont reliés à un orbe qui grandit et rétrécit selon les bips. Sur le cote un terminal, lorsque vous vous en rapprochez un bruit en sort, et le message sur les écrans changent, c’est maintenant des messages en anglais qui apparaissent. Ce sont des Tweets.&lt;/p&gt;
+
+&lt;h2 id=&quot;fonctionnement&quot;&gt;Fonctionnement&lt;/h2&gt;
+
+&lt;p&gt;Ce projet utilise l’API Twitter pour récolter des tweets de personnes lambdas pour ensuite les convertir en morse. Dans cette expérience, je mets en relation l’obsolescence du message. D’un côté, le morse qui n’est quasiment pas utilisé actuellement et d’un autre le tweet qui est un message volatile qui disparaît dans le torrent de message posté chaque second sur Twitter.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><summary>ICO est un projet en réalité Vr réalisé sous Unity et destiné aux casques Gear VR. Il est réalisé dans le cadre du projet est un projet en réalité Vr réalisé sous Unity et destiné aux casques Gear VR. Il est réalisé durant mon Master 1 Création numérique à l’Université de Chambéry.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/projects/ico/ico.jpg" /></entry><entry><title>Ox Cart</title><link href="http://localhost:4000/ox-cart/" rel="alternate" type="text/html" title="Ox Cart" /><published>2018-05-08T00:00:00+02:00</published><updated>2018-05-08T00:00:00+02:00</updated><id>http://localhost:4000/ox-cart</id><content type="html" xml:base="http://localhost:4000/ox-cart/">&lt;p&gt;Digital painting d’un chariot tiré par un bœuf.
+&lt;img src=&quot;/images/projects/oxtcart/oxcart.png&quot; alt=&quot;un chariot tiré par un boeuf&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/oxtcart/zoomboeuf.png&quot; alt=&quot;tete d'un boeuf&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/oxtcart/zoomhomme.png&quot; alt=&quot;un homme conduit le chariot&quot; /&gt;&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><summary>Digital painting d’un chariot tiré par un bœuf.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/projects/oxtcart/vignette.png" /></entry><entry><title>Be on time</title><link href="http://localhost:4000/be-on-time/" rel="alternate" type="text/html" title="Be on time" /><published>2018-04-04T02:00:00+02:00</published><updated>2018-04-04T02:00:00+02:00</updated><id>http://localhost:4000/be-on-time</id><content type="html" xml:base="http://localhost:4000/be-on-time/">&lt;p&gt;&lt;strong&gt;Be on time&lt;/strong&gt; est un projet web réalisé durant l’année de licence production multimédia. Ce projet consiste en une application pour smartphone proposant aux utilisateurs d’être notifié des retards dans les transports en commun, d’accéder aux horaires de bus ainsi que d’autres petites fonctionnalités qui visent à faciliter la vie dans les transports en commun. Dans ce projet, nous souhaitions apporter une grande importante à la communauté et à l’interaction inter-utilisateur.&lt;/p&gt;
+
+&lt;p&gt;Dans ce projet, j’avais pour mission de désigner l’interface de l’application ainsi que la création de toute son iconographie. Pour le design de l’application, une grosse veille a été faite sur des applications similaires pour rendre &lt;strong&gt;Be on time&lt;/strong&gt; le plus efficace possible. Avec ce design d’application, je voulais donner une expérience utilisateur simple et sans prise de tête. Notre projet eut de très bon retour durant notre soutenance terminal. De la part du corps enseignant et de la part des invités dont My Bus qui est un acteur important du secteur.&lt;/p&gt;
+&lt;div style=&quot;--aspect-ratio: 16/9;&quot;&gt;
+&lt;iframe src=&quot;https://codepen.io/ItsBaptiste/full/vREaGj&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;Exemple d’animation pour l’application&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/projects/beontime/questionnaire range.png&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Voici l’écran permettant de noter l’état de l’arrêt de bus. Il se compose au centre d’une image qui change selon la note que l’on donne. Au-dessous, un champ permettant de mettre une note de 0 à 5. Cet écran laisse une grande place au visuel et permet une compréhension rapide.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><summary>Be on time est un projet web réalisé durant l’année de licence production multimédia. Ce projet consiste en une application pour smartphone proposant aux utilisateurs d’être notifié des retards dans les transports en commun, d’accéder aux horaires de bus ainsi que d’autres petites fonctionnalités qui visent à faciliter la vie dans les transports en commun. Dans ce projet, nous souhaitions apporter une grande importante à la communauté et à l’interaction inter-utilisateur.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/projects/beontime/beontime.jpg" /></entry></feed>

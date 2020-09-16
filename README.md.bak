@@ -7,5 +7,5 @@ bundle exec jekyll serve --watch -d ../dist
 
 Commande pour build le site
 ```
-bundle exec jekyll build --watch -d ../dist
+bundle exec jekyll serve --watch -d ../dist
 ```

@@ -1,0 +1,16 @@
+---
+title: accueil
+date: 2019-12-15 00:00:00 Z
+layout: default
+---
+
+## Je suis<br>**Baptiste Manusset**,<br>  étudiant en  **master MTI3D**.
+Je suis un étudiant en **Master MTI3D** qui fait partie de l'ENSAM (Arts et Métiers). Je viens d'un DUT MMI (Métiers du Multimédia et de l'Internet) suivit d'une licence pro. Où j'ai appris tout ce qu'il fallait savoir pour faire du développement web !
+L'année dernière, j'ai eu l'occasion de découvrir le master MTI3D à l'occasion du Laval Virtual. C'est pourquoi j'ai pris mes valises direction Laval !
+
+> Que ce soit en numérique ou en physique j'ai toujours besoin de créer !
+
+J'aime depuis tout petit, faire des choses de mes mains, dessin, peinture, sculpture.
+Mais ce qui me plait le plus actuellement, c'est le développement de jeu vidéo (et même certain en réalité virtuelle !) et le dessin.
+J'utilise **Unity** que j'ai appris en auto-didacte et **Game Maker Studio 2**.
+<br>

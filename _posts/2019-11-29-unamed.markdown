@@ -1,0 +1,60 @@
+---
+title: Unamed
+date: 2019-11-29 00:00:00 Z
+categories:
+- Jeux video
+- c++
+- Pixel Art
+layout: post
+image: "/images/projects/unamed/unamed.jpg"
+exclude: false
+gallery:
+- image
+---
+
+
+
+## Présentation
+Ce jeu est inspiré du jeu **Adventures of Lolo**. Il reprend les mêmes éléments de gameplay. Le jeu se présente comme une série de niveaux. Le joueur doit récupérer 4 **pièces** par niveaux pour ouvrir le **coffre,** qui lui contient la **clé**. Celle-ci qui ouvre la porte pour accéder au niveau suivant.
+
+Le joueur peut interagir avec les éléments du décor pour compléter le niveau. Il peut pousser des **blocs,** pour en faire des ponts, écraser des ennemis ou se protéger de tir.
+
+Si vous êtes bloqué vous pouvez réinitialiser le niveau actuel, cela vous coûtera une vie. Vous pouvez aussi perdre des vies en prenant des coups. Mais attention, quand le compteur arrive à zéro, c’est le **Game Over** ! Vous pouvez remonter vos points de vie en récoltant des **fioles rouges**.
+
+<h3 style="text-align:center;"><a href="https://itsbaptiste.itch.io/unamed"><strong> Lien de téléchargement</strong></a></h3>
+<br>
+<br>
+
+
+{% include youtube id="si4HAdCtQVk" %}
+
+> ## Tips
+> Vous pouvez activer le cheat mode en gardant la touche F11 pressée lorsque vous faite Play dans le menu principal. Cela vous donnera **999 vies**.
+
+
+## Synopsis
+Vous incarnez un explorateur masqué qui s’engouffre dans un temple abandonné. Ce temple est un mélange de pierre et de mécanismes variés. 
+
+_Oui, l’histoire du jeu est aussi développée, intelligemment conçue et profonde qu’un film de Michael fucking Bay._ 
+
+## Contrôle
+Les contrôles du jeu sont inspirés de **Binding of isaac**.
+* **ZQSD** pour le déplacement.
+* **Flèches directionnelles** pour tirer dans la direction souhaitée.
+* **R** pour recharger le niveau en échange d’une vie.
+* **Echap** pour mettre le jeu en pause.<br>
+![](/images/projects/unamed/clavier.png)
+
+## Inspiration
+Pour développer ce jeu je me suis inspiré de plusieurs œuvres :
+![](/images/projects/unamed/adventures of lolo.png)
+**Adventures of Lolo** qui est le numéro dont je me suis inspiré référence.
+
+![](/images/projects/unamed/hyper light drifter.png)
+**Hyperlight Drifter**, un action-RPG en pixel-art développé par **Heart Machine**. Les graphismes sont très beaux, il en ressort une esthétique unique.
+
+![](/images/projects/unamed/binding of isaac.png)
+**Binding of isaac** le célèbre jeu indépendant où vous suivez Isaac dans son combat pour sa survie.
+
+![](/images/projects/unamed/simon stalenhag.png)
+**Simon Stålenhag**, un artiste suédois qui, à travers ses œuvres, propose un univers rétro-futuriste où les machines et les ruines font partie du décor.

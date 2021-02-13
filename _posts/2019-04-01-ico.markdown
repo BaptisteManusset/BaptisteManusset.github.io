@@ -1,0 +1,21 @@
+---
+title: Ico
+date: 2019-04-01 00:00:00 Z
+categories:
+- Jeux video
+- Unity
+- Réalité Virtuelle
+layout: post
+image: "/images/projects/ico/ico.jpg"
+exclude: false
+---
+
+ICO est un projet en réalité Vr réalisé sous Unity et destiné aux casques Gear VR. Il est réalisé dans le cadre du projet est un projet en réalité Vr réalisé sous Unity et destiné aux casques Gear VR. Il est réalisé durant mon Master 1 Création numérique à l’Université de Chambéry.
+
+## Présentation
+
+Cette expérience vous permet de prendre place dans ce qui semble être les ruines d’un temple en ruine, dans un désert qui semble infini. Dissimulé par le bruit du vent, il semble qu’un bruit provienne de cette structure en ruine. C’est un bip répétitif. Du morse. Lorsque vous vous rapprochez de cette structure, vous apercevez, au centre, une pile d’écrans cathodiques qui s’entassent. Sur ces écrans, du morse. Ils sont reliés à un orbe qui grandit et rétrécit selon les bips. Sur le cote un terminal, lorsque vous vous en rapprochez un bruit en sort, et le message sur les écrans changent, c’est maintenant des messages en anglais qui apparaissent. Ce sont des Tweets.
+
+## Fonctionnement
+
+Ce projet utilise l’API Twitter pour récolter des tweets de personnes lambdas pour ensuite les convertir en morse. Dans cette expérience, je mets en relation l’obsolescence du message. D’un côté, le morse qui n'est quasiment pas utilisé actuellement et d’un autre le tweet qui est un message volatile qui disparaît dans le torrent de message posté chaque second sur Twitter.

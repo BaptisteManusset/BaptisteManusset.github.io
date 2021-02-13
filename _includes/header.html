@@ -1,0 +1,11 @@
+<header id="header">
+  <a href="{{ site.url }}" class="image avatar"><img src="/images/logo.svg" alt="{{ site.author.name }}"></a>
+  <div class="titre">
+    <h1><a href="{{ site.url }}#main">Hello_</a></h1>
+    <ul class="menu-container">{% for item in site.data.menus %}
+      <li class="menu-item bg-{{item.class}}">
+        <a href="{{site.url}}{{ item.link }}">{{ item.name }}</a>
+      </li>{% endfor %}
+    </ul>
+  </div>
+</header>

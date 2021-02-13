@@ -1,0 +1,16 @@
+- name: Twitter
+  link: 'https://twitter.com/ItsBaptiste'
+  social_icon: Twitter
+  new_window: true
+- name: Github
+  link: 'https://github.com/BaptisteManusset/'
+  social_icon: Github
+  new_window: true
+- name: itch.io
+  link: 'https://itsbaptiste.itch.io/'
+  social_icon: itch-io
+  new_window: true
+- name: Codepen
+  link: 'https://codepen.io/ItsBaptiste/'
+  social_icon: Codepen
+  new_window: true

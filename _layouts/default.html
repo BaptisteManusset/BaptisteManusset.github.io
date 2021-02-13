@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body id="top">
+  {% include header.html %}
+  {{ content }}
+  <footer id="footer">
+    <ul class="icons">{% for account in site.data.social %}
+      <li>
+        <a {% if account.new_window %}target="_blank" {% endif %} href="{% include relative-src.html src=account.link %}" {% if account.social_icon %}class="fab fa-{{ account.social_icon | slugify }}" {% endif %}>
+          <span class="label">{{ account.name }}</span>
+        </a>
+      </li>{% endfor %}
+    </ul>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>

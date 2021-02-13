@@ -1,0 +1,21 @@
+---
+title: Be on time
+date: 2018-04-04 00:00:00 Z
+categories:
+- Application
+- User Experience
+- Création visuel
+layout: post
+image: "/images/projects/beontime/beontime.jpg"
+exclude: false
+---
+
+**Be on time** est un projet web réalisé durant l’année de licence production multimédia. Ce projet consiste en une application pour smartphone proposant aux utilisateurs d’être notifié des retards dans les transports en commun, d’accéder aux horaires de bus ainsi que d’autres petites fonctionnalités qui visent à faciliter la vie dans les transports en commun. Dans ce projet, nous souhaitions apporter une grande importante à la communauté et à l’interaction inter-utilisateur.
+
+Dans ce projet, j’avais pour mission de désigner l’interface de l’application ainsi que la création de toute son iconographie. Pour le design de l’application, une grosse veille a été faite sur des applications similaires pour rendre **Be on time** le plus efficace possible. Avec ce design d’application, je voulais donner une expérience utilisateur simple et sans prise de tête. Notre projet eut de très bon retour durant notre soutenance terminal. De la part du corps enseignant et de la part des invités dont My Bus qui est un acteur important du secteur.
+<div style="--aspect-ratio: 16/9;">
+<iframe src="https://codepen.io/ItsBaptiste/full/vREaGj"></iframe></div>Exemple d'animation pour l'application
+
+![](/images/projects/beontime/questionnaire range.png){: width="500" height="800"}
+
+Voici l’écran permettant de noter l’état de l’arrêt de bus. Il se compose au centre d’une image qui change selon la note que l’on donne. Au-dessous, un champ permettant de mettre une note de 0 à 5. Cet écran laisse une grande place au visuel et permet une compréhension rapide.

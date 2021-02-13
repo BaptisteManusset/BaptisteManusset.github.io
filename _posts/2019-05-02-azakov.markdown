@@ -1,0 +1,27 @@
+---
+title: Azakov
+date: 2019-05-02 00:00:00 Z
+categories:
+- Jeux video
+- Unity
+- Réalité Virtuelle
+layout: post
+image: "/images/projects/azakov/azakov.jpg"
+exclude: false
+---
+
+**Azakov** est une expérience en Réalité virtuelle développé sur **Unity**, vous mettant dans le rôle d’une personne qui prend le métro pour rejoindre sa maison. Mais tout ne se passe pas comme prévu et vous serez confronté à des événements surnaturels.
+
+Ce projet est un projet de groupe fait durant ma première année de master à Chambéry.
+
+Les graphismes ne sont pas très détaillés, car ce jeu est destiné au Samsung Gear (qui est un casque pour la réalité virtuel fonctionnant grâce à un téléphone Samsung).
+
+![](/images/projects/azakov/azakov noclip.png "zone de la station de métro vu de l'exterieur."){: width="3840" height="2160"}
+
+![](/images/projects/azakov/azakov quai.png "zone de la station de métro vu de l'exterieur."){: width="3840" height="2160"}
+
+![](/images/projects/azakov/image_000017h18m025.png "zone de la station de métro vu de l'exterieur."){: width="3840" height="2160"}
+
+![](/images/projects/azakov/image_000017h43m001.png "zone de la station de métro vu de l'exterieur."){: width="3840" height="2160"}
+
+&nbsp;

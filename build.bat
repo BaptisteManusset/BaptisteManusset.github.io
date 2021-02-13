@@ -1,1 +1,1 @@
-bundle exec jekyll build --watch -d ../dist
+bundle exec jekyll build --watch -d docs

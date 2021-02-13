@@ -1,0 +1,56 @@
+locale: "fr-FR"
+title: Baptiste Manusset # Title of your site
+url: "https://baptistemanusset.github.io/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+google_analytics_key: ""
+# Default description in social shares for the jekyll-seo-tag gem
+description: > # this means to ignore newlines until "baseurl:"
+  Je suis un étudiant qui se destine à devenir développeur. J'ai commencé ma formation par le developpement pour internet
+  mais depuis 2 ans je me forme au developpement pour le jeu vidéo avec Unity ou d'autre language.
+# Author details for the jekyll-seo-tag gem
+author:
+  name: Baptiste Manusset
+  email: baptiste.manusset@gmail.com
+  twitter: itsbaptiste
+# Social details for the jekyll-seo-tag gem
+social:
+  name: ItsBaptiste
+  links:
+    - https://twitter.com/ItsBaptiste
+
+# permalink: pretty
+permalink: pretty
+# permalink: :title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-youtube
+#  - jekyll-manager
+
+
+# Jekyll SEO Tag
+webmaster_verifications:
+  google: # 1234
+  bing: # 1234
+  alexa: # 1234
+  yandex: # 1234
+# -----------
+# CloudCannon
+social_icons:
+  - Twitter
+  - Github
+
+collections:
+  timelines:
+    output: false
+  statics:
+    output: false
+  posts:
+      output: true
+      permalink: /:title/
+sass:
+  sass_dir: _scss
+  style: :compressed

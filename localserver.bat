@@ -1,1 +1,1 @@
-bundle exec jekyll serve --watch -d docs
+bundle exec jekyll serve --watch -d ../local

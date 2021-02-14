@@ -26,7 +26,7 @@ Le jeu se joue au clavier, avec les **touches directionnelles** ou les touches *
 
 ## Déroulement
 
-![](/images/projects/battleship/placement-bateau-1.png)
+![écran de placement des bateaux](/images/projects/battleship/placement-bateau-1.png)
 
 ### Placement des bateaux
 
@@ -36,7 +36,7 @@ Le curseur de placement en vert si la case est libre et la rouge si elle est dé
 En haut à droite le pseudo, puis en dessous, ​la liste des bateaux disponible avec leurs nombres, leurs tailles et leurs noms. En dessous, une zone permettant d'afficher des messages (placement impossible ou autre information).
 Pour rendre le placement des bateaux le plus simple possible, j'ai choisi de le gérer avec un curseur. Celui-ci est contrôlé grâce aux touches directionnelles ou ZQSD​.
 
-![](/images\projects\battleship\tour-1.png)
+![tour du joueur 1](/images\projects\battleship\tour-1.png)
 ### La Partie
 
 Le jeu se présente sous la forme de deux grilles une pour afficher ses bateaux et une autre pour afficher les bateaux de l’autre joueur.

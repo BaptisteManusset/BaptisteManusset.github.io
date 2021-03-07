@@ -13,7 +13,7 @@ exclude: false
 
 **Little Grim and the blue fox** est un jeu de réflexion en 3D dans lequel vous incarnez little grim, la mort en personne. Son malheur est de n'avoir aucun ami car Grim ne peut rien toucher sans le risque de le tuer. Un jour, un petit renard bleu immunisé à ses pouvoirs se présente et devient son ami. Tout aurait pu finir dans la félicité. Mais c'est sans compter l'aide de **Despair**, l'incarnation du désespoir, qui vient enlever le nouvel ami de Grim. Vous devrez descendre dans le monde chaotique de **Despair** en résolvant des énigmes pour sauver votre petit ami à fourrure.
 
-**Little Grim** est un projet d'équipe qui a durée sur plusieurs semaines durant le 1er confinement. Il fait en collaboration entre des étudiants de M1 et de M2 MTI3D. L'équipe etait composé de David HAMON, Quentin DENIS-LUTARD, Eva MEURICE, Salomé DONNIO, Eva CATRIX, Yiang GAO, Jonathan MAINGRE, et moi même. 
+**Little Grim** est un projet d'équipe qui a durée sur plusieurs semaines durant le 1er confinement. Il fait en collaboration entre des étudiants de M1 et de M2 MTI3D. L'équipe etait composé de David HAMON, Quentin DENIS-LUTARD, Eva MEURICE, Salomé DONNIO, [Eva CATRIX](https://www.artstation.com/evac), Yiang GAO, Jonathan MAINGRE, et moi même. 
 
 Sur ce projet, j'ai souhaité travailler sur les interfaces en jeu (barre de vie et interfaces contextuelles)et sur l'animation du trailer. Ce sont des éléments d'un jeu sur lesquels je n'ai pas l'habitude de travailler.
 

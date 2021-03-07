@@ -1559,57 +1559,39 @@ input {
     }
 
     .skills {
-      display: grid;
-      align-items: center;
-      margin: 3rem 0;
-      text-align: center;
-      grid-template-columns: repeat(5, 1fr);
-      grid-gap: 2rem 0;
+        margin: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px; 
+        height: 30rem;
 
-      .fab {
+      div{
+        @extend %bg;
+        display: table;
+        cursor: auto;
 
-        transition: color .1s;
 
-        &::before {
-          font-size: 4rem;
-          margin: 0 2rem;
-        }
+        $skills: (
+            "blender",
+            "photoshop",
+            "unity",
+            "illustrator",
+            "substance",
+            "premiere"
+        );
 
-        &:hover {
-          color: $color-red;
-        }
-      }
-
-      .icon {
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 1.4em;
-        display: inline-block;
-        width: 1.4em;
-        height: 1.4em;
-        margin: 0 2rem;
-        user-select: none;
-        transition: background .1s;
-        color: #fff;
-        background: $color-black;
-        justify-self: center;
-
-        &:hover {
-          background: $color-red;
-        }
-
-        &-svg {
-          height: 56px;
-
-          &:hover {
-            svg {
-              fill: $color-red;
+        @each $class in $skills {
+            &.icon-#{$class}{
+              background-image: url("../images/#{$class}.png");
+              background-size: cover;     
             }
-          }
+        }
 
-          svg {
-            height: 100%;
-          }
+        span{
+          display: table-cell;
+          vertical-align: middle;
         }
       }
     }

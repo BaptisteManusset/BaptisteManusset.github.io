@@ -7,7 +7,7 @@ categories:
 - Création visuel
 layout: post
 image: "/images/projects/beontime/beontime.jpg"
-exclude: false
+exclude: true
 ---
 
 **Be on time** est un projet web réalisé durant l’année de licence production multimédia. Ce projet consiste en une application pour smartphone proposant aux utilisateurs d’être notifié des retards dans les transports en commun, d’accéder aux horaires de bus ainsi que d’autres petites fonctionnalités qui visent à faciliter la vie dans les transports en commun. Dans ce projet, nous souhaitions apporter une grande importante à la communauté et à l’interaction inter-utilisateur.

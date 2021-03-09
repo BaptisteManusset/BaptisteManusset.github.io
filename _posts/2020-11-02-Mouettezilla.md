@@ -6,7 +6,7 @@ categories:
 - Jeux vidéo
 - Unity
 image: "/images/projects/mouettezilla/mouettezilla.png"
-exclude: true
+exclude: false
 ---
 
 MouetteZilla est le jeu où vous contrôlez une mouette géante qui a pour but de détruire la ville et atteindre une coût de dégât de 100&nbsp;000 $, tout en évitant d'entre abattue par l'armée.
@@ -15,7 +15,6 @@ Ce jeu est fait en collaboration avec **Justine Bertrand** et **Mathilde Beuvin*
 Le joueur peut attaquer, avec son bec ou faire une attaque charger en gardant le clique enfoncé.
 La mouette détruit les bâtiments en marchant dessus, ou en volant et en se laissant tomber dessus.
 Plusieurs objectifs de quête peuvent être détruits, ceux-ci sont représentés par des bâtiments différents qui possèdent une barre de vie (centrale nucléaire, magasin de donuts et banque).
-
 
 {% include youtube id="A687indGKq0" %}
 

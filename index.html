@@ -74,6 +74,9 @@ layout: default
     <h2>Mes projets</h2>
     <div class="row articles">
       {% for post in site.posts %}
+      {% if post.exclude == true %}
+        {% continue %}
+      {% endif %}
       <article class="{% cycle '6u', '6u$' %} 12u(small) article">
         <section>
           <a href="{{ post.url }}"><img src="{{ post.image }}" class="fit image" /></a>

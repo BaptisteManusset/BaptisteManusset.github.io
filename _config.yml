@@ -56,5 +56,5 @@ sass:
   style: :compressed
 
 
-exclude:
-  __templates
+exclude: ['__templates','*.bat','*.act','LICENCE','Gemfile','Gemfile.lock']
+  

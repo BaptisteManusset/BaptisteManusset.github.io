@@ -2,13 +2,12 @@
 layout: post
 categories:
 image:
-exclude: false
 categories:
 - Réalité Virtuelle
 - Jeux vidéo
 - Unity
 image: "/images/projects/hautetension/hautetension.jpg"
-exclude: true
+exclude: false
 ---
 Le projet **Haute tension** est un projet fait durant la 1er année de master MTI3D. Je travaille avec 3 amis sur le développement d’un outil de formation en réalité virtuelle “Projet Haute Tension”. C’est un outil de formation destiné à la formation d’élèves, électriciens à d’Angers. Cet outil de formation est destiné à l’origine pour le HTC vive.
 

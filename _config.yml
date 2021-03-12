@@ -58,3 +58,4 @@ sass:
 
 exclude: ['__templates','*.bat','*.act','LICENCE','Gemfile','Gemfile.lock']
   
+

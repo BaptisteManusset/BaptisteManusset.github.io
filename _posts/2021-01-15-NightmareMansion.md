@@ -17,7 +17,6 @@ Le but de ce projet était de créer un jeu asymétrique ou l’on place un joue
 
 ![joueurs 1 et 2](/images/projects/nightmaremansion/info.png)
 
-
 Cet appareil n’est plus supporté, mais l’école en possède encore un de fonctionnel. Utilisé, cet appareil nous a forcés à utiliser Unity 2017, car il n’est plus fonctionnel avec les versions supérieures. Nous avons réalisé la totalité des assets de ce jeu en nous inspirant de Resident Evil et de Ghost Buster.
 
 Nous avons fait ce projet en équipe (Justine Bertrand Mathilde Beuvin, Nicolas Frenot, Maxence Rouillet et moi-même)

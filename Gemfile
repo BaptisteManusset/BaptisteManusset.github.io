@@ -8,6 +8,7 @@ group :jekyll_plugins do
 	gem 'jekyll-paginate', '1.1.0'
 	gem 'jekyll-sitemap', '1.0.0'
 	gem 'jekyll-youtube', '1.0.0'
+	gem 'jekyll-webp', '~> 1.0'
 	# gem 'jekyll-manager'
 	gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end

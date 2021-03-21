@@ -1,0 +1,4 @@
+<picture>
+  <source srcset="{{ site.url }}{{ site.baseurl }}/images/projects/nightmaremansion/info.webp" type="image/webp">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/projects/nightmaremansion/info.png" alt="{{ include.alt }}">
+</picture>

@@ -44,6 +44,8 @@ social_icons:
   - Github
 
 collections:
+  blogs:
+    output: true
   timelines:
     output: false
   statics:

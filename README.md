@@ -1,11 +1,13 @@
 Portfolio fait avec le cms static jekyll
 
-Commande pour avoir le site en local
+Lancer les executables pour gerer le site. 
+
+en local : 
 ```
-bundle exec jekyll serve --watch -d ../dist
+localserver.bat
 ```
 
-Commande pour build le site
+En prod : 
 ```
-bundle exec jekyll build --watch -d ../dist
+build.bat
 ```

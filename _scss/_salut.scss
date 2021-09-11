@@ -369,10 +369,11 @@ pre {
 article.article {
   position: relative;
   overflow: hidden;
-
+border-radius: .5rem;
   img.fit {
     height: 100%;
     margin-bottom: 0;
+	min-width: 100%;
   }
 
   header {
@@ -434,7 +435,6 @@ article.article {
       bottom: 0;
       left: 0;
       content: "";
-      border: 2px solid $color-black;
       background: transparent;
 
     }
@@ -448,7 +448,6 @@ article.article {
     section {
       a::before {
         background: rgba(0, 0, 0, 0.50);
-        //border: 2px solid $color-red;
       }
     }
 
@@ -929,8 +928,7 @@ ul {
   &.icons {
     padding-left: 0;
     list-style: none;
-    cursor: default;
-
+    cursor: default;   
     li {
       display: inline-block;
       padding: 0 1em 0 0;
@@ -1571,6 +1569,7 @@ input {
         @extend %bg;
         display: table;
         cursor: auto;
+	border-radius: 0.35em;
 
 
         $skills: (

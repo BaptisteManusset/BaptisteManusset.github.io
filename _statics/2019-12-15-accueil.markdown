@@ -4,15 +4,18 @@ date: 2019-12-15 00:00:00 Z
 layout: default
 ---
 
-## Je suis<br>**Baptiste Manusset**,<br>  étudiant en  **master MTI3D** <br> et <br> **gamedev**.
+## Je suis<br>**Baptiste Manusset**,<br>  nouvellement diplômé<br> d'un **master MTI3D** <br> et **gamedev**.
 
-Je suis un étudiant en **Master MTI3D** qui fait partie de l'ENSAM (Arts et Métiers) et gamedev sur mon temps libre. Je viens d'un DUT MMI (Métiers du Multimédia et de l'Internet).
-L'année dernière, j'ai eu l'occasion de découvrir le master MTI3D à l'occasion du Laval Virtual. C'est pourquoi j'ai pris mes valises direction Laval !
+Je sors juste d'un **Master MTI3D** en alternance (ENSAM/Arts et Métiers). Et je développe un jeu sur mon temps libre. 
+Durant deux ans j'ai suis un master MTI3D qui m'a formé au développement pour Unity et a la modélisation 3D, j'ai appris plein de chose passionnante que j'ai hâte de mettre en pratique.
+
+```
+Que ce soit en numérique ou en physique j'ai toujours besoin de créer !
+```
 
 
-> Que ce soit en numérique ou en physique j'ai toujours besoin de créer !
 
-J'aime faire des choses de mes mains, dessin, peinture, sculpture.
+J'ai toujours besoin de faire des choses de mes mains, dessin, peinture ou sculpture.
 Mais ce qui me plait le plus actuellement, c'est le développement de jeu vidéo (et même certain en réalité virtuelle !) et le dessin.
 J'utilise **Unity** que j'ai appris en auto-didacte et **Game Maker Studio 2**.
 <br>

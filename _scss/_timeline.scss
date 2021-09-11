@@ -1,9 +1,21 @@
 .timeline {
 &-container{
+    border-radius: 0.35em;
+	   position: relative;
+
   overflow-x: auto;
     padding: 3rem;
       box-shadow: inset 0px 0px 20px -10px rgba(0,0,0,0.1);
-      border-radius: .5rem;
+	  &::before{
+	     position: absolute;
+	  content: "";
+background: #999;
+		top: 0;
+		left: 0;
+		right: 100vw;
+		bottom: 0;
+	  }
+	  
       > ul{
         margin: 0;
       }

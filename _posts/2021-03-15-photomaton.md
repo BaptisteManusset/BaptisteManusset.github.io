@@ -5,7 +5,7 @@ date: '2021-03-15 00:00:00 +0000'
 categories: 
 - Modélisation 3D
 image: "/images/projects/photomaton/photomaton.png"
-exclude: false
+exclude: true
 ---
 
 Projet personnel en cours de création, inspiré par [52Hz de Cornelius Dämmrich](https://www.artstation.com/artwork/JbgBR). C'est mon premier projet dans un style photo-réaliste.

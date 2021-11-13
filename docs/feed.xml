@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://baptistemanusset.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://baptistemanusset.github.io//" rel="alternate" type="text/html" /><updated>2021-10-26T12:17:06+02:00</updated><id>https://baptistemanusset.github.io//feed.xml</id><title type="html">Baptiste Manusset</title><subtitle>Je suis un étudiant qui se destine à devenir développeur. J&apos;ai commencé ma formation par le developpement pour internet mais depuis 2 ans je me forme au developpement pour le jeu vidéo avec Unity ou d&apos;autre language.
-</subtitle><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><entry><title type="html">Computer</title><link href="https://baptistemanusset.github.io//computer/" rel="alternate" type="text/html" title="Computer" /><published>2021-09-12T02:00:00+02:00</published><updated>2021-09-12T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//computer</id><content type="html" xml:base="https://baptistemanusset.github.io//computer/">&lt;p&gt;Projet personnel basé sur les concepts art d’un artiste: &lt;a href=&quot;https://twitter.com/FroginatorArt/status/1430647473396142083&quot;&gt;@FroginatorArt&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://baptistemanusset.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://baptistemanusset.github.io//" rel="alternate" type="text/html" /><updated>2021-11-13T20:41:21+01:00</updated><id>https://baptistemanusset.github.io//feed.xml</id><title type="html">Baptiste Manusset</title><subtitle>Je suis un étudiant qui se destine à devenir développeur. J&apos;ai commencé ma formation par le developpement pour internet mais depuis 2 ans je me forme au developpement pour le jeu vidéo avec Unity ou d&apos;autre language.
+</subtitle><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><entry><title type="html">Burning Sand</title><link href="https://baptistemanusset.github.io//burning-sand/" rel="alternate" type="text/html" title="Burning Sand" /><published>2021-11-13T01:00:00+01:00</published><updated>2021-11-13T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//burning-sand</id><content type="html" xml:base="https://baptistemanusset.github.io//burning-sand/">&lt;p&gt;&lt;strong&gt;Burning Sand&lt;/strong&gt; est un jeu d’exploration se situant sur une planète colonisée il y a plusieurs centaines d’années. Vous incarnez un descendant de ces colons après que le savoir et les technologies avancées soient perdus. Vous allez devoir explorer des ruines, pour découvrir d’anciennes technologies et leurs secrets.&lt;/p&gt;
+
+&lt;p&gt;Burning Sand est un jeu accès en grande partie sur l’exploration du monde souterrain, de la planète, car la surface de la planète est beaucoup trop chaude pour y vivre.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Le jeu est en cours de développement sur Unity.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html">Burning Sand est un jeu d’exploration se situant sur une planète colonisée il y a plusieurs centaines d’années. Vous incarnez un descendant de ces colons après que le savoir et les technologies avancées soient perdus. Vous allez devoir explorer des ruines, pour découvrir d’anciennes technologies et leurs secrets.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/burningsand/burningsand.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/burningsand/burningsand.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Computer</title><link href="https://baptistemanusset.github.io//computer/" rel="alternate" type="text/html" title="Computer" /><published>2021-09-12T02:00:00+02:00</published><updated>2021-09-12T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//computer</id><content type="html" xml:base="https://baptistemanusset.github.io//computer/">&lt;p&gt;Projet personnel basé sur les concepts art d’un artiste: &lt;a href=&quot;https://twitter.com/FroginatorArt/status/1430647473396142083&quot;&gt;@FroginatorArt&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Rendu et modélisation fait avec Blender.&lt;/p&gt;
 
@@ -242,51 +247,4 @@ Les cartes sont affichées en plusieurs étapes.&lt;/p&gt;
 
 &lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
 
-&lt;p&gt;Le code source est disponible sur github à l’adresse &lt;a href=&quot;https://github.com/BaptisteManusset/battleship&quot;&gt;github.com/BaptisteManusset/battleship&lt;/a&gt; vous pourrez trouver &lt;a href=&quot;https://www.virustotal.com/gui/file/e3604347e6ec01d60035a5a93428f78b33c083f724568fa32d1771942ad75ea5/detection&quot;&gt;la verification VirusTotal&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux video" /><category term="c#" /><summary type="html">Introduction Le projet Battleship Console est un projet de trois jours, fait durant les cours d’introduction au C# en 1re année de Master MTI3D à Laval, Il est développé pour la console de commande de Windows. C’est un remake de la bataille navale qui se joue au tour par tour à deux joueurs en local.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/battleship/battleship.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/battleship/battleship.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Unamed</title><link href="https://baptistemanusset.github.io//unamed/" rel="alternate" type="text/html" title="Unamed" /><published>2019-11-29T01:00:00+01:00</published><updated>2019-11-29T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//unamed</id><content type="html" xml:base="https://baptistemanusset.github.io//unamed/">&lt;h2 id=&quot;présentation&quot;&gt;Présentation&lt;/h2&gt;
-&lt;p&gt;Ce jeu est inspiré du jeu &lt;strong&gt;Adventures of Lolo&lt;/strong&gt;. Il reprend les mêmes éléments de gameplay. Le jeu se présente comme une série de niveaux. Le joueur doit récupérer 4 &lt;strong&gt;pièces&lt;/strong&gt; par niveaux pour ouvrir le &lt;strong&gt;coffre,&lt;/strong&gt; qui lui contient la &lt;strong&gt;clé&lt;/strong&gt;. Celle-ci qui ouvre la porte pour accéder au niveau suivant.&lt;/p&gt;
-
-&lt;p&gt;Le joueur peut interagir avec les éléments du décor pour compléter le niveau. Il peut pousser des &lt;strong&gt;blocs,&lt;/strong&gt; pour en faire des ponts, écraser des ennemis ou se protéger de tir.&lt;/p&gt;
-
-&lt;p&gt;Si vous êtes bloqué vous pouvez réinitialiser le niveau actuel, cela vous coûtera une vie. Vous pouvez aussi perdre des vies en prenant des coups. Mais attention, quand le compteur arrive à zéro, c’est le &lt;strong&gt;Game Over&lt;/strong&gt; ! Vous pouvez remonter vos points de vie en récoltant des &lt;strong&gt;fioles rouges&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;https://itsbaptiste.itch.io/unamed&quot;&gt;&lt;strong&gt; Lien de téléchargement&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;yt-container&quot;&gt;
-  &lt;iframe src=&quot;https://www.youtube.com/embed/si4HAdCtQVk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
-  &lt;p&gt;Vous pouvez activer le cheat mode en gardant la touche F11 pressée lorsque vous faite Play dans le menu principal. Cela vous donnera &lt;strong&gt;999 vies&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;synopsis&quot;&gt;Synopsis&lt;/h2&gt;
-&lt;p&gt;Vous incarnez un explorateur masqué qui s’engouffre dans un temple abandonné. Ce temple est un mélange de pierre et de mécanismes variés. &lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Oui, l’histoire du jeu est aussi développée, intelligemment conçue et profonde qu’un film de Michael fucking Bay.&lt;/em&gt; &lt;/p&gt;
-
-&lt;h2 id=&quot;contrôle&quot;&gt;Contrôle&lt;/h2&gt;
-&lt;p&gt;Les contrôles du jeu sont inspirés de &lt;strong&gt;Binding of isaac&lt;/strong&gt;.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;ZQSD&lt;/strong&gt; pour le déplacement.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Flèches directionnelles&lt;/strong&gt; pour tirer dans la direction souhaitée.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;R&lt;/strong&gt; pour recharger le niveau en échange d’une vie.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Echap&lt;/strong&gt; pour mettre le jeu en pause.&lt;br /&gt;
-&lt;img src=&quot;/images/projects/unamed/clavier.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;inspiration&quot;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;Pour développer ce jeu je me suis inspiré de plusieurs œuvres :
-&lt;img src=&quot;/images/projects/unamed/adventures of lolo.png&quot; alt=&quot;&quot; /&gt;
-&lt;strong&gt;Adventures of Lolo&lt;/strong&gt; qui est le numéro dont je me suis inspiré référence.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/projects/unamed/hyper light drifter.png&quot; alt=&quot;&quot; /&gt;
-&lt;strong&gt;Hyperlight Drifter&lt;/strong&gt;, un action-RPG en pixel-art développé par &lt;strong&gt;Heart Machine&lt;/strong&gt;. Les graphismes sont très beaux, il en ressort une esthétique unique.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/projects/unamed/binding of isaac.png&quot; alt=&quot;&quot; /&gt;
-&lt;strong&gt;Binding of isaac&lt;/strong&gt; le célèbre jeu indépendant où vous suivez Isaac dans son combat pour sa survie.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/projects/unamed/simon stalenhag.png&quot; alt=&quot;&quot; /&gt;
-&lt;strong&gt;Simon Stålenhag&lt;/strong&gt;, un artiste suédois qui, à travers ses œuvres, propose un univers rétro-futuriste où les machines et les ruines font partie du décor.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux video" /><category term="c++" /><category term="Pixel Art" /><summary type="html">Présentation Ce jeu est inspiré du jeu Adventures of Lolo. Il reprend les mêmes éléments de gameplay. Le jeu se présente comme une série de niveaux. Le joueur doit récupérer 4 pièces par niveaux pour ouvrir le coffre, qui lui contient la clé. Celle-ci qui ouvre la porte pour accéder au niveau suivant.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/unamed/unamed.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/unamed/unamed.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Le code source est disponible sur github à l’adresse &lt;a href=&quot;https://github.com/BaptisteManusset/battleship&quot;&gt;github.com/BaptisteManusset/battleship&lt;/a&gt; vous pourrez trouver &lt;a href=&quot;https://www.virustotal.com/gui/file/e3604347e6ec01d60035a5a93428f78b33c083f724568fa32d1771942ad75ea5/detection&quot;&gt;la verification VirusTotal&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux video" /><category term="c#" /><summary type="html">Introduction Le projet Battleship Console est un projet de trois jours, fait durant les cours d’introduction au C# en 1re année de Master MTI3D à Laval, Il est développé pour la console de commande de Windows. C’est un remake de la bataille navale qui se joue au tour par tour à deux joueurs en local.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/battleship/battleship.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/battleship/battleship.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

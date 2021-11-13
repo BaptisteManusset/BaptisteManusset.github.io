@@ -102,3 +102,25 @@ background-image: url("../images/curiosity.png");
     height: 100%;
   }
 }
+
+@media print {
+  br,
+  #competence-block,
+  #cursus,
+  #footer,
+  #header{
+    display: none !important;
+  }
+
+  h2{
+    font-size: 1cm !important;
+  }
+  p{
+    font-size: 1cm !important;
+
+  }
+  #main{
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}

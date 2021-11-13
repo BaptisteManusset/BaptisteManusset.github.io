@@ -10,9 +10,9 @@ layout: default
     <div>
       {{post.content}}
     </div>
-      
+
    </section>
-<section>
+<section id="competence-block">
   <h2 id="competences">Compétences</h2>
 <div class="skills">
 <!-- <i class="fab fa-unity"></i><span class="icon">Ps</span> <span class="icon">Ai</span> <span class="icon">Pr</span>  <span class="icon-svg"><svg viewBox="0 0 221.5 222"><path d="M0,110.5,111,0,221.5,111.5H158L111.25,64.75l-46,46L110.5,156V111.5h47V176l-46,46Z"/></svg></span>  -->
@@ -42,12 +42,12 @@ layout: default
 
 
       {% assign style-orign = post.start_date | date: '%Y' | minus: 2015 | times: 2 |floor | plus: 1%}
-	  
+
 	  {% if post.is_stage == true%}
 	  {% assign style-orign = style-orign |  plus: -1 %}
 	  {% endif %}
-	  
-	  
+
+
       {% assign style-end = post.year_number | times: 2 |floor%}
 
       <li class="timeline-event years-{{post.year_number | replace: '.','-'}} {% if post.is_stage == true%}timeline-event-stage{% else %}timeline-event-formation{% endif %}" style="grid-column: {{style-orign}} / span {{style-end}}">

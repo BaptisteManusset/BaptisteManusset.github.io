@@ -4,11 +4,11 @@ date: 2019-12-15 00:00:00 Z
 layout: default
 ---
 
-## Je suis<br>**Baptiste Manusset**,<br>  nouvellement diplômé<br> d'un **master MTI3D** <br> et **gamedev**.
+## Je suis<br>**Baptiste Manusset**,<br>  fraîchement diplômé<br> d'un **master MTI3D** <br> et **gamedev**.
 
-Je sors juste d’un **Master MTI3D** (ENSAM/Arts et Métiers) en alternance chez Max Sens Innovations. Et je développe un jeu sur mon temps libre, quand je ne participe pas à des game-jams.
+Diplômé en octobre du **Master MTI3D** (ENSAM/Arts et Métiers) durant lequel j'ai effectué une alternance chez Max Sens Innovations, je suis passionné  de jeux vidéo et de nouvelles technologies. Je développe d'ailleurs un jeu pendant mon temps libre, quand je ne participe pas à des game-jams.
 
-Durant deux ans, j’ai suivi un master MTI3D qui m’a formé au développement pour Unity et à la modélisation 3D, j’ai appris plein de choses passionnantes que j’ai hâte de mettre en pratique.
+Durant mon master, j'ai pu me former au développement pour Unity ainsi qu'à la modélisation 3D, sans oublier le texturing. J’ai pu travailler en équipe sur des projets aussi divers que variés. Projets grâce auxquels j'ai pu trouver ma vocation : développeur.
 
-J’ai toujours besoin de faire des choses de mes mains : dessin, modélisation, ou développement. Mais ce qui me plaît le plus actuellement, c’est le développement de jeux vidéos (et même certains en **réalité virtuelle** !). J’utilise Unity que j’ai appris avec ma formation et en autodidacte ainsi que **Game Maker Studio 2**.
+Autodidacte toujours à l'affût de nouvelles disciplines, j'ai beaucoup de hobbys qui me permettent de perfectionner mes compétences et ce dans divers domaines : dessin, modélisation 3D ou développement. Mais ce qui me plaît le plus actuellement, c’est le développement de jeux vidéos (et même certains en **réalité virtuelle** !). Je développe avec Unity, sur lequel j’ai créé tous mes projets, universitaires ou personnels. Je me suis également formé sur **Game Maker Studio 2**.
 <br>

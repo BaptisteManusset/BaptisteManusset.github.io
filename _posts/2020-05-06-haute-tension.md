@@ -9,28 +9,28 @@ categories:
 image: "/images/projects/hautetension/hautetension.jpg"
 exclude: false
 ---
-Le projet **Haute tension** est un projet fait durant la 1er année de master MTI3D. Je travaille avec 3 amis sur le développement d’un outil de formation en réalité virtuelle “Projet Haute Tension”. C’est un outil de formation destiné à la formation d’élèves, électriciens à d’Angers. Cet outil de formation est destiné à l’origine pour le HTC vive.
+**Haute tension** est un projet universitaire créé durant la 1ère année de master MTI3D. Je travaille avec 3 camarades de classe sur le développement d’un outil de formation en réalité virtuelle “Projet Haute Tension”. Celui-ci est destiné à la formation d’élèves électriciens à d’Angers pour les casques de réalité virtuelle HTC Vive.
 
-Mais avec le confinement, nous avons décidé de réorienter le développement pour fournir un outil de formation sur ordinateur. Il pourra aussi servir de base pour le développement d’une version en réalité virtuelle.
+Le confinement ne nous permettant pas de développer avec le casque HTC Vive (resté dans les locaux de notre université), nous avons décidé de réorienter le développement pour fournir un outil de formation sur ordinateur. Il pourra aussi servir de base pour le développement d’une version en réalité virtuelle.
 
-Le projet permet de simuler la mise en tension d’un poste de livraison, ici une réplique de celui de l’université, qui fait la jonction entre les bâtiments et les câbles hautes-tensions.
+Le projet permet de simuler la mise en tension d’un poste de livraison, ici une réplique de celui de l’université, qui fait la jonction entre les bâtiments et les câbles haute-tension.
 
 ![](/images/projects/hautetension/scene-haute-tension.png)
 
 
-Nous avons réparti les tâches en deux équipes une de deux développeurs et une de deux graphistes/modélisateurs. Pour ma part, j’ai fait une partie du développement, ce que j’ai trouvé le plus intéressant, c’est de faire la gestion des différentes étapes du scénario.
+Nous avons réparti les tâches en deux équipes : celle des développeurs et celle des graphistes/modélisateurs. Pour ma part, j’ai faisait parti de l'équipe des développeurs, ce que j’ai trouvé le plus intéressant, c’est la création de la gestion des différentes étapes du scénario.
 
 J’ai décomposé le fonctionnement en deux éléments:
 
 *	Le premier est un script **Quest Manager** qui permet de gérer les différentes étapes. (le cerveau sur la capture)
-*	Le second est un script **Quest Element** qui regroupe toutes les informations nécessaire pour le fonctionnement d’une étape (les yeux). Il suffit via un autre script d’appeler le quest Element pour valider l’étape pour passer à la suivante.
+*	Le second est un script **Quest Element** qui regroupe toutes les informations nécessaires pour le fonctionnement d’une étape (les yeux). Il suffit, via un autre script, d’appeler le quest Element pour valider l’étape et passer à la suivante.
 *	Des gizmos permettent de visualiser les liens entre chaque étape
 
-J’ai aussi fait un EditorWindow permettant de tester rapidement le fonctionnement des étapes sans avoir à les faire en jeu.
+J’ai aussi créé un EditorWindow permettant de tester rapidement le fonctionnement des étapes sans avoir à les faire en jeu.
 
 ![](/images/projects/hautetension/all-ui.png)
 
-Pour permettre à l’utilisateur de suivre sa progression, il a accès à une interface et grâce à des feed-backs sonores (Le visuel de l’interface est encore en WIP).
+Pour permettre à l’utilisateur de suivre sa progression, il a accès à une interface et reçoit des feed-backs sonores (Le visuel de l’interface est encore en WIP).
 
 ![](/images/projects/hautetension/interaction_entre_elements.png)
 

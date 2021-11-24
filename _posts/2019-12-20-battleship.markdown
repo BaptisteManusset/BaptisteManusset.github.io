@@ -12,7 +12,7 @@ exclude: false
 ---
 
 ## Introduction
-Le projet **Battleship Console** est un projet de trois jours, fait durant les cours d'introduction au C# en 1re année de Master MTI3D à Laval,
+Le projet **Battleship Console** est un projet réalisé en trois jours, durant les cours d'introduction au C# en 1ère année de Master MTI3D à Laval,
 Il est développé pour la **console de commande de Windows**. C'est un remake de la bataille navale qui se joue au tour par tour à **deux joueurs en local**.<br>
 
 <br>
@@ -21,7 +21,7 @@ Il est développé pour la **console de commande de Windows**. C'est un remake d
 
 
 ## Contrôle
-Le jeu se joue au clavier, avec les **touches directionnelles** ou les touches **ZQSD**. La validation d’une étape se fait grâce à touche **Entrer** ou **Espace**.Dans l’écran de placement des bateaux vous pouvez changer l’orientation du bateau grâceà la touche **R** et changer de bateau grâce à la touche **Tab**.
+Le jeu se joue au clavier, avec les **touches directionnelles** ou les touches **ZQSD**. La validation d’une étape se fait grâce à touche **Entrer** ou **Espace**. Sur l’écran de placement des bateaux vous pouvez changer l’orientation du bateau grâceà la touche **R** et changer de bateau grâce à la touche **Tab**.
 
 
 ## Déroulement
@@ -43,7 +43,7 @@ Le jeu se présente sous la forme de deux grilles une pour afficher ses bateaux 
 Dans votre carte, il y a les différents bateaux qui sont affichés avec les zones déjà touchées en rouges avec des points noirs.
 
 Sur la carte ennemie, le joueur peut viser une case grâce au curseur qu’il déplace de la même façon que pour placer les bateaux, il est lui aussi représenté par une case rouge.
-Les coups ratés sont représentés par une case bleue foncé avec un ​X.
+Les coups ratés sont représentés par une case bleu foncé avec un ​X.
 
 ### Changement de joueur
 Il y a un écran de transition, pour éviter qu’un joueur puisse voir la carte de l'adversaire.

@@ -2,7 +2,7 @@
 layout: post
 title: Nightmare Mansion
 date: '2021-01-15 00:00:00 +0000'
-categories: 
+categories:
 - Jeux vidéo
 - Réalité Virtuelle
 - Unity
@@ -17,16 +17,16 @@ Le but de ce projet était de créer un jeu asymétrique ou l’on place un joue
 
 ![joueurs 1 et 2](/images/projects/nightmaremansion/info.png)
 
-Cet appareil n’est plus supporté, mais l’école en possède encore un de fonctionnel. Utilisé, cet appareil nous a forcés à utiliser Unity 2017, car il n’est plus fonctionnel avec les versions supérieures. Nous avons réalisé la totalité des assets de ce jeu en nous inspirant de Resident Evil et de Ghost Buster.
+Cet appareil n’est plus supporté, mais l’école en possède encore un de fonctionnel. Nous avons dû utiliser Unity 2017 pour configurer cet appareil, car il n’est plus fonctionnel avec les versions supérieures. Nous avons réalisé la totalité des assets de ce jeu en nous inspirant de Resident Evil ainsi que Ghost Buster.
 
-Nous avons fait ce projet en équipe (Justine Bertrand Mathilde Beuvin, Nicolas Frenot, Maxence Rouillet et moi-même)
+Nous avons fait ce projet en équipe (Justine Bertrand, Mathilde Beuvin, Nicolas Frenot, Maxence Rouillet et moi-même)
 
 
 ![tutoriel](/images/projects/nightmaremansion/tutorial room.png)
 Salle de tutoriel au même dimension que la salle de jeu
 
 
-Chaque partie dure environ 5 mins avec un tutoriel au début pour permettre de bien prendre en main le contrôle du fantôme et s’habituer a l’environnement pour le joueur en Vr. Chaque joueur joue à tour de rôle le chasseur et le fantôme durant une manche de 2min environ. Le fantôme bouge et doit récolter des points pour sans se faire attraper par le chasseur. Le chasseur, quand a lui, il doit viser le fantôme avec son pistolet pour attraper le fantôme. Les points sont un challenge en plus, car les joueurs veulent avoir un meilleur score que leurs adversaires.
+Chaque partie dure environ 5 minutes, un tutoriel est lancé au début afin de permettre une bonne prise en main de l'appareil servant à contrôler le fantôme. Ce tutoriel permet également à l'autre joueur de s’habituer a l’environnement en VR. Chaque utilisateur joue à tour de rôle le chasseur et le fantôme durant une manche de 2 minutes environ. Le fantôme bouge et doit récolter des points sans se faire attraper par le chasseur. Le chasseur, quant à lui, doit viser le fantôme avec son pistolet pour l'attraper. Les points représentent un challenge en plus, car chaque joueur veut avoir le meilleur score.
 
 {% include youtube id="R9slg06K7o0" %}
 

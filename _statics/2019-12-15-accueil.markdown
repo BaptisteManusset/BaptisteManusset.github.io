@@ -6,10 +6,9 @@ layout: default
 
 ## Je suis<br>**Baptiste Manusset**,<br>  nouvellement diplômé<br> d'un **master MTI3D** <br> et **gamedev**.
 
-Je sors juste d'un **Master MTI3D** en alternance (ENSAM/Arts et Métiers). Et je développe un jeu sur mon temps libre.
-Durant deux ans j'ai suis un master MTI3D qui m'a formé au développement pour Unity et a la modélisation 3D, j'ai appris plein de chose passionnante que j'ai hâte de mettre en pratique.
+Je sors juste d’un **Master MTI3D** (ENSAM/Arts et Métiers) en alternance chez Max Sens Innovations. Et je développe un jeu sur mon temps libre, quand je ne participe pas à des game-jams.
 
-J'ai toujours besoin de faire des choses de mes mains: dessin, modélisation, ou développement.
-Mais ce qui me plait le plus actuellement, c'est le développement de jeu vidéo (et même certain en réalité virtuelle !).
-J'utilise **Unity** que j'ai appris avec ma formation et en auto-didacte ainsi que **Game Maker Studio 2**.
+Durant deux ans, j’ai suivi un master MTI3D qui m’a formé au développement pour Unity et à la modélisation 3D, j’ai appris plein de choses passionnantes que j’ai hâte de mettre en pratique.
+
+J’ai toujours besoin de faire des choses de mes mains : dessin, modélisation, ou développement. Mais ce qui me plaît le plus actuellement, c’est le développement de jeux vidéos (et même certains en **réalité virtuelle** !). J’utilise Unity que j’ai appris avec ma formation et en autodidacte ainsi que **Game Maker Studio 2**.
 <br>

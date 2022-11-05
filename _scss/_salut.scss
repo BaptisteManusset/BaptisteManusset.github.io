@@ -1556,7 +1556,7 @@ input {
       }
     }
 
-    .skills {
+    .cards {
         margin: 3rem 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -1565,7 +1565,7 @@ input {
         grid-row-gap: 10px; 
         height: 30rem;
 
-      div{
+      > *{
         @extend %bg;
         display: table;
         cursor: auto;
@@ -1586,6 +1586,15 @@ input {
               background-image: url("../images/#{$class}.png");
               background-size: cover;     
             }
+        }
+		
+		&.icon{
+			background: $color-red;
+            background-size: cover;  
+			cursor: pointer;		
+			*{
+				cursor: pointer;
+			}
         }
 
         span{

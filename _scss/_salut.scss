@@ -1560,7 +1560,7 @@ input {
         margin: 3rem 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 10px;
         grid-row-gap: 10px; 
         height: 30rem;
@@ -1590,20 +1590,20 @@ input {
 		
 		&.icon{
 			background: $color-red;
-            background-size: cover;  
+      background-size: cover;  
 			cursor: pointer;		
 			*{
 				cursor: pointer;
 			}
-        }
+    }
 
-        span{
-          display: table-cell;
-          vertical-align: middle;
-        }
+    span{
+        display: table-cell;
+        vertical-align: middle;
       }
     }
   }
+}
 
   article {
     section {

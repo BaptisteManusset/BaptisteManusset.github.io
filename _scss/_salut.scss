@@ -1431,7 +1431,6 @@ input {
   }
 
   li {
-
     &::before {
       position: absolute;
       z-index: -1;
@@ -1444,6 +1443,7 @@ input {
       transform: translateX(100%);
       pointer-events: none;
       filter: drop-shadow(10px 10px 30px #000);
+      background-repeat: no-repeat;
 
     }
     &.bg-phone {
@@ -1587,6 +1587,35 @@ input {
               background-size: cover;     
             }
         }
+
+      &.icon-twitter{
+        background-image: url("../images/blender.png");
+        background-size: cover;    
+      }
+      &.icon-mastodon{
+        background-image: url("../images/photoshop.png");
+        background-size: cover;    
+      }
+     &.icon-bsky{
+        background-image: url("../images/unity.png");
+        background-size: cover;    
+      }
+     &.icon-artstation{
+        background-image: url("../images/illustrator.png");
+        background-size: cover;    
+      }
+     &.icon-portfolio{
+        background-image: url("../images/substance.png");
+        background-size: cover;    
+      }
+      &.icon-itsbaptiste{
+        background-image: url("../images/premiere.png");
+        background-size: cover;    
+      }
+      &.icon-github{
+        background-image: url("../images/blender.png");
+        background-size: cover;    
+      }
 		
 		&.icon{
 			background: $color-red;

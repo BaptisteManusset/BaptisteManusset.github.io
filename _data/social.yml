@@ -14,3 +14,7 @@
   link: 'https://www.artstation.com/itsbaptiste'
   social_icon: Artstation
   new_window: true
+- name: Artstation
+  link: 'https://www.artstation.com/itsbaptiste'
+  social_icon: Cloud
+  new_window: true

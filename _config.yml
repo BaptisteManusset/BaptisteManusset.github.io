@@ -5,8 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
-  Je suis un étudiant qui se destine à devenir développeur. J'ai commencé ma formation par le developpement pour internet
-  mais depuis 2 ans je me forme au developpement pour le jeu vidéo avec Unity ou d'autre language.
+  Developpeur de jeux vidéo en Vr, je suis passionné de VR et de modélisation 3D, je crée des mondes immersifs en utilisant des outils numériques, tout en explorant des supports traditionnels pour enrichir ma créativité.
 # Author details for the jekyll-seo-tag gem
 author:
   name: Baptiste Manusset

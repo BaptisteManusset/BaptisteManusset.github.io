@@ -3,12 +3,12 @@ title: accueil
 date: 2019-12-15 00:00:00 Z
 layout: default
 ---
+## Bonjour,<br> Je suis **Baptiste Manusset**.
+Un voyageur curieux, un amateur de science-fiction et un créateur passionné.
+Pendant les cinq dernières années, j'ai plongé dans l'univers de la réalité virtuelle grace a un master spécialisé puis en travaillant au sein studio de jeux vidéo LDLC VR Studio. Mais ce n'est pas tout ! En dehors du travail, je suis aussi un artiste 3D qui se perd volontiers dans des mondes étranges et fantastiques.
 
-## Je suis<br>**Baptiste Manusset**,<br>  fraîchement diplômé<br> d'un **master MTI3D** <br> et **gamedev**.
+J'adore voyager, que ce soit dans des villes du monde réel ou des contrées imaginaires. Ma soif d'aventure m'a également conduit à explorer des univers inconnus qui défient l'imagination. Les mondes étranges et familiers d'oeuvres de fictions, m'inspirent. Ma curiosité insatiable m'amène à démonter les choses pour en comprendre le fonctionnement, que ce soit dans la vie réelle ou virtuelle. Mon objectif est de créer des expériences immersives qui transportent les joueurs dans des mondes extraordinaires.
 
-Diplômé en octobre du **Master MTI3D** (ENSAM/Arts et Métiers) durant lequel j'ai effectué une alternance chez Max Sens Innovations, je suis passionné  de jeux vidéo et de nouvelles technologies. Je développe d'ailleurs un jeu pendant mon temps libre, quand je ne participe pas à des game-jams.
+Pour donner vie à mes idées, j'aime utiliser une gamme variée d'outils et de supports. J'exploite des logiciels tels que Blender et Unity pour créer des expériences VR immersives. De plus, je m'aventure régulièrement dans le monde des supports plus traditionnels, tels que le dessin sur papier, qui apportent une dimension tactile à ma créativité. Cette approche polyvalente m'offre une palette étendue pour explorer, expérimenter et donner vie à des idées d'une manière diversifiée.
 
-Durant mon master, j'ai pu me former au développement pour Unity ainsi qu'à la modélisation 3D, sans oublier le texturing. J’ai pu travailler en équipe sur des projets aussi divers que variés. Projets grâce auxquels j'ai pu trouver ma vocation : développeur.
-
-Autodidacte toujours à l'affût de nouvelles disciplines, j'ai beaucoup de hobbys qui me permettent de perfectionner mes compétences et ce dans divers domaines : dessin, modélisation 3D ou développement. Mais ce qui me plaît le plus actuellement, c’est le développement de jeux vidéos (et même certains en **réalité virtuelle** !). Je développe avec Unity, sur lequel j’ai créé tous mes projets, universitaires ou personnels. Je me suis également formé sur **Game Maker Studio 2**.
-<br>
+Si vous partagez ma passion pour l'émerveillement, la curiosité et la créativité, je vous invite à explorer mon portfolio. Ensemble, nous pouvons repousser les frontières de l'immersion en VR et de la création 3D. Alors, prêts à embarquer pour un voyage dans l'inconnu ?

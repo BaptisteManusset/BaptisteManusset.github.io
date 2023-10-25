@@ -1557,20 +1557,28 @@ input {
     }
 
     .cards {
-        margin: 3rem 0;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 10px; 
-        height: 30rem;
+      margin: 3rem 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      // grid-template-rows: repeat(auto-fill, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      // height: 30rem;
+
+      a{
+        &:hover{
+          transform: scale(1.01);
+        }
+        transition-duration: 500ms;
+        transition-timing-function: ease-in-out;
+      }
 
       > *{
         @extend %bg;
         display: table;
-        cursor: auto;
-	border-radius: 0.35em;
-
+        // cursor: auto;
+	      border-radius: 0.35em;
+        height: 20rem;
 
         $skills: (
             "blender",

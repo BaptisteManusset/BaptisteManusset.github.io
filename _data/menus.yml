@@ -8,5 +8,5 @@
   link: '#projets'
   class: camera
 - name: Contacts
-  link: '/linktree/'
+  link: 'linktree'
   class: phone

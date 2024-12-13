@@ -1,12 +1,12 @@
-- name: Skills
-  link: '#competences'
-  class: camera
-- name: Cursus
-  link: '#cursus'
-  class: tele
+#- name: Skills
+#  link: '#competences'
+#  class: camera
+#- name: Cursus
+#  link: '#cursus'
+#  class: tele
 - name: Projets
   link: '#projets'
   class: camera
-- name: CV
-  link: '/dl/cv.pdf'
+- name: Contacts
+  link: '/linktree/'
   class: phone

@@ -1,6 +1,6 @@
-- name: Twitter
-  link: 'https://twitter.com/ItsBaptiste'
-  social_icon: Twitter
+- name: Bluesky
+  link: 'https://bsky.app/profile/itsbaptiste.bsky.social'
+  social_icon: Bluesky
   new_window: true
 - name: Github
   link: 'https://github.com/BaptisteManusset/'

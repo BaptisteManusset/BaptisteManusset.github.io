@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '4.2.0'
+gem 'jekyll', '4.3.4'
 
 group :jekyll_plugins do
 	gem 'jekyll-feed'
@@ -10,7 +10,9 @@ group :jekyll_plugins do
 	gem 'jekyll-youtube'
 	gem 'jekyll-webp'
 	# gem 'jekyll-manager'
-	gem 'wdm', '>= 0.1.1' if Gem.win_platform?
+	gem 'wdm'
+	gem 'csv'
+	gem 'base64'
 end
 #https://github.com/zroger/jekyll-minimagick
 

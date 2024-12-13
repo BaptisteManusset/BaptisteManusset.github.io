@@ -15,62 +15,17 @@ layout: default
 <section id="competence-block">
   <h2 id="competences">Compétences</h2>
 <div class="skills cards">
-<!-- <i class="fab fa-unity"></i><span class="icon">Ps</span> <span class="icon">Ai</span> <span class="icon">Pr</span>  <span class="icon-svg"><svg viewBox="0 0 221.5 222"><path d="M0,110.5,111,0,221.5,111.5H158L111.25,64.75l-46,46L110.5,156V111.5h47V176l-46,46Z"/></svg></span>  -->
  <div class="icon-unity"><span>Unity</span></div>
  <div class="icon-blender"><span>Blender</span></div>
  <div class="icon-substance"><span>Substance Painter</span></div>
  <div class="icon-photoshop"><span>Photoshop</span></div>
  <div class="icon-illustrator"><span>Illutrator</span></div>
  <div class="icon-premiere"><span>Premiere Pro</span></div>
-<!--<i class="fab fa-php"></i><i class="fab fa-js"></i><i class="fab fa-html5"></i><i class="fab fa-sass"></i>
-<i class="fab fa-gulp"></i>-->
 
 </div>
 </section>
     {% endif %}
     {% endfor %}
-
-  <section class="newtimeline" id="cursus">
-    <h2>Mon Cursus</h2>
-<div class="timeline-container">
-
-    <ul class="timeline-events">
-
-      {% assign sorted = site.timelines | sort: 'start_date' %}
-      {% assign i = 0 %}
-      {% for post in sorted %}
-
-
-      {% assign style-orign = post.start_date | date: '%Y' | minus: 2015 | times: 2 |floor | plus: 1%}
-
-	  {% if post.is_stage == true%}
-	  {% assign style-orign = style-orign |  plus: -1 %}
-	  {% endif %}
-
-
-      {% assign style-end = post.year_number | times: 2 |floor%}
-
-      <li class="timeline-event years-{{post.year_number | replace: '.','-'}} {% if post.is_stage == true%}timeline-event-stage{% else %}timeline-event-formation{% endif %}" style="grid-column: {{style-orign}} / span {{style-end}}">
-        <p><span>{{post.start_date | date: '%Y'}}-{{post.end_date | date: '%Y'}}</span></p>
-        <p><span>{{ post.lieu}}</span></p>
-        <h3><span>{{ post.title }}</span></h3>
-      </li>
-
-      <li class="timeline-event-line {% if post.is_stage == true%}stage{% else %}formation{% endif %} {% if i == 0 %}timeline-event-line-first{% endif %}" style="grid-column: {{style-orign}} / span {{style-end}}"></li>
-
-      {% assign i = i | plus: 1 %}
-      {% endfor %}
-      <li class="timelines-years">2015</li>
-      <li class="timelines-years">2016</li>
-      <li class="timelines-years">2017</li>
-      <li class="timelines-years">2018</li>
-      <li class="timelines-years">2019</li>
-      <li class="timelines-years">2020</li>
-      <li class="timelines-years">2021</li>
-      <li class="timelines-years">2022</li>
-    </ul>
-  </div>
-  </section>
   <section id="projets">
     <h2>Mes projets</h2>
     <div class="row articles">

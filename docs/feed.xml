@@ -1,225 +1,225 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://baptistemanusset.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://baptistemanusset.github.io//" rel="alternate" type="text/html" /><updated>2023-10-25T15:00:32+02:00</updated><id>https://baptistemanusset.github.io//feed.xml</id><title type="html">Baptiste Manusset</title><subtitle>Developpeur de jeux vidéo en Vr, je suis passionné de VR et de modélisation 3D, je crée des mondes immersifs en utilisant des outils numériques, tout en explorant des supports traditionnels pour enrichir ma créativité.
-</subtitle><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><entry><title type="html">Burning Sand</title><link href="https://baptistemanusset.github.io//burning-sand/" rel="alternate" type="text/html" title="Burning Sand" /><published>2021-11-13T01:00:00+01:00</published><updated>2021-11-13T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//burning-sand</id><content type="html" xml:base="https://baptistemanusset.github.io//burning-sand/">&lt;p&gt;&lt;strong&gt;Burning Sand&lt;/strong&gt; est un jeu d’exploration se situant sur une planète colonisée il y a plusieurs centaines d’années. Vous incarnez un descendant de ces colons après que leurs savoirs et leurs technologies avancées aient disparu. Vous allez devoir explorer ce monde, pour redécouvrir d’anciennes technologies et leurs secrets.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://baptistemanusset.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://baptistemanusset.github.io//" rel="alternate" type="text/html" /><updated>2024-12-13T18:00:01+01:00</updated><id>https://baptistemanusset.github.io//feed.xml</id><title type="html">Baptiste Manusset</title><subtitle>Developpeur de jeux vidéo en Vr, je suis passionné de VR et de modélisation 3D, je crée des mondes immersifs en utilisant des outils numériques, tout en explorant des supports traditionnels pour enrichir ma créativité.
+</subtitle><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><entry><title type="html">Burning Sand</title><link href="https://baptistemanusset.github.io//burning-sand/" rel="alternate" type="text/html" title="Burning Sand" /><published>2021-11-13T01:00:00+01:00</published><updated>2021-11-13T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//burning-sand</id><content type="html" xml:base="https://baptistemanusset.github.io//burning-sand/"><![CDATA[<p><strong>Burning Sand</strong> est un jeu d’exploration se situant sur une planète colonisée il y a plusieurs centaines d’années. Vous incarnez un descendant de ces colons après que leurs savoirs et leurs technologies avancées aient disparu. Vous allez devoir explorer ce monde, pour redécouvrir d’anciennes technologies et leurs secrets.</p>
 
-&lt;p&gt;Burning Sand est un jeu accès en grande partie sur l’exploration du monde souterrain de la planète, car sa surface est beaucoup trop chaude pour y vivre.&lt;/p&gt;
+<p>Burning Sand est un jeu accès en grande partie sur l’exploration du monde souterrain de la planète, car sa surface est beaucoup trop chaude pour y vivre.</p>
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Le jeu est en cours de développement sur Unity.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html">Burning Sand est un jeu d’exploration se situant sur une planète colonisée il y a plusieurs centaines d’années. Vous incarnez un descendant de ces colons après que leurs savoirs et leurs technologies avancées aient disparu. Vous allez devoir explorer ce monde, pour redécouvrir d’anciennes technologies et leurs secrets.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/burningsand/burningsand.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/burningsand/burningsand.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Computer</title><link href="https://baptistemanusset.github.io//computer/" rel="alternate" type="text/html" title="Computer" /><published>2021-09-12T02:00:00+02:00</published><updated>2021-09-12T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//computer</id><content type="html" xml:base="https://baptistemanusset.github.io//computer/">&lt;p&gt;Projet personnel basé sur les concepts art d’un artiste: &lt;a href=&quot;https://twitter.com/FroginatorArt/status/1430647473396142083&quot;&gt;@FroginatorArt&lt;/a&gt;.&lt;/p&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Le jeu est en cours de développement sur Unity.
+</code></pre></div></div>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html"><![CDATA[Burning Sand est un jeu d’exploration se situant sur une planète colonisée il y a plusieurs centaines d’années. Vous incarnez un descendant de ces colons après que leurs savoirs et leurs technologies avancées aient disparu. Vous allez devoir explorer ce monde, pour redécouvrir d’anciennes technologies et leurs secrets.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/burningsand/burningsand.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/burningsand/burningsand.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Computer</title><link href="https://baptistemanusset.github.io//computer/" rel="alternate" type="text/html" title="Computer" /><published>2021-09-12T02:00:00+02:00</published><updated>2021-09-12T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//computer</id><content type="html" xml:base="https://baptistemanusset.github.io//computer/"><![CDATA[<p>Projet personnel basé sur les concepts art d’un artiste: <a href="https://twitter.com/FroginatorArt/status/1430647473396142083">@FroginatorArt</a>.</p>
 
-&lt;p&gt;Rendu et modélisation fait avec Blender.&lt;/p&gt;
+<p>Rendu et modélisation fait avec Blender.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/computer/front.jpg&quot; alt=&quot;avant&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/computer/front.jpg" alt="avant" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/computer/front_2.jpg&quot; alt=&quot;avant&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/computer/front_2.jpg" alt="avant" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/computer/keyboard_zoom.jpg&quot; alt=&quot;avant&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/computer/keyboard_zoom.jpg" alt="avant" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/computer/topview.jpg&quot; alt=&quot;avant&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/computer/topview.jpg" alt="avant" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/computer/back.jpg&quot; alt=&quot;arriere et coté gauche&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/computer/back.jpg" alt="arriere et coté gauche" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/computer/back_2.jpg&quot; alt=&quot;arriere et coté droit&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/computer/back_2.jpg" alt="arriere et coté droit" /></p>
 
-&lt;p&gt;Vous pouvez voir plus de rendu sur &lt;a href=&quot;https://www.artstation.com/artwork/YeALWq&quot;&gt;Artstation&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Modélisation 3D" /><summary type="html">Projet personnel basé sur les concepts art d’un artiste: @FroginatorArt.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/computer/computer.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/computer/computer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">King Kong Vr</title><link href="https://baptistemanusset.github.io//kingkong/" rel="alternate" type="text/html" title="King Kong Vr" /><published>2021-05-01T02:00:00+02:00</published><updated>2021-05-01T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//kingkong</id><content type="html" xml:base="https://baptistemanusset.github.io//kingkong/">&lt;h2 id=&quot;trailer&quot;&gt;Trailer&lt;/h2&gt;
-&lt;div class=&quot;yt-container&quot;&gt;
-  &lt;iframe src=&quot;https://www.youtube.com/embed/4JlSXjQmnf0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+<p>Vous pouvez voir plus de rendu sur <a href="https://www.artstation.com/artwork/YeALWq">Artstation</a>.</p>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Modélisation 3D" /><summary type="html"><![CDATA[Projet personnel basé sur les concepts art d’un artiste: @FroginatorArt.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/computer/computer.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/computer/computer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">King Kong Vr</title><link href="https://baptistemanusset.github.io//kingkong/" rel="alternate" type="text/html" title="King Kong Vr" /><published>2021-05-01T02:00:00+02:00</published><updated>2021-05-01T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//kingkong</id><content type="html" xml:base="https://baptistemanusset.github.io//kingkong/"><![CDATA[<h2 id="trailer">Trailer</h2>
+<div class="yt-container">
+  <iframe src="https://www.youtube.com/embed/4JlSXjQmnf0" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
-&lt;p&gt;Le projet est un jeu en VR asymétrique qui permet aux deux joueurs d’incarner King Kong ou un aviateur. Ceux-ci ont des rôles bien définis :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;L’aviateur doit tirer sur King Kong et lui foncer dessus sans se faire attraper ou se faire cogner par celui-ci. Le joueur doit faire en sorte de faire perdre tous ses PV à l’autre joueur où le faire sortir de sa zone.&lt;/li&gt;
-  &lt;li&gt;King Kong doit attrapper ou frapper l’aviateur qu’il peut tuer en un coup.&lt;/li&gt;
-&lt;/ul&gt;
+<p>Le projet est un jeu en VR asymétrique qui permet aux deux joueurs d’incarner King Kong ou un aviateur. Ceux-ci ont des rôles bien définis :</p>
+<ul>
+  <li>L’aviateur doit tirer sur King Kong et lui foncer dessus sans se faire attraper ou se faire cogner par celui-ci. Le joueur doit faire en sorte de faire perdre tous ses PV à l’autre joueur où le faire sortir de sa zone.</li>
+  <li>King Kong doit attrapper ou frapper l’aviateur qu’il peut tuer en un coup.</li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/kingkong/king kong.png&quot; alt=&quot;king kong&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/kingkong/king kong.png" alt="king kong" /></p>
 
-&lt;h2 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h2&gt;
-&lt;p&gt;Le joueur qui incarne &lt;strong&gt;King Kong&lt;/strong&gt; utilise un casque de &lt;strong&gt;réalité virtuelle&lt;/strong&gt;, avec les manettes il pourra saisir les objets. Ses mouvements sont retranscrits en temps réel dans l’application. Avec les gâchettes, il pourra saisir les avions au vol et les lancer.&lt;/p&gt;
+<h2 id="gameplay">Gameplay</h2>
+<p>Le joueur qui incarne <strong>King Kong</strong> utilise un casque de <strong>réalité virtuelle</strong>, avec les manettes il pourra saisir les objets. Ses mouvements sont retranscrits en temps réel dans l’application. Avec les gâchettes, il pourra saisir les avions au vol et les lancer.</p>
 
-&lt;p&gt;Celui qui incarne l’&lt;strong&gt;aviateur&lt;/strong&gt; utilise un &lt;strong&gt;joystick de simulation&lt;/strong&gt; et un ordinateur. Ainsi il aura la sensation de piloter un avion avec toute la liberté de mouvements qui sera possible dans le jeu. Les boutons sur le joystick permettent de tirer.&lt;/p&gt;
+<p>Celui qui incarne l’<strong>aviateur</strong> utilise un <strong>joystick de simulation</strong> et un ordinateur. Ainsi il aura la sensation de piloter un avion avec toute la liberté de mouvements qui sera possible dans le jeu. Les boutons sur le joystick permettent de tirer.</p>
 
-&lt;p&gt;Le but du jeu pour le joueur en VR (king kong) est d’éliminer le joueur adverse dans un temps imparti. Il pourra gagner des points en lançant l’avion dans des anneaux.
- Le second joueur (l’aviateur) devra mettre KO l’autre joueur en lui tirant dessus. Il pourra gagner des points en tirant sur des ballons.&lt;/p&gt;
+<p>Le but du jeu pour le joueur en VR (king kong) est d’éliminer le joueur adverse dans un temps imparti. Il pourra gagner des points en lançant l’avion dans des anneaux.
+ Le second joueur (l’aviateur) devra mettre KO l’autre joueur en lui tirant dessus. Il pourra gagner des points en tirant sur des ballons.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/kingkong/vue avion.png&quot; alt=&quot;vue avion&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/kingkong/vue avion.png" alt="vue avion" /></p>
 
-&lt;h2 id=&quot;game-design&quot;&gt;Game Design&lt;/h2&gt;
-&lt;p&gt;Le jeu se déroule dans l’univers d’un enfant, construit avec ses jouets. La modélisation 3D est de style cartoon et notre principale inspiration : “Little Big Planet”. Une partie se déroule comme si un enfant jouait avec ses jouets dans sa chambre, un univers qu’il construit avec ses petites figurines éparpillés sur le tapis de jeu.&lt;/p&gt;
+<h2 id="game-design">Game Design</h2>
+<p>Le jeu se déroule dans l’univers d’un enfant, construit avec ses jouets. La modélisation 3D est de style cartoon et notre principale inspiration : “Little Big Planet”. Une partie se déroule comme si un enfant jouait avec ses jouets dans sa chambre, un univers qu’il construit avec ses petites figurines éparpillés sur le tapis de jeu.</p>
 
-&lt;p&gt;&lt;strong&gt;Point de vue KING KONG&lt;/strong&gt; : en haut d’une tour de bois.&lt;br /&gt;
-&lt;strong&gt;Point de vue aviateur&lt;/strong&gt; : dans son avion jouet. Les bâtiments sont construits grâce à des cubes et d’autres formes en bois. Les spectateurs et la population sont, quant à eux, représentés par des figurines en bois également. La ville est inspirée du centre de Laval avec des éléments représentatifs comme le château, la Mayenne, les ponts, la construction de la ville en générale.&lt;/p&gt;
+<p><strong>Point de vue KING KONG</strong> : en haut d’une tour de bois.<br />
+<strong>Point de vue aviateur</strong> : dans son avion jouet. Les bâtiments sont construits grâce à des cubes et d’autres formes en bois. Les spectateurs et la population sont, quant à eux, représentés par des figurines en bois également. La ville est inspirée du centre de Laval avec des éléments représentatifs comme le château, la Mayenne, les ponts, la construction de la ville en générale.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/kingkong/vue from bottom.jpg&quot; alt=&quot;vue from bottom&quot; /&gt;
-Vue du sol&lt;/p&gt;
+<p><img src="/images/projects/kingkong/vue from bottom.jpg" alt="vue from bottom" />
+Vue du sol</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/kingkong/vue riviere.jpg&quot; alt=&quot;vue from bottom&quot; /&gt;
-Vue de la riviere&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Réalité Virtuelle" /><category term="Unity" /><summary type="html">Trailer</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/kingkong/kingkong.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/kingkong/kingkong.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Photomaton(wip)</title><link href="https://baptistemanusset.github.io//photomaton/" rel="alternate" type="text/html" title="Photomaton(wip)" /><published>2021-03-15T01:00:00+01:00</published><updated>2021-03-15T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//photomaton</id><content type="html" xml:base="https://baptistemanusset.github.io//photomaton/">&lt;p&gt;Projet personnel en cours de création, inspiré par &lt;a href=&quot;https://www.artstation.com/artwork/JbgBR&quot;&gt;52Hz de Cornelius Dämmrich&lt;/a&gt;. C’est mon premier projet dans un style photo-réaliste.&lt;/p&gt;
+<p><img src="/images/projects/kingkong/vue riviere.jpg" alt="vue from bottom" />
+Vue de la riviere</p>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Réalité Virtuelle" /><category term="Unity" /><summary type="html"><![CDATA[Trailer]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/kingkong/kingkong.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/kingkong/kingkong.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Photomaton(wip)</title><link href="https://baptistemanusset.github.io//photomaton/" rel="alternate" type="text/html" title="Photomaton(wip)" /><published>2021-03-15T01:00:00+01:00</published><updated>2021-03-15T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//photomaton</id><content type="html" xml:base="https://baptistemanusset.github.io//photomaton/"><![CDATA[<p>Projet personnel en cours de création, inspiré par <a href="https://www.artstation.com/artwork/JbgBR">52Hz de Cornelius Dämmrich</a>. C’est mon premier projet dans un style photo-réaliste.</p>
 
-&lt;p&gt;Je souhaite créer un vieux photomaton dans un lieu publique lugubre et peu entretenue recouvert de tags et autre stickers abîmés.&lt;/p&gt;
+<p>Je souhaite créer un vieux photomaton dans un lieu publique lugubre et peu entretenue recouvert de tags et autre stickers abîmés.</p>
 
-&lt;p&gt;Il reste encore beaucoup de travail pour avoir un effet photo réaliste, mais le résultat commence à être satisfaisant.&lt;/p&gt;
+<p>Il reste encore beaucoup de travail pour avoir un effet photo réaliste, mais le résultat commence à être satisfaisant.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/photomaton/photomaton.png&quot; alt=&quot;photomaton&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/photomaton/photomaton.png" alt="photomaton" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/photomaton/clavier.png&quot; alt=&quot;clavier&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/photomaton/clavier.png" alt="clavier" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/photomaton/devant.png&quot; alt=&quot;devant de la cabine&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/photomaton/devant.png" alt="devant de la cabine" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/photomaton/clavier_et_ecran.png&quot; alt=&quot;clavier et ecran&quot; /&gt;&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Modélisation 3D" /><summary type="html">Projet personnel en cours de création, inspiré par 52Hz de Cornelius Dämmrich. C’est mon premier projet dans un style photo-réaliste.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/photomaton/photomaton.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/photomaton/photomaton.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Nightmare Mansion</title><link href="https://baptistemanusset.github.io//NightmareMansion/" rel="alternate" type="text/html" title="Nightmare Mansion" /><published>2021-01-15T01:00:00+01:00</published><updated>2021-01-15T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//NightmareMansion</id><content type="html" xml:base="https://baptistemanusset.github.io//NightmareMansion/">&lt;p&gt;&lt;strong&gt;Nightmare Mansion&lt;/strong&gt; est un jeu compétitif asymétrique. Le premier joueur est un chasseur de fantôme qui doit attraper le second joueur qui incarne un fantôme qui doit mettre le plus de bazars possible.&lt;/p&gt;
+<p><img src="/images/projects/photomaton/clavier_et_ecran.png" alt="clavier et ecran" /></p>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Modélisation 3D" /><summary type="html"><![CDATA[Projet personnel en cours de création, inspiré par 52Hz de Cornelius Dämmrich. C’est mon premier projet dans un style photo-réaliste.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/photomaton/photomaton.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/photomaton/photomaton.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Nightmare Mansion</title><link href="https://baptistemanusset.github.io//NightmareMansion/" rel="alternate" type="text/html" title="Nightmare Mansion" /><published>2021-01-15T01:00:00+01:00</published><updated>2021-01-15T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//NightmareMansion</id><content type="html" xml:base="https://baptistemanusset.github.io//NightmareMansion/"><![CDATA[<p><strong>Nightmare Mansion</strong> est un jeu compétitif asymétrique. Le premier joueur est un chasseur de fantôme qui doit attraper le second joueur qui incarne un fantôme qui doit mettre le plus de bazars possible.</p>
 
-&lt;p&gt;Le but de ce projet était de créer un jeu asymétrique ou l’on place un joueur en réalité virtuelle face à un autre qui contrôle son fantôme grâce à un Novint Falcon. Le Falcon est un appareil de retour de force haptique qui permet de contrôler des éléments dans un environnement en trois dimensions.&lt;/p&gt;
+<p>Le but de ce projet était de créer un jeu asymétrique ou l’on place un joueur en réalité virtuelle face à un autre qui contrôle son fantôme grâce à un Novint Falcon. Le Falcon est un appareil de retour de force haptique qui permet de contrôler des éléments dans un environnement en trois dimensions.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/nightmaremansion/info.png&quot; alt=&quot;joueurs 1 et 2&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/nightmaremansion/info.png" alt="joueurs 1 et 2" /></p>
 
-&lt;p&gt;Cet appareil n’est plus supporté, mais l’école en possède encore un de fonctionnel. Nous avons dû utiliser Unity 2017 pour configurer cet appareil, car il n’est plus fonctionnel avec les versions supérieures. Nous avons réalisé la totalité des assets de ce jeu en nous inspirant de Resident Evil ainsi que Ghost Buster.&lt;/p&gt;
+<p>Cet appareil n’est plus supporté, mais l’école en possède encore un de fonctionnel. Nous avons dû utiliser Unity 2017 pour configurer cet appareil, car il n’est plus fonctionnel avec les versions supérieures. Nous avons réalisé la totalité des assets de ce jeu en nous inspirant de Resident Evil ainsi que Ghost Buster.</p>
 
-&lt;p&gt;Nous avons fait ce projet en équipe (Justine Bertrand, Mathilde Beuvin, Nicolas Frenot, Maxence Rouillet et moi-même)&lt;/p&gt;
+<p>Nous avons fait ce projet en équipe (Justine Bertrand, Mathilde Beuvin, Nicolas Frenot, Maxence Rouillet et moi-même)</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/nightmaremansion/tutorial room.png&quot; alt=&quot;tutoriel&quot; /&gt;
-Salle de tutoriel au même dimension que la salle de jeu&lt;/p&gt;
+<p><img src="/images/projects/nightmaremansion/tutorial room.png" alt="tutoriel" />
+Salle de tutoriel au même dimension que la salle de jeu</p>
 
-&lt;p&gt;Chaque partie dure environ 5 minutes, un tutoriel est lancé au début afin de permettre une bonne prise en main de l’appareil servant à contrôler le fantôme. Ce tutoriel permet également à l’autre joueur de s’habituer a l’environnement en VR. Chaque utilisateur joue à tour de rôle le chasseur et le fantôme durant une manche de 2 minutes environ. Le fantôme bouge et doit récolter des points sans se faire attraper par le chasseur. Le chasseur, quant à lui, doit viser le fantôme avec son pistolet pour l’attraper. Les points représentent un challenge en plus, car chaque joueur veut avoir le meilleur score.&lt;/p&gt;
+<p>Chaque partie dure environ 5 minutes, un tutoriel est lancé au début afin de permettre une bonne prise en main de l’appareil servant à contrôler le fantôme. Ce tutoriel permet également à l’autre joueur de s’habituer a l’environnement en VR. Chaque utilisateur joue à tour de rôle le chasseur et le fantôme durant une manche de 2 minutes environ. Le fantôme bouge et doit récolter des points sans se faire attraper par le chasseur. Le chasseur, quant à lui, doit viser le fantôme avec son pistolet pour l’attraper. Les points représentent un challenge en plus, car chaque joueur veut avoir le meilleur score.</p>
 
-&lt;div class=&quot;yt-container&quot;&gt;
-  &lt;iframe src=&quot;https://www.youtube.com/embed/R9slg06K7o0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+<div class="yt-container">
+  <iframe src="https://www.youtube.com/embed/R9slg06K7o0" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
-&lt;h2 id=&quot;playtest&quot;&gt;PlayTest&lt;/h2&gt;
+<h2 id="playtest">PlayTest</h2>
 
-&lt;p&gt;Pour avoir un projet le plus fun possible, nous avons fait des playtests avec plusieurs personnes de notre promotion. Cela nous a permis de nous rendre compte que les personnes ne comprenaient pas forcément comment jouer avec le fantôme étant donné que le Falcon est un appareil peu commun, c’est pourquoi nous avons rajouté une salle de tutoriel avant de passer au jeu en lui-même. Cette salle de tutoriel permet aussi au joueur de signifier à leur adversaire qu’il est prés.&lt;/p&gt;
+<p>Pour avoir un projet le plus fun possible, nous avons fait des playtests avec plusieurs personnes de notre promotion. Cela nous a permis de nous rendre compte que les personnes ne comprenaient pas forcément comment jouer avec le fantôme étant donné que le Falcon est un appareil peu commun, c’est pourquoi nous avons rajouté une salle de tutoriel avant de passer au jeu en lui-même. Cette salle de tutoriel permet aussi au joueur de signifier à leur adversaire qu’il est prés.</p>
 
-&lt;p&gt;Ces playtests nous on permis d’apporter de nombreuses modifications pour en arriver au jeu final. Le prototype du projet était déjà amusant, mais avec les tests et en suivant les propositions d’améliorations nous avons réussi à faire un jeu drôle, et compétitif ou tout le monde peut s’amuser.&lt;/p&gt;
+<p>Ces playtests nous on permis d’apporter de nombreuses modifications pour en arriver au jeu final. Le prototype du projet était déjà amusant, mais avec les tests et en suivant les propositions d’améliorations nous avons réussi à faire un jeu drôle, et compétitif ou tout le monde peut s’amuser.</p>
 
-&lt;h2 id=&quot;retour&quot;&gt;Retour&lt;/h2&gt;
+<h2 id="retour">Retour</h2>
 
-&lt;p&gt;Ce jeu a eu un bel effet sur toutes les personnes qui y ont joué, même le jury s’est pris au jeu, nous avons eu le droit à de bons moments de rire et nous avons réussi à titiler leurs esprits de compétition.&lt;/p&gt;
+<p>Ce jeu a eu un bel effet sur toutes les personnes qui y ont joué, même le jury s’est pris au jeu, nous avons eu le droit à de bons moments de rire et nous avons réussi à titiler leurs esprits de compétition.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/nightmaremansion/salle.png&quot; alt=&quot;salle&quot; /&gt;
-Environnement du jeu.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Réalité Virtuelle" /><category term="Unity" /><summary type="html">Nightmare Mansion est un jeu compétitif asymétrique. Le premier joueur est un chasseur de fantôme qui doit attraper le second joueur qui incarne un fantôme qui doit mettre le plus de bazars possible.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/nightmaremansion/nightmaremansion.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/nightmaremansion/nightmaremansion.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MouetteZilla</title><link href="https://baptistemanusset.github.io//Mouettezilla/" rel="alternate" type="text/html" title="MouetteZilla" /><published>2020-11-02T01:00:00+01:00</published><updated>2020-11-02T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//Mouettezilla</id><content type="html" xml:base="https://baptistemanusset.github.io//Mouettezilla/">&lt;p&gt;MouetteZilla est le jeu où vous contrôlez une mouette géante qui a pour but de détruire la ville et atteindre une coût de dégât de 100 000 $, tout en évitant d’être abattue par l’armée.
-Ce jeu a été créé en une semaine sur Unity en collaboration avec &lt;strong&gt;Justine Bertrand&lt;/strong&gt; et &lt;strong&gt;Mathilde Beuvin&lt;/strong&gt; durant notre 2e année de master MTI3D. Sur ce projet, je me suis occupé de la programmation, pendant que Justine et Mathilde s’occupaient des modélisations 3D ou des assets 2D.&lt;/p&gt;
+<p><img src="/images/projects/nightmaremansion/salle.png" alt="salle" />
+Environnement du jeu.</p>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Réalité Virtuelle" /><category term="Unity" /><summary type="html"><![CDATA[Nightmare Mansion est un jeu compétitif asymétrique. Le premier joueur est un chasseur de fantôme qui doit attraper le second joueur qui incarne un fantôme qui doit mettre le plus de bazars possible.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/nightmaremansion/nightmaremansion.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/nightmaremansion/nightmaremansion.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MouetteZilla</title><link href="https://baptistemanusset.github.io//Mouettezilla/" rel="alternate" type="text/html" title="MouetteZilla" /><published>2020-11-02T01:00:00+01:00</published><updated>2020-11-02T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//Mouettezilla</id><content type="html" xml:base="https://baptistemanusset.github.io//Mouettezilla/"><![CDATA[<p>MouetteZilla est le jeu où vous contrôlez une mouette géante qui a pour but de détruire la ville et atteindre une coût de dégât de 100 000 $, tout en évitant d’être abattue par l’armée.
+Ce jeu a été créé en une semaine sur Unity en collaboration avec <strong>Justine Bertrand</strong> et <strong>Mathilde Beuvin</strong> durant notre 2e année de master MTI3D. Sur ce projet, je me suis occupé de la programmation, pendant que Justine et Mathilde s’occupaient des modélisations 3D ou des assets 2D.</p>
 
-&lt;p&gt;Le joueur peut attaquer avec son bec ou faire une attaque chargée en gardant le bouton de la souris enfoncé.
+<p>Le joueur peut attaquer avec son bec ou faire une attaque chargée en gardant le bouton de la souris enfoncé.
 La mouette détruit les bâtiments en marchant dessus, ou en volant et en se laissant tomber dessus.
-Plusieurs objectifs de quête peuvent être détruits, ceux-ci sont représentés par des bâtiments différents qui possèdent une barre de vie (centrale nucléaire, magasin de donuts et banque).&lt;/p&gt;
+Plusieurs objectifs de quête peuvent être détruits, ceux-ci sont représentés par des bâtiments différents qui possèdent une barre de vie (centrale nucléaire, magasin de donuts et banque).</p>
 
-&lt;div class=&quot;yt-container&quot;&gt;
-  &lt;iframe src=&quot;https://www.youtube.com/embed/A687indGKq0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+<div class="yt-container">
+  <iframe src="https://www.youtube.com/embed/A687indGKq0" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/mouettezilla/mouette.png&quot; alt=&quot;Central nucléaire&quot; /&gt;
-La mouette que l’on controle.&lt;/p&gt;
+<p><img src="/images/projects/mouettezilla/mouette.png" alt="Central nucléaire" />
+La mouette que l’on controle.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/mouettezilla/ville.png&quot; alt=&quot;Central nucléaire&quot; /&gt;
-Vue du ciel de la ville&lt;/p&gt;
+<p><img src="/images/projects/mouettezilla/ville.png" alt="Central nucléaire" />
+Vue du ciel de la ville</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/mouettezilla/central.png&quot; alt=&quot;Central nucléaire&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/mouettezilla/central.png" alt="Central nucléaire" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/mouettezilla/explosion.png&quot; alt=&quot;explosion de la mouette&quot; /&gt;
-Attaque chargé de la mouette&lt;/p&gt;
+<p><img src="/images/projects/mouettezilla/explosion.png" alt="explosion de la mouette" />
+Attaque chargé de la mouette</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/mouettezilla/helicoptere.png&quot; alt=&quot;explosion de la mouette&quot; /&gt;
-Gros plan d’un des hélicoptéres énnemis&lt;/p&gt;
+<p><img src="/images/projects/mouettezilla/helicoptere.png" alt="explosion de la mouette" />
+Gros plan d’un des hélicoptéres énnemis</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/mouettezilla/assets.png&quot; alt=&quot;exemples d&apos;assets&quot; /&gt;
-Quelques-uns des assets utilisés&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html">MouetteZilla est le jeu où vous contrôlez une mouette géante qui a pour but de détruire la ville et atteindre une coût de dégât de 100 000 $, tout en évitant d’être abattue par l’armée. Ce jeu a été créé en une semaine sur Unity en collaboration avec Justine Bertrand et Mathilde Beuvin durant notre 2e année de master MTI3D. Sur ce projet, je me suis occupé de la programmation, pendant que Justine et Mathilde s’occupaient des modélisations 3D ou des assets 2D.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/mouettezilla/mouettezilla.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/mouettezilla/mouettezilla.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Liquidateur</title><link href="https://baptistemanusset.github.io//Liquidateur/" rel="alternate" type="text/html" title="Liquidateur" /><published>2020-09-28T02:00:00+02:00</published><updated>2020-09-28T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//Liquidateur</id><content type="html" xml:base="https://baptistemanusset.github.io//Liquidateur/">&lt;p&gt;&lt;strong&gt;Liquidateurs&lt;/strong&gt; est un prototype de simulation, où plusieurs agents interagissent entre eux. Ce projet a été créé quelques jours de travail.
-Dans cette simulation, il y a deux types d’agents : les liquidateurs qui ramènent des déchets toxiques vers une benne, et des médecins qui viennent aider un liquidateur lorsqu’il est à terre.&lt;/p&gt;
+<p><img src="/images/projects/mouettezilla/assets.png" alt="exemples d'assets" />
+Quelques-uns des assets utilisés</p>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html"><![CDATA[MouetteZilla est le jeu où vous contrôlez une mouette géante qui a pour but de détruire la ville et atteindre une coût de dégât de 100 000 $, tout en évitant d’être abattue par l’armée. Ce jeu a été créé en une semaine sur Unity en collaboration avec Justine Bertrand et Mathilde Beuvin durant notre 2e année de master MTI3D. Sur ce projet, je me suis occupé de la programmation, pendant que Justine et Mathilde s’occupaient des modélisations 3D ou des assets 2D.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/mouettezilla/mouettezilla.png" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/mouettezilla/mouettezilla.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Liquidateur</title><link href="https://baptistemanusset.github.io//Liquidateur/" rel="alternate" type="text/html" title="Liquidateur" /><published>2020-09-28T02:00:00+02:00</published><updated>2020-09-28T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//Liquidateur</id><content type="html" xml:base="https://baptistemanusset.github.io//Liquidateur/"><![CDATA[<p><strong>Liquidateurs</strong> est un prototype de simulation, où plusieurs agents interagissent entre eux. Ce projet a été créé quelques jours de travail.
+Dans cette simulation, il y a deux types d’agents : les liquidateurs qui ramènent des déchets toxiques vers une benne, et des médecins qui viennent aider un liquidateur lorsqu’il est à terre.</p>
 
-&lt;div class=&quot;yt-container&quot;&gt;
-  &lt;iframe src=&quot;https://www.youtube.com/embed/sXvqi2nJdi8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+<div class="yt-container">
+  <iframe src="https://www.youtube.com/embed/sXvqi2nJdi8" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/liquidateur/liquidateurIAPreview.png&quot; alt=&quot;&quot; /&gt;
-Gros plan sur les agents se déplaçant pour effectuer leurs tâches.&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html">Liquidateurs est un prototype de simulation, où plusieurs agents interagissent entre eux. Ce projet a été créé quelques jours de travail. Dans cette simulation, il y a deux types d’agents : les liquidateurs qui ramènent des déchets toxiques vers une benne, et des médecins qui viennent aider un liquidateur lorsqu’il est à terre.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/liquidateur/liquidateur.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/liquidateur/liquidateur.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Shot the Duck</title><link href="https://baptistemanusset.github.io//shot-the-duck/" rel="alternate" type="text/html" title="Shot the Duck" /><published>2020-07-01T02:00:00+02:00</published><updated>2020-07-01T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//shot-the-duck</id><content type="html" xml:base="https://baptistemanusset.github.io//shot-the-duck/">&lt;p&gt;&lt;strong&gt;Shoot the duck&lt;/strong&gt; est un jeu créé en une semaine environ, dans lequel vous tirez sur les canards comme dans à fête foraine ! Le but est de tirer sur les cibles pour avoir le meilleur score possible ! Chaque cible rapporte un nombre de points différents.&lt;/p&gt;
+<p><img src="/images/projects/liquidateur/liquidateurIAPreview.png" alt="" />
+Gros plan sur les agents se déplaçant pour effectuer leurs tâches.</p>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html"><![CDATA[Liquidateurs est un prototype de simulation, où plusieurs agents interagissent entre eux. Ce projet a été créé quelques jours de travail. Dans cette simulation, il y a deux types d’agents : les liquidateurs qui ramènent des déchets toxiques vers une benne, et des médecins qui viennent aider un liquidateur lorsqu’il est à terre.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/liquidateur/liquidateur.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/liquidateur/liquidateur.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Shot the Duck</title><link href="https://baptistemanusset.github.io//shot-the-duck/" rel="alternate" type="text/html" title="Shot the Duck" /><published>2020-07-01T02:00:00+02:00</published><updated>2020-07-01T02:00:00+02:00</updated><id>https://baptistemanusset.github.io//shot-the-duck</id><content type="html" xml:base="https://baptistemanusset.github.io//shot-the-duck/"><![CDATA[<p><strong>Shoot the duck</strong> est un jeu créé en une semaine environ, dans lequel vous tirez sur les canards comme dans à fête foraine ! Le but est de tirer sur les cibles pour avoir le meilleur score possible ! Chaque cible rapporte un nombre de points différents.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/shottheduck/duck.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/shottheduck/duck.png" alt="" /></p>
 
-&lt;p&gt;Vous tirez avec votre carabine à plomb sur les cibles comme le canard jaune (la plus tradionnelle), ou d’autres plus originales.
-Chaque cible apporte des points. Mais si vous la ratez, vous perdrez une vie.&lt;/p&gt;
+<p>Vous tirez avec votre carabine à plomb sur les cibles comme le canard jaune (la plus tradionnelle), ou d’autres plus originales.
+Chaque cible apporte des points. Mais si vous la ratez, vous perdrez une vie.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/shottheduck/shot-the-duck1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/shottheduck/shot-the-duck1.png" alt="" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/shottheduck/shot-the-duck2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html">Shoot the duck est un jeu créé en une semaine environ, dans lequel vous tirez sur les canards comme dans à fête foraine ! Le but est de tirer sur les cibles pour avoir le meilleur score possible ! Chaque cible rapporte un nombre de points différents.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/shottheduck/shottheduck.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/shottheduck/shottheduck.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Haute Tension</title><link href="https://baptistemanusset.github.io//haute-tension/" rel="alternate" type="text/html" title="Haute Tension" /><published>2020-05-06T00:00:00+02:00</published><updated>2020-05-06T00:00:00+02:00</updated><id>https://baptistemanusset.github.io//haute-tension</id><content type="html" xml:base="https://baptistemanusset.github.io//haute-tension/">&lt;p&gt;&lt;strong&gt;Haute tension&lt;/strong&gt; est un projet universitaire créé durant la 1ère année de master MTI3D. Je travaille avec 3 camarades de classe sur le développement d’un outil de formation en réalité virtuelle “Projet Haute Tension”. Celui-ci est destiné à la formation d’élèves électriciens à d’Angers pour les casques de réalité virtuelle HTC Vive.&lt;/p&gt;
+<p><img src="/images/projects/shottheduck/shot-the-duck2.png" alt="" /></p>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html"><![CDATA[Shoot the duck est un jeu créé en une semaine environ, dans lequel vous tirez sur les canards comme dans à fête foraine ! Le but est de tirer sur les cibles pour avoir le meilleur score possible ! Chaque cible rapporte un nombre de points différents.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/shottheduck/shottheduck.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/shottheduck/shottheduck.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Haute Tension</title><link href="https://baptistemanusset.github.io//haute-tension/" rel="alternate" type="text/html" title="Haute Tension" /><published>2020-05-06T00:00:00+02:00</published><updated>2020-05-06T00:00:00+02:00</updated><id>https://baptistemanusset.github.io//haute-tension</id><content type="html" xml:base="https://baptistemanusset.github.io//haute-tension/"><![CDATA[<p><strong>Haute tension</strong> est un projet universitaire créé durant la 1ère année de master MTI3D. Je travaille avec 3 camarades de classe sur le développement d’un outil de formation en réalité virtuelle “Projet Haute Tension”. Celui-ci est destiné à la formation d’élèves électriciens à d’Angers pour les casques de réalité virtuelle HTC Vive.</p>
 
-&lt;p&gt;Le confinement ne nous permettant pas de développer avec le casque HTC Vive (resté dans les locaux de notre université), nous avons décidé de réorienter le développement pour fournir un outil de formation sur ordinateur. Il pourra aussi servir de base pour le développement d’une version en réalité virtuelle.&lt;/p&gt;
+<p>Le confinement ne nous permettant pas de développer avec le casque HTC Vive (resté dans les locaux de notre université), nous avons décidé de réorienter le développement pour fournir un outil de formation sur ordinateur. Il pourra aussi servir de base pour le développement d’une version en réalité virtuelle.</p>
 
-&lt;p&gt;Le projet permet de simuler la mise en tension d’un poste de livraison, ici une réplique de celui de l’université, qui fait la jonction entre les bâtiments et les câbles haute-tension.&lt;/p&gt;
+<p>Le projet permet de simuler la mise en tension d’un poste de livraison, ici une réplique de celui de l’université, qui fait la jonction entre les bâtiments et les câbles haute-tension.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/scene-haute-tension.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/hautetension/scene-haute-tension.png" alt="" /></p>
 
-&lt;p&gt;Nous avons réparti les tâches en deux équipes : celle des développeurs et celle des graphistes/modélisateurs. Pour ma part, j’ai faisait parti de l’équipe des développeurs, ce que j’ai trouvé le plus intéressant, c’est la création de la gestion des différentes étapes du scénario.&lt;/p&gt;
+<p>Nous avons réparti les tâches en deux équipes : celle des développeurs et celle des graphistes/modélisateurs. Pour ma part, j’ai faisait parti de l’équipe des développeurs, ce que j’ai trouvé le plus intéressant, c’est la création de la gestion des différentes étapes du scénario.</p>
 
-&lt;p&gt;J’ai décomposé le fonctionnement en deux éléments:&lt;/p&gt;
+<p>J’ai décomposé le fonctionnement en deux éléments:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Le premier est un script &lt;strong&gt;Quest Manager&lt;/strong&gt; qui permet de gérer les différentes étapes. (le cerveau sur la capture)&lt;/li&gt;
-  &lt;li&gt;Le second est un script &lt;strong&gt;Quest Element&lt;/strong&gt; qui regroupe toutes les informations nécessaires pour le fonctionnement d’une étape (les yeux). Il suffit, via un autre script, d’appeler le quest Element pour valider l’étape et passer à la suivante.&lt;/li&gt;
-  &lt;li&gt;Des gizmos permettent de visualiser les liens entre chaque étape&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Le premier est un script <strong>Quest Manager</strong> qui permet de gérer les différentes étapes. (le cerveau sur la capture)</li>
+  <li>Le second est un script <strong>Quest Element</strong> qui regroupe toutes les informations nécessaires pour le fonctionnement d’une étape (les yeux). Il suffit, via un autre script, d’appeler le quest Element pour valider l’étape et passer à la suivante.</li>
+  <li>Des gizmos permettent de visualiser les liens entre chaque étape</li>
+</ul>
 
-&lt;p&gt;J’ai aussi créé un EditorWindow permettant de tester rapidement le fonctionnement des étapes sans avoir à les faire en jeu.&lt;/p&gt;
+<p>J’ai aussi créé un EditorWindow permettant de tester rapidement le fonctionnement des étapes sans avoir à les faire en jeu.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/all-ui.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/hautetension/all-ui.png" alt="" /></p>
 
-&lt;p&gt;Pour permettre à l’utilisateur de suivre sa progression, il a accès à une interface et reçoit des feed-backs sonores (Le visuel de l’interface est encore en WIP).&lt;/p&gt;
+<p>Pour permettre à l’utilisateur de suivre sa progression, il a accès à une interface et reçoit des feed-backs sonores (Le visuel de l’interface est encore en WIP).</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/interaction_entre_elements.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/hautetension/interaction_entre_elements.png" alt="" /></p>
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Quest Manager&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Quest Element&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Quest Outline&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Lien entre un &lt;strong&gt;QuestElement&lt;/strong&gt; et une erreur&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li><strong>Quest Manager</strong></li>
+  <li><strong>Quest Element</strong></li>
+  <li><strong>Quest Outline</strong></li>
+  <li>Lien entre un <strong>QuestElement</strong> et une erreur</li>
+</ol>
 
-&lt;p&gt;J’ai décomposé le fonctionnement en deux éléments:&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Le premier est un script &lt;strong&gt;Quest Manager&lt;/strong&gt; qui permet de gérer les différentes étapes. (le cerveau sur la capture)&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Le second est un script &lt;strong&gt;Quest Element&lt;/strong&gt; qui regroupe toutes les informations nécessaire pour le fonctionnement d’une étape (les yeux). Il suffit via un autre script d’appeler le quest Element pour valider l’étape pour passer à la suivante.
-&lt;br /&gt;Des gizmos permettent de visualiser les liens entre chaque étape&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>J’ai décomposé le fonctionnement en deux éléments:<br /></p>
+<ul>
+  <li>Le premier est un script <strong>Quest Manager</strong> qui permet de gérer les différentes étapes. (le cerveau sur la capture)<br /></li>
+  <li>Le second est un script <strong>Quest Element</strong> qui regroupe toutes les informations nécessaire pour le fonctionnement d’une étape (les yeux). Il suffit via un autre script d’appeler le quest Element pour valider l’étape pour passer à la suivante.
+<br />Des gizmos permettent de visualiser les liens entre chaque étape<br /></li>
+</ul>
 
-&lt;p&gt;J’ai aussi fait un EditorWindow permettant de tester rapidement le fonctionnement des étapes sans avoir à les faire en jeu.&lt;/p&gt;
+<p>J’ai aussi fait un EditorWindow permettant de tester rapidement le fonctionnement des étapes sans avoir à les faire en jeu.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/all-ui.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/hautetension/all-ui.png" alt="" /></p>
 
-&lt;p&gt;Pour permettre à l’utilisateur de suivre sa progression, il a accès à une interface et reçoit des feed-backs sonores. Malheuresement nous n’avons pas eu le temps de finir l’interface.&lt;/p&gt;
+<p>Pour permettre à l’utilisateur de suivre sa progression, il a accès à une interface et reçoit des feed-backs sonores. Malheuresement nous n’avons pas eu le temps de finir l’interface.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/hautetension/uiQuest.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Réalité Virtuelle" /><category term="Jeux vidéo" /><category term="Unity" /><summary type="html">Haute tension est un projet universitaire créé durant la 1ère année de master MTI3D. Je travaille avec 3 camarades de classe sur le développement d’un outil de formation en réalité virtuelle “Projet Haute Tension”. Celui-ci est destiné à la formation d’élèves électriciens à d’Angers pour les casques de réalité virtuelle HTC Vive.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/hautetension/hautetension.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/hautetension/hautetension.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Little Grim and the Blue Fox</title><link href="https://baptistemanusset.github.io//LittleGrim/" rel="alternate" type="text/html" title="Little Grim and the Blue Fox" /><published>2020-03-27T01:00:00+01:00</published><updated>2020-03-27T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//LittleGrim</id><content type="html" xml:base="https://baptistemanusset.github.io//LittleGrim/">&lt;h2 id=&quot;présentation&quot;&gt;Présentation&lt;/h2&gt;
+<p><img src="/images/projects/hautetension/uiQuest.png" alt="" /></p>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Réalité Virtuelle" /><category term="Jeux vidéo" /><category term="Unity" /><summary type="html"><![CDATA[Haute tension est un projet universitaire créé durant la 1ère année de master MTI3D. Je travaille avec 3 camarades de classe sur le développement d’un outil de formation en réalité virtuelle “Projet Haute Tension”. Celui-ci est destiné à la formation d’élèves électriciens à d’Angers pour les casques de réalité virtuelle HTC Vive.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/hautetension/hautetension.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/hautetension/hautetension.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Little Grim and the Blue Fox</title><link href="https://baptistemanusset.github.io//LittleGrim/" rel="alternate" type="text/html" title="Little Grim and the Blue Fox" /><published>2020-03-27T01:00:00+01:00</published><updated>2020-03-27T01:00:00+01:00</updated><id>https://baptistemanusset.github.io//LittleGrim</id><content type="html" xml:base="https://baptistemanusset.github.io//LittleGrim/"><![CDATA[<h2 id="présentation">Présentation</h2>
 
-&lt;p&gt;&lt;strong&gt;Little Grim and the blue fox&lt;/strong&gt; est un jeu de réflexion en 3D dans lequel vous incarnez Little Grim, la mort en personne. Son malheur est de n’avoir aucun ami car Grim ne peut rien toucher de vivant, au risque de le tuer. Un jour, un petit renard bleu immunisé à ses pouvoirs se présente et devient son ami. Tout aurait pu finir dans la félicité. Mais c’est sans compter sur &lt;strong&gt;Despair&lt;/strong&gt;, l’incarnation du désespoir, qui vient enlever le nouvel ami de Grim. Vous devrez descendre dans le monde chaotique de &lt;strong&gt;Despair&lt;/strong&gt; en résolvant des énigmes pour sauver votre petit ami à fourrure.&lt;/p&gt;
+<p><strong>Little Grim and the blue fox</strong> est un jeu de réflexion en 3D dans lequel vous incarnez Little Grim, la mort en personne. Son malheur est de n’avoir aucun ami car Grim ne peut rien toucher de vivant, au risque de le tuer. Un jour, un petit renard bleu immunisé à ses pouvoirs se présente et devient son ami. Tout aurait pu finir dans la félicité. Mais c’est sans compter sur <strong>Despair</strong>, l’incarnation du désespoir, qui vient enlever le nouvel ami de Grim. Vous devrez descendre dans le monde chaotique de <strong>Despair</strong> en résolvant des énigmes pour sauver votre petit ami à fourrure.</p>
 
-&lt;p&gt;&lt;strong&gt;Little Grim&lt;/strong&gt; est un projet réalisé en équipe et développé sur plusieurs semaines durant le 1er confinement. Notre équipe était composé des deux classes de M1 et de M2 de notre formation de Master. L’équipe etait composé de David HAMON, Quentin DENIS-LUTARD, Eva MEURICE, Salomé DONNIO, &lt;a href=&quot;https://www.artstation.com/evac&quot;&gt;Eva CATRIX&lt;/a&gt;, Yiang GAO, Jonathan MAINGRE, et moi même.&lt;/p&gt;
+<p><strong>Little Grim</strong> est un projet réalisé en équipe et développé sur plusieurs semaines durant le 1er confinement. Notre équipe était composé des deux classes de M1 et de M2 de notre formation de Master. L’équipe etait composé de David HAMON, Quentin DENIS-LUTARD, Eva MEURICE, Salomé DONNIO, <a href="https://www.artstation.com/evac">Eva CATRIX</a>, Yiang GAO, Jonathan MAINGRE, et moi même.</p>
 
-&lt;p&gt;Sur ce projet, j’ai souhaité travailler sur les interfaces en jeu (barre de vie et interfaces contextuelles) et sur l’animation du trailer. Des tâches pour lesquelles je n’ai pas l’habitude de travailler.&lt;/p&gt;
+<p>Sur ce projet, j’ai souhaité travailler sur les interfaces en jeu (barre de vie et interfaces contextuelles) et sur l’animation du trailer. Des tâches pour lesquelles je n’ai pas l’habitude de travailler.</p>
 
-&lt;p&gt;J’ai pris beaucoup de plaisir, ainsi que toute l’équipe, à réaliser ce projet et nous sommes d’autant plus satisfait du résultat final.&lt;/p&gt;
+<p>J’ai pris beaucoup de plaisir, ainsi que toute l’équipe, à réaliser ce projet et nous sommes d’autant plus satisfait du résultat final.</p>
 
-&lt;div class=&quot;yt-container&quot;&gt;
-  &lt;iframe src=&quot;https://www.youtube.com/embed/3FoSFvrXsIc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+<div class="yt-container">
+  <iframe src="https://www.youtube.com/embed/3FoSFvrXsIc" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
-&lt;h3 style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;https://itsbaptiste.itch.io/&quot;&gt;&lt;strong&gt;Lien de téléchargement&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+<h3 style="text-align:center;"><a href="https://itsbaptiste.itch.io/"><strong>Lien de téléchargement</strong></a></h3>
 
-&lt;h2 id=&quot;objectif-du-jeu&quot;&gt;Objectif du jeu&lt;/h2&gt;
-&lt;p&gt;Récupérer la larme noire cristallisée afin de la déposer à la sortie dans le calice en pierre.
+<h2 id="objectif-du-jeu">Objectif du jeu</h2>
+<p>Récupérer la larme noire cristallisée afin de la déposer à la sortie dans le calice en pierre.
 Le joueur devra entrer dans le monde éthéré afin de récupérer la clé mais attention, le seul moyen de la transporter est d’être dans le monde “réel”.  Il devra aussi faire attention aux ennemis qui rôdent (un seul dans ce niveau).  Les ennemis peuvent être éliminés par Grimm, mais s’il prend ce risque, ceux-ci deviendront des âmes qui seront présentent dans le monde éthéré.
-Inversement, s’il est dans le monde éthéré, les ennemis pourront forcer le joueur à quitter le monde éthéré s’il se trouve en ligne de mire.&lt;/p&gt;
+Inversement, s’il est dans le monde éthéré, les ennemis pourront forcer le joueur à quitter le monde éthéré s’il se trouve en ligne de mire.</p>
 
-&lt;p&gt;Si le joueur est dans le monde réel et qu’il se trouve dans la ligne de vue de l’ennemi, il se fera aspirer son éther petit à petit.&lt;/p&gt;
+<p>Si le joueur est dans le monde réel et qu’il se trouve dans la ligne de vue de l’ennemi, il se fera aspirer son éther petit à petit.</p>
 
-&lt;p&gt;Des îlots apparaîtront dans le monde éthérée qu’il pourra transférer dans le monde réel grâce au premier pouvoir qu’il a récupéré au début du niveau.&lt;/p&gt;
+<p>Des îlots apparaîtront dans le monde éthérée qu’il pourra transférer dans le monde réel grâce au premier pouvoir qu’il a récupéré au début du niveau.</p>
 
-&lt;p&gt;Il faut tout de même penser à la jauge d’éther qui au fur et à mesure qu’il utilise ses pouvoirs. Le joueur devra donc réfléchir au bon chemin à emprunter, quels sont les bons îlots à mettre dans le monde réel. Il faudra tout de même faire attention aux îlots qui sont susceptibles de s’écrouler (en rouge).&lt;/p&gt;
+<p>Il faut tout de même penser à la jauge d’éther qui au fur et à mesure qu’il utilise ses pouvoirs. Le joueur devra donc réfléchir au bon chemin à emprunter, quels sont les bons îlots à mettre dans le monde réel. Il faudra tout de même faire attention aux îlots qui sont susceptibles de s’écrouler (en rouge).</p>
 
-&lt;h3 id=&quot;bonus-sur-chaque-map-&quot;&gt;Bonus (sur chaque map) :&lt;/h3&gt;
-&lt;p&gt;Le joueur peut récupérer de l’éther en plus grâce à la boule d’énergie présente dans la map.&lt;/p&gt;
+<h3 id="bonus-sur-chaque-map-">Bonus (sur chaque map) :</h3>
+<p>Le joueur peut récupérer de l’éther en plus grâce à la boule d’énergie présente dans la map.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/littlegrim/menu.jpg&quot; alt=&quot;Menu principal&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
+<p><img src="/images/projects/littlegrim/menu.jpg" alt="Menu principal" />
+<br /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/projects/littlegrim/jeu.jpg&quot; alt=&quot;Gros plan sur Grim en jeu&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/projects/littlegrim/jeu.jpg" alt="Gros plan sur Grim en jeu" /></p>
 
-&lt;h2 id=&quot;breakdown&quot;&gt;Breakdown&lt;/h2&gt;
+<h2 id="breakdown">Breakdown</h2>
 
-&lt;p&gt;La cinématique est faite grâce à &lt;strong&gt;Cinemachine&lt;/strong&gt;, en utilisant les piliers du décor pour modifier la scène et raconter l’histoire de Grim.
-&lt;img src=&quot;/images/projects/littlegrim/cinematique breakdown.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html">Présentation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/littlegrim/littlegrim.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/littlegrim/littlegrim.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>La cinématique est faite grâce à <strong>Cinemachine</strong>, en utilisant les piliers du décor pour modifier la scène et raconter l’histoire de Grim.
+<img src="/images/projects/littlegrim/cinematique breakdown.png" alt="" /></p>]]></content><author><name>Baptiste Manusset</name><email>baptiste.manusset@gmail.com</email></author><category term="Jeux vidéo" /><category term="Unity" /><summary type="html"><![CDATA[Présentation]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://baptistemanusset.github.io//images/projects/littlegrim/littlegrim.jpg" /><media:content medium="image" url="https://baptistemanusset.github.io//images/projects/littlegrim/littlegrim.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

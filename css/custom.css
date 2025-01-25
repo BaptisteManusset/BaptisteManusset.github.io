@@ -1,0 +1,73 @@
+.card{
+    background-color: aquamarine;
+}
+
+#nav-main{
+    min-height: 15rem;
+    position: sticky;
+    top: 0;
+}
+
+#nav-main .brand{
+    aspect-ratio: 1;
+}
+#nav-main .brand img{
+    max-height: 50%;
+}
+
+footer#footer{
+    background-color: bisque;
+}
+
+footer#footer .brand{
+    padding: 1rem;
+}
+
+footer#footer .brand img{
+    max-height: 5rem;
+}
+
+.bigMargin{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.entry{
+    background-color: aliceblue;
+}
+
+.entry .title{
+    font-weight: bold;
+}
+
+.entry .type{
+    font-weight: initial;
+    margin: 0 1rem;
+}
+
+html, body{
+    height: 100%;
+}
+
+#header{
+    background-color: bisque;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+main p{
+    margin: 5rem 0;
+}
+
+.first-letter::first-letter{
+    font-size: 2em;
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 600;
+}

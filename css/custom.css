@@ -1,73 +1,98 @@
-.card{
+.card {
     background-color: aquamarine;
 }
 
-#nav-main{
+#nav-main {
     min-height: 15rem;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 
-#nav-main .brand{
+#nav-main .brand {
     aspect-ratio: 1;
 }
-#nav-main .brand img{
+
+#nav-main .brand img {
     max-height: 50%;
 }
 
-footer#footer{
+footer#footer {
     background-color: bisque;
 }
 
-footer#footer .brand{
+footer#footer .brand {
     padding: 1rem;
 }
 
-footer#footer .brand img{
+footer#footer .brand img {
     max-height: 5rem;
 }
 
-.bigMargin{
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+.bigMargin {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+}
+.mediumMargin {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.smallMargin {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.entry{
+.entry {
     background-color: aliceblue;
 }
 
-.entry .title{
+.entry .title {
     font-weight: bold;
 }
 
-.entry .type{
+.entry .type {
     font-weight: initial;
     margin: 0 1rem;
 }
 
-html, body{
+html,
+body {
     height: 100%;
 }
 
-#header{
+#header {
     background-color: bisque;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-main p{
+.project main p {
     margin: 5rem 0;
 }
 
-.first-letter::first-letter{
+.first-letter::first-letter {
     font-size: 2em;
     margin-right: 3px;
     font-weight: bold;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.about-entry .date * {
+    /* margin: 0;
+    padding: 0; */
+}
+
+.about-entry .content{
+    /* border-left: 1px solid; */
+    padding-left: 2rem;
+}
+
+.about-entry .content * {
+    /* margin: 0;
+    padding: 0; */
 }

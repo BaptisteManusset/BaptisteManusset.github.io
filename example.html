@@ -16,8 +16,8 @@
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
- <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/chota.css">
+    <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -28,81 +28,218 @@
 
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <nav class="nav" id="nav-main">
-    <div class="nav-left">
-      <a class="brand">
-        <img src="images/logo.svg" alt="" class="logo">
-      </a>
-    </div>
-    <div class="nav-right">
-        <a class="active">Projects</a>
-        <a>Blog</a>
-        <a>About</a>
-        <a>Contact</a>
-    </div>
-  </nav>
-  
-  
+    <nav class="nav bold" id="nav-main">
+        <div class="nav-left">
+            <a class="brand" href="index.html">
+                <img src="images/logo.svg" alt="" class="logo" style="max-height: 100px;">
+            </a>
+        </div>
+        <div class="nav-right">
+            <a class="active" href="index.html">Projects</a>
+            <a>Blog</a>
+            <a href="about.html">About</a>
+            <a>Contact</a>
+        </div>
+    </nav>
 
-    <div class="row is-marginless">
-        <div class="col-6 col-3-md col-3-lg">
-            <div class="card is-center">
-                <a href="#">
-                    <img src="images/render.png" alt="">
-                    <p class="text-center">Thirds</p>
-                </a>
-            </div>
-        </div>
-        <div class="col-6 col-3-md col-3-lg">
-            <div class="card is-center">
-                <a href="#">
-                    <img src="images/render.png" alt="">
-                    <p class="text-center">Thirds</p>
-                </a>
-            </div>
-        </div>
-        <div class="col-6 col-3-md col-3-lg">
-            <div class="card is-center">
-                <a href="#">
-                    <img src="images/render.png" alt="">
-                    <p class="text-center">Thirds</p>
-                </a>
-            </div>
-        </div>
-        <div class="col-6 col-3-md col-3-lg">
-            <div class="card is-center">
-                <a href="#">
-                    <img src="images/render.png" alt="">
-                    <p class="text-center">Thirds</p>
-                </a>
-            </div>
-        </div>
-        <div class="col-6 col-3-md col-3-lg">
-            <div class="card is-center">
-                <a href="#">
-                    <img src="images/render.png" alt="">
-                    <p class="text-center">Thirds</p>
-                </a>
-            </div>
-        </div>
-        <div class="col-6 col-3-md col-3-lg">
-            <div class="card is-center">
-                <a href="#">
-                    <img src="images/render.png" alt="">
-                    <p class="text-center">Thirds</p>
-                </a>
-            </div>
-        </div>
 
+    <div class="is-full-width bigMargin" id="header">
+        <div class="container-full">
+            <div class="row is-marginless">
+                <div class="col-12 text-center">
+                    <h1>Example de content</h1>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <div class="is-full-width">
+        <div class="container">
+            <div class="row is-marginless">
+                <div class="col-12">
+                    <h1>Title h1</h1>
+                    <h2>Title h2</h2>
+                    <h3>Title h3</h3>
+                    <h4>Title h4</h4>
+                    <h5>Title h6</h5>
+                    <p class="first-letter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <b>Dolor neque a
+                            voluptatibus</b> ad deleniti reiciendis, <i>tenetur velit id</i>, quia vero corrupti eaque
+                        possimus laboriosam iure. Reiciendis provident at ut obcaecati!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, perspiciatis! Repudiandae odit nisi
+                        placeat et iusto accusantium ipsa vero ea officiis. Ipsam, accusantium. Ipsam reprehenderit
+                        natus aspernatur minima rerum odio.</p>
+                    <pre class="is-full-width"><code class="language-cs">using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Salut tout le monde!");
+    }
+}</code></pre>
 
+                    <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odio alias optio
+                        exercitationem necessitatibus libero a dolorem nesciunt sed molestias veniam error quas ipsa.
+                        Modi est et perferendis minus animi!</blockquote>
+                    <ol type="1">
+                        <li>List Item 1</li>
+                        <li>
+                            List Item 2
+                            <ol type="A">
+                                <li>List Item 1</li>
+                                <li>
+                                    List Item 2
+                                    <ol type="a">
+                                        <li>List Item 1</li>
+                                        <li>
+                                            List Item 2
+                                            <ol type="I">
+                                                <li>List Item 1</li>
+                                                <li>
+                                                    List Item 2
+                                                    <ol type="i">
+                                                        <li>List Item 1</li>
+                                                        <li>List Item 2</li>
+                                                        <li>List Item 3</li>
+                                                    </ol>
+                                                </li>
+                                                <li>List Item 3</li>
+                                            </ol>
+                                        </li>
+                                        <li>List Item 3</li>
+                                    </ol>
+                                </li>
+                                <li>List Item 3</li>
+                            </ol>
+                        </li>
+                        <li>List Item 3</li>
+                    </ol>
 
+                    <ul>
+                        <li>List Item 1</li>
+                        <li>
+                            List Item 2
+                            <ul>
+                                <li>List Item 1</li>
+                                <li>
+                                    List Item 2
+                                    <ul>
+                                        <li>List Item 1</li>
 
+                                        <li>List Item 1</li>
+                                        <li>List Item 2</li>
+                                        <li>List Item 3</li>
 
-    <div>
-        <p>footer</p>
+                                        <li>List Item 3</li>
+                                    </ul>
+                                </li>
+                                <li>List Item 3</li>
+                            </ul>
+                        </li>
+                        <li>List Item 3</li>
+                    </ul>
+
+                    <details>
+                        <summary>Expand for details</summary>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, odio! Odio natus ullam ad
+                            quaerat, eaque necessitatibus, aliquid distinctio similique voluptatibus dicta consequuntur
+                            animi. Quaerat facilis quidem unde eos! Ipsa.</p>
+                    </details>
+
+                    <header>
+                        <h2>Code</h2>
+                    </header>
+
+                    <p><strong>Keyboard input:</strong> <kbd>Cmd</kbd></p>
+                    <p><strong>Inline code:</strong> <code>&lt;div&gt;code&lt;/div&gt;</code></p>
+                    <p><strong>Sample output:</strong> <samp>This is sample output from a computer program.</samp>
+                    </p>
+                    <h2>Pre-formatted text</h2>
+                    <pre>P R E F O R M A T T E D T E X T
+            ! " # $ % &amp; ' ( ) * + , - . /
+            0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
+            @ A B C D E F G H I J K L M N O
+            P Q R S T U V W X Y Z [ \ ] ^ _
+            ` a b c d e f g h i j k l m n o
+            p q r s t u v w x y z { | } ~ </pre>
+
+                    <p><a href="#!">This is a text link</a>.</p>
+                    <p><strong>Strong is used to indicate strong importance.</strong></p>
+                    <p><em>This text has added emphasis.</em></p>
+                    <p>The <b>b element</b> is stylistically different text from normal text, without any special
+                        importance.</p>
+                    <p>The <i>i element</i> is text that is offset from the normal text.</p>
+                    <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual
+                        annotation.</p>
+                    <p><del>This text is deleted</del> and <ins>This text is inserted</ins>.</p>
+                    <p><s>This text has a strikethrough</s>.</p>
+                    <p>Super<sup>script</sup>.</p>
+                    <p>Subscript for things like H<sub>2</sub>O.</p>
+                    <p><small>This small text is small for fine print, etc.</small></p>
+                    <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
+                    <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline
+                            quotation.</q></p>
+                    <p><cite>This is a citation.</cite></p>
+                    <p>The <dfn>dfn element</dfn> indicates a definition.</p>
+                    <p>The <mark>mark element</mark> indicates a highlight.</p>
+                    <p>The <var>variable element</var>, such as <var>x</var> = <var>y</var>.</p>
+                    <p>The time element: <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time></p>
+                    <progress id="progress-30" max="100" value="30">30%</progress>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <button class="btn-toggle"></button>
+
+    <script>
+        const btn = document.querySelector('.btn-toggle');
+        // Listen for a click on the button
+        btn.addEventListener('click', function () {
+            // Then toggle (add/remove) the .dark-theme class to the body
+            document.body.classList.toggle('dark-theme');
+        })
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark-theme');
+        }
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            // const newColorScheme = event.matches ? "dark" : "light";
+            if (event.matches) {
+                document.body.classList.add('dark-theme');
+            } else {
+                document.body.classList.remove('dark-theme');
+            }
+        });
+    </script>
+
+    <footer id="footer" class="is-full-width smallMargin">
+        <div class="container-full">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="iscenter">
+                        <div class="brand">
+                            <img src="images/logo.svg" alt="" class="logo" style="max-height: 50px;">
+                        </div>
+                    </div>
+                    <nav class="nav bold">
+                        <div class="nav-center">
+                            <a href="#">Blue sky</a>
+                            <a href="#">Itchio</a>
+                            <a href="#">Artstation</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cs.min.js"></script>
+
+    <script>hljs.highlightAll();</script>
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

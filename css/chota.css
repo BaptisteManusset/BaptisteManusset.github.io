@@ -10,7 +10,10 @@
   --color-darkGrey: #3f4144;
   --color-error: #d43939;
   --color-success: #28bd14;
-  --grid-maxWidth: 180rem;
+  --color-mark: #eede08;
+  
+  --grid-maxWidth: 160rem;
+  --grid-narrowWidth: 100rem;
   --grid-gutter: 2rem;
   --font-size: 1.6rem;
   --font-color: #333;
@@ -19,6 +22,29 @@
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
 }
+
+
+.dark-theme{
+  --bg-color: #333;
+  --bg-secondary-color: #353535;
+  --color-primary: #0fc06b;
+  --color-lightGrey: #777777;
+  --color-grey: #747681;
+  --color-darkGrey: #3f4144;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --color-mark: #baa807;
+  --font-color: #b6b5b5;
+}
+
+.dark-theme pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+  filter: invert(0.9);
+}
+
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -146,6 +172,9 @@ pre code {
   background: none;
   padding: 0;
 }
+mark{
+  background-color: var(--color-mark);
+}
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -161,12 +190,23 @@ fieldset {
 iframe {
   border: 0;
 }
-.container {
+.container-full {
   max-width: var(--grid-maxWidth);
   margin: 0 auto;
   width: 96%;
   padding: 0 calc(var(--grid-gutter) / 2);
+  /* background-color: #d43939; */
 }
+
+.container {
+  max-width: var(--grid-narrowWidth);
+  margin: 0 auto;
+  width: 96%;
+  padding: 0 calc(var(--grid-gutter) / 2);
+  /* background-color: #14854f; */
+}
+
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -272,6 +312,7 @@ iframe {
 @media screen and (max-width: 599px) {
   .container {
     width: 100%;
+    background-color: #14854f;
   }
 
   .col,
@@ -673,6 +714,7 @@ button:active:not(:disabled) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+ background-color: #d43939; 
 }
 .nav-center,
 .nav-left,
@@ -706,6 +748,7 @@ button:active:not(:disabled) {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            background-color: yellow;
   }
 
   .nav-center,
@@ -728,7 +771,7 @@ button:active:not(:disabled) {
       -ms-flex-align: center;
           align-items: center;
   padding: 1rem 2rem;
-  color: var(--color-darkGrey);
+  /* color: var(--color-darkGrey); */
 }
 .nav [aria-current="page"]:not(.button),
 .nav .active:not(.button) {

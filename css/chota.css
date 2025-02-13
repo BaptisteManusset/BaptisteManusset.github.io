@@ -2,7 +2,7 @@
  * chota.css v0.9.2 | MIT License | https://github.com/jenil/chota
  */
 :root {
-  --bg-color: #fff;
+  --bg-color: #FCE7C8;
   --bg-secondary-color: #f3f3f6;
   --color-primary: #c81717;
   --color-lightGrey: #d2d6dd;
@@ -314,7 +314,6 @@ article section,
 @media screen and (max-width: 599px) {
   .container {
     width: 100%;
-    background-color: #14854f;
   }
 
   .col,
@@ -716,7 +715,6 @@ button:active:not(:disabled) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
- background-color: #d43939; 
 }
 .nav-center,
 .nav-left,
@@ -750,7 +748,6 @@ button:active:not(:disabled) {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-            background-color: yellow;
   }
 
   .nav-center,

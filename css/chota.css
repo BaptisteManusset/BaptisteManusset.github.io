@@ -25,7 +25,7 @@
 
 
 .dark-theme{
-  --bg-color: #333;
+  --bg-color: #464035;
   --bg-secondary-color: #353535;
   --color-primary: #dc2e2e;
   --color-lightGrey: #777777;
@@ -34,7 +34,7 @@
   --color-error: #df1d1d;
   --color-success: #28bd14;
   --color-mark: #baa807;
-  --font-color: #b6b5b5;
+  --font-color: #c8bfa9;
 }
 
 .dark-theme pre code.hljs {

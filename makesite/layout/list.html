@@ -1,5 +1,28 @@
-<h1>{{ title }}</h1>
-{{ content }}
-<section>
-<a class="rss" href="{{ base_path }}/{{ blog }}/rss.xml">RSS</a>
+<div class="is-full-width" id="header">
+    <div class="header-element gradient-background">
+        <img src="https://www.pixelstalk.net/wp-content/uploads/2016/03/Colorful-Wallpapers-images-free-download.jpg"
+            alt="">
+    </div>
+    <div class="header-element">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div id="header-content">
+                        <h1>{{ title }}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-full entries">
+    <!-- content begin -->
+    {{ content }}
+    <!-- content end -->
+</div>
+
+<section class="container-full">
+    <p> <a class="rss" href="{{ base_path }}/{{ blog }}/rss.xml">RSS</a></p>
 </section>

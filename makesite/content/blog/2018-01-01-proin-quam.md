@@ -1,4 +1,8 @@
+<!-- render: yes -->
 <!-- title: Proin Quam -->
+<!-- tags: ddsdfsdfs,dfsdfsdfs -->
+{{tags}}
+<section>
 Proin quam urna, pulvinar id ipsum ac, mattis consectetur ante. Praesent
 non justo lectus. Duis egestas arcu libero, quis laoreet dolor volutpat
 ut. Donec facilisis orci sit amet sem blandit elementum. Vestibulum
@@ -27,3 +31,4 @@ pellentesque, finibus commodo turpis. Cras mollis dui quis varius
 placerat. Phasellus nec nisi nec quam tincidunt luctus. Sed nec
 vulputate enim, vel dapibus enim. Praesent mollis maximus enim in
 tempus. Phasellus a arcu lorem. Sed dictum rhoncus tempus.
+</section>

@@ -1,4 +1,5 @@
 <!-- title: Sed Finibus -->
+<section>
 Sed finibus fermentum convallis. Sed consequat, lacus a pellentesque
 suscipit, lorem libero egestas dui, sit amet volutpat mi dolor sit amet
 nisl. Maecenas faucibus iaculis nibh id gravida. Aenean ac nulla
@@ -27,3 +28,4 @@ ultrices eu facilisis vel, faucibus eget enim. Integer sit amet magna
 ligula. Ut massa nisl, sodales vel eros ac, dignissim maximus metus.
 Donec odio nulla, sollicitudin quis dolor in, varius sodales lectus. Sed
 non lacinia ligula, eu pulvinar eros.
+</section>

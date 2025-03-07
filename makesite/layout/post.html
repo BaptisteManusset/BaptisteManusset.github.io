@@ -1,5 +1,27 @@
-<article>
-<h1><a href="{{ base_path }}/{{ blog }}/{{ slug }}/">{{ title }}</a></h1>
-<p class="meta">Published on {{ date }} by <b>{{ author }}</b></p>
+<div class="is-full-width" id="header">
+    <div class="header-element gradient-background">
+        <img src="https://www.pixelstalk.net/wp-content/uploads/2016/03/Colorful-Wallpapers-images-free-download.jpg"
+            alt="">
+    </div>
+    <div class="header-element">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div id="header-content">
+                        <h1>{{ title }}</h1>
+                        <p class="tags"><span>Gamedev</span> <span>Unity</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<article class="bigMargin">
+
+<!-- content begin -->
 {{ content }}
+<!-- content end -->
+
 </article>

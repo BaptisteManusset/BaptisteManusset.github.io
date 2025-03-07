@@ -164,6 +164,7 @@ def make_list(posts, dst, list_layout, item_layout, **params):
 
     log('Rendering list => {} ...', dst_path)
     fwrite(dst_path, output)
+    return params['content']
 
 
 def main():
@@ -178,7 +179,7 @@ def main():
         'subtitle': 'Lorem Ipsum',
         'author': 'Baptiste',
         'site_url': 'http://localhost:8000',
-        'current_year': datetime.datetime.now().year
+        'current_year': datetime.datetime.now().year,
     }
 
     # If params.json exists, load it.
@@ -197,31 +198,33 @@ def main():
     post_layout = render(page_layout, content=post_layout)
     list_layout = render(page_layout, content=list_layout)
 
+
+
+    # Create blogs.
+    blog_posts = make_pages('content/blog/*.md',
+                            '_site/blog/{{ slug }}/index.html',
+                            post_layout, blog='blog', **params)
+    projects_posts = make_pages('content/projects/*.html',
+                            '_site/projects/{{ slug }}/index.html',
+                            post_layout, blog='projects', **params)
+
+    # Create blog list pages.
+    params['blog_posts'] = make_list(blog_posts, '_site/blog/index.html',
+                                     list_layout, item_layout, blog='blog', title='Blog', **params)
+    params['projects_posts'] = make_list(projects_posts, '_site/projects/index.html',
+                                         list_layout, item_layout, blog='projects', title='Projects', **params)
+
     # Create site pages.
     make_pages('content/_index.html', '_site/index.html',
                page_layout, **params)
     make_pages('content/[!_]*.html', '_site/{{ slug }}/index.html',
                page_layout, **params)
 
-    # Create blogs.
-    blog_posts = make_pages('content/blog/*.md',
-                            '_site/blog/{{ slug }}/index.html',
-                            post_layout, blog='blog', **params)
-    news_posts = make_pages('content/news/*.html',
-                            '_site/news/{{ slug }}/index.html',
-                            post_layout, blog='news', **params)
-
-    # Create blog list pages.
-    make_list(blog_posts, '_site/blog/index.html',
-              list_layout, item_layout, blog='blog', title='Blog', **params)
-    make_list(news_posts, '_site/news/index.html',
-              list_layout, item_layout, blog='news', title='News', **params)
-
     # Create RSS feeds.
     make_list(blog_posts, '_site/blog/rss.xml',
               feed_xml, item_xml, blog='blog', title='Blog', **params)
-    make_list(news_posts, '_site/news/rss.xml',
-              feed_xml, item_xml, blog='news', title='News', **params)
+    make_list(projects_posts, '_site/projects/rss.xml',
+              feed_xml, item_xml, blog='projects', title='Projects', **params)
 
 
 # Test parameter to be set temporarily by unit tests.

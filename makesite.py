@@ -26,7 +26,6 @@
 
 """Make static website/blog with Python."""
 
-
 import os
 import shutil
 import re
@@ -34,6 +33,9 @@ import glob
 import sys
 import json
 import datetime
+import http.server
+import socketserver
+import os
 
 
 def fread(filename):
@@ -138,6 +140,16 @@ def make_pages(src, dst, layout, **params):
             page_params['content'] = rendered_content
             content['content'] = rendered_content
 
+        if page_params.get('page_params') != '':
+            tagsList = page_params.get('tags').split(';')
+            tagsList = list(filter(None, tagsList))
+            concatenateTags = ""
+            for b in (tagsList):
+                concatenateTags = concatenateTags + "<span>" + b + ("</span>")
+
+            page_params['tags'] = concatenateTags
+            content['tags'] = concatenateTags
+
         items.append(content)
 
         dst_path = render(dst, **page_params)
@@ -167,6 +179,18 @@ def make_list(posts, dst, list_layout, item_layout, **params):
     return params['content']
 
 
+def start_server():
+    port = 8000
+
+    web_dir = os.path.join(os.path.dirname(__file__), '_site')
+    os.chdir(web_dir)
+
+    handler = http.server.SimpleHTTPRequestHandler
+    httpd = socketserver.TCPServer(("", port), handler)
+    print("serving at port", port)
+    httpd.serve_forever()
+
+
 def main():
     # Create a new _site directory from scratch.
     if os.path.isdir('_site'):
@@ -175,13 +199,13 @@ def main():
 
     # Default parameters.
     params = {
-        'base_path': '',
-        'subtitle': 'Lorem Ipsum',
-        'author': 'Baptiste',
-        'site_url': 'http://localhost:8000',
+        # 'base_path': '',
+        # 'subtitle': 'Baptiste Manusset',
+        # 'author': 'Baptiste',
+        # 'site_url': 'http://localhost:8000',
         'current_year': datetime.datetime.now().year,
+        # 'tags':''
     }
-
     # If params.json exists, load it.
     if os.path.isfile('params.json'):
         params.update(json.loads(fread('params.json')))
@@ -198,15 +222,13 @@ def main():
     post_layout = render(page_layout, content=post_layout)
     list_layout = render(page_layout, content=list_layout)
 
-
-
     # Create blogs.
     blog_posts = make_pages('content/blog/*.md',
                             '_site/blog/{{ slug }}/index.html',
                             post_layout, blog='blog', **params)
     projects_posts = make_pages('content/projects/*.html',
-                            '_site/projects/{{ slug }}/index.html',
-                            post_layout, blog='projects', **params)
+                                '_site/projects/{{ slug }}/index.html',
+                                post_layout, blog='projects', **params)
 
     # Create blog list pages.
     params['blog_posts'] = make_list(blog_posts, '_site/blog/index.html',
@@ -226,10 +248,11 @@ def main():
     make_list(projects_posts, '_site/projects/rss.xml',
               feed_xml, item_xml, blog='projects', title='Projects', **params)
 
+    start_server()
+
 
 # Test parameter to be set temporarily by unit tests.
 _test = None
-
 
 if __name__ == '__main__':
     main()

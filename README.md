@@ -1,6 +1,8 @@
 makesite.py
 ===========
 
+***Fork made for my portfolio.***
+
 Take full control of your static website/blog generation by writing your
 own simple, lightweight, and magic-free static site generator in
 Python. That's right! Reinvent the wheel!

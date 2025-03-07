@@ -1,4 +1,6 @@
 <!-- title: Sed Finibus -->
+<!-- image: images/render.png -->
+<!-- description: blblblbl -->
 <section>
 Sed finibus fermentum convallis. Sed consequat, lacus a pellentesque
 suscipit, lorem libero egestas dui, sit amet volutpat mi dolor sit amet

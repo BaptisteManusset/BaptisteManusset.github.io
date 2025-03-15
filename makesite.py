@@ -40,7 +40,7 @@ import os
 
 def fread(filename):
     """Read file and close the file."""
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf8') as f:
         return f.read()
 
 
@@ -50,7 +50,7 @@ def fwrite(filename, text):
     if not os.path.isdir(basedir):
         os.makedirs(basedir)
 
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf8') as f:
         f.write(text)
 
 

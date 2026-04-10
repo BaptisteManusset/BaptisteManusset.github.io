@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: "Guestar"; /*a name to be used later*/
-    src: url("/fonts/Guestar.otf"); /*URL to font*/
+    src: url("/fonts/slkscre.ttf"); /*URL to font*/
     font-weight: bold;
 }
 
@@ -80,43 +80,44 @@ body {
     padding: 0;
 }
 
+.title-font,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-weight: 500;
+    /* font-weight: 500;
     margin: 0.35em 0 0.7em;
-    font-family: "Guestar", sans-serif;
+    font-family: "Guestar", sans-serif; */
 }
 
 h1 {
-    font-size: 15rem;
+    font-size: 12rem;
     font-weight: 700;
     letter-spacing: .5rem;
 }
 
 h2 {
-    font-size: 13em;
+    font-size: 8em;
     font-weight: bold;
     line-height: 1em;
 }
 
 h3 {
-    font-size: 12em;
+    font-size: 6em;
 }
 
 h4 {
-    font-size: 10em;
+    font-size: 5em;
 }
 
 h5 {
-    font-size: 8em;
+    font-size: 4em;
 }
 
 h6 {
-    font-size: 7em;
+    font-size: 3em;
 }
 
 a {
@@ -1459,9 +1460,11 @@ figcaption {
 .entries div {
     position: absolute;
     bottom: 2rem;
-    right: 2rem;
     left: 2rem;
-    font-size: 2rem
+    font-size: 2rem;
+    background-color: var(--bg-color);
+    padding: 1rem;
+    line-height: 1.5em;
 }
 
 .entries img {
@@ -1470,6 +1473,12 @@ figcaption {
     height: inherit;
     width: inherit;
     object-fit: cover;
+    scale: 100%;
+}
+
+.entries a:hover img {
+    scale: 110%;
+    animation: scale 0.5s;
 }
 
 .entries .title {

@@ -1759,3 +1759,50 @@ details summary {
 .dark-theme.background-red {
     background-color: #c51605
 } */
+
+/* #circle {
+  position: relative;
+  border-radius: 100%;
+  padding: 16px;
+  background-color: #baa807;
+}
+
+#circle span {
+  position: absolute;
+  transform-origin: top left;
+}
+
+@keyframes rotate-animation {
+  from { transform: rotate(0); }
+  to { transform: rotate(-360deg); }
+} */
+
+.circle-container{
+    position: relative;
+}
+
+div.circTxt {
+  display: inline-block;
+  color: #333;
+  position:relative;
+  position: absolute;
+  left: -50px;
+  top: -25px;
+  user-select: none; 
+
+    animation-name: rotate;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(0);
+  }
+  to {
+   transform: rotate(360deg);
+ }
+}

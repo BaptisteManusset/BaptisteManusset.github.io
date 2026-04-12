@@ -123,6 +123,29 @@
     });
 </script>
 
+<script>
+function circularText( radius, classIndex) {
+
+  classIndex = document.getElementsByClassName("circTxt")[classIndex];
+  var txt = classIndex.getAttribute("data-text");
+  txt = txt.split(""); 
+  console.log(classIndex);
+    classIndex.style.cssText = `height:${radius*2}px;width:${radius*2}px;`;
+console.log(txt);
+  var deg = 360 / txt.length;
+  var origin = 0;
+
+  txt.forEach((ea) => {
+    ea = `<p style='height:${radius}px;margin-left:${radius}px;position:absolute;transform:rotate(${origin}deg);transform-origin:0 100%'>${ea}</p>`;
+    classIndex.innerHTML += ea;
+    origin += deg;
+  });
+}
+
+circularText(100, 0);
+circularText(50, 1);
+</script>
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>

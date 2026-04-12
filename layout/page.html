@@ -124,13 +124,15 @@
 </script>
 
 <script>
-function circularText( radius, classIndex) {
+function circularText( classIndex, left = "-7%", top = "5%") {
 
   classIndex = document.getElementsByClassName("circTxt")[classIndex];
   var txt = classIndex.getAttribute("data-text");
+  var radius = classIndex.getAttribute("data-radius");
+
   txt = txt.split(""); 
   console.log(classIndex);
-    classIndex.style.cssText = `height:${radius*2}px;width:${radius*2}px;`;
+    classIndex.style.cssText = `height:${radius*2}px;width:${radius*2}px;left:${left};top:${top};`;
 console.log(txt);
   var deg = 360 / txt.length;
   var origin = 0;
@@ -142,8 +144,7 @@ console.log(txt);
   });
 }
 
-circularText(100, 0);
-circularText(50, 1);
+circularText(0);
 </script>
 
 

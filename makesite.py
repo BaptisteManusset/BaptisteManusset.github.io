@@ -151,17 +151,19 @@ def make_pages(src, dst, layout, **params):
             content['tags'] = concatenateTags
 
 
-            concatenateTypes = ""
-
             if(page_params.get('types') != None):
                 typesList = page_params.get('types').split(';')
                 typesList = list(filter(None, typesList))
                 concatenateTypes = ""
+                concatenateTypesClass = ""
                 for tag in (typesList):
                     tag = tag.replace(" ","")
                     tag = tag.lower()
-                    concatenateTypes = concatenateTypes + "type_" + tag + (" ")
+                    concatenateTypes = concatenateTypes + "" + tag + (" ")
+                    concatenateTypesClass = concatenateTypesClass + "type_" + tag + (" ")
 
+                page_params['types_class'] = concatenateTypesClass
+                content['types_class'] = concatenateTypesClass
                 page_params['types'] = concatenateTypes
                 content['types'] = concatenateTypes
 

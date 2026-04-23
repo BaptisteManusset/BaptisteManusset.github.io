@@ -200,7 +200,7 @@ kbd {
 }
 
 pre {
-    background-color: var(--bg-secondary-color);
+    /* background-color: var(--bg-secondary-color); */
     font-size: 1em;
     padding: 1rem;
     overflow-x: auto;
@@ -255,6 +255,9 @@ article figure,
     padding: 0 calc(var(--grid-gutter) / 2);
 }
 
+article.blur{
+    filter: blur(15px);
+}
 
 .row {
     display: -webkit-box;
@@ -1247,10 +1250,6 @@ details.dropdown > :last-child {
     z-index: 100;
     right: 0;
     left: 0;
-    /* background: linear-gradient(180deg,
-    var(--bg-color) 0%,
-    rgba(250, 255, 255, 0) 100%); */
-    background: var(--bg-color);
 }
 
 #nav-main p {
@@ -1384,13 +1383,12 @@ body {
 
 .tags span {
     padding: .1em .5em;
-    /* border-radius: 1em; */
     color: var(--bg-color);
     font-weight: bold;
     margin-right: 1rem;
-    /* border: 1px solid var(--font-color); */
     text-transform: uppercase;
     background-color: var(--color-primary);
+    font-family: monospace;
 }
 
 #header-content {
@@ -1471,19 +1469,21 @@ figcaption {
     line-height: 1.5em;
 }
 
-.entries img {
-    max-width: inherit;
-    max-height: inherit;
+.entries img {  
     height: inherit;
     width: inherit;
     object-fit: cover;
     scale: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    transition-duration: 1s;
 }
 
-.entries a:hover img {
-    scale: 110%;
-    animation: scale 0.5s;
+
+.entries a:hover img {  
+    rotate: 10deg;
 }
+
 
 .entries .title {
     font-weight: bold;
@@ -1515,10 +1515,35 @@ figcaption {
     left: 5rem;
     bottom: 5rem;
     text-align: center;
-    z-index: 1000;
+    z-index: 10;
     cursor: zoom-out;
     border-radius: 1rem;
+
+      display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 6em; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "."
+    "."; 
+  justify-content: center; 
+  /* align-content: center;  */
+  justify-items: center; 
+  /* align-items: center;  */
 }
+
+.lightbox::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background-color: var(--bg-color);
+    filter: opacity(20%);
+}
+
 
 .lightbox.hide {
     display: none
@@ -1530,11 +1555,20 @@ figcaption {
 }
 
 .lightbox img {
-    height: 100%;
-    max-width: 100%;
+    /* max-height: 100%;
+    max-width: 100%; */
     border-radius: 1rem;
     background-color: var(--bg-color);
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: inline-block;
 }
+
+.lightbox .text-container:has(p:empty) {
+  display: none;
+}
+
 
 .lightbox p {
     color: var(--bg-color);

@@ -27,8 +27,8 @@
         <h4>Title h4</h4>
         <h5>Title h6</h5>
         <p class="first-letter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <b>Dolor neque
-            a
-            voluptatibus</b> ad deleniti reiciendis, <i>tenetur velit id</i>, quia vero corrupti
+                a
+                voluptatibus</b> ad deleniti reiciendis, <i>tenetur velit id</i>, quia vero corrupti
             eaque
             possimus laboriosam iure. Reiciendis provident at ut obcaecati!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, perspiciatis! Repudiandae odit
@@ -37,7 +37,7 @@
             natus aspernatur minima rerum odio.</p>
     </section>
     <section>
-    <pre class="is-full-width"><code class="language-cs">using System;
+        <pre class="is-full-width"><code class="language-cs">using System;
 public class HelloWorld
 {
 public static void Main(string[] args)
@@ -115,7 +115,7 @@ Console.WriteLine("Salut tout le monde!");
                 animi. Quaerat facilis quidem unde eos! Ipsa.</p>
         </details>
 
-                <p class="cta">
+        <p class="cta">
             <a href="https://itsbaptiste.itch.io/unamed">lien CTA</a>
         </p>
 
@@ -158,7 +158,7 @@ p q r s t u v w x y z { | } ~ </pre>
         <p><small>This small text is small for fine print, etc.</small></p>
         <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
         <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline
-            quotation.</q></p>
+                quotation.</q></p>
         <p><cite>This is a citation.</cite></p>
         <p>The <dfn>dfn element</dfn> indicates a definition.</p>
         <p>The
@@ -185,7 +185,7 @@ p q r s t u v w x y z { | } ~ </pre>
             versions supérieures. Nous avons réalisé la totalité des assets de ce jeu en nous inspirant de
             Resident Evil ainsi que Ghost Buster.</p>
         <img alt="" class="focus"
-             src="https://baptistemanusset.github.io/images/projects/nightmaremansion/tutorial%20room.png">
+            src="https://baptistemanusset.github.io/images/projects/nightmaremansion/tutorial%20room.png">
         <p>Chaque partie dure environ 5 minutes, un tutoriel est lancé au début afin de permettre une bonne
             prise en main de l'appareil servant à contrôler le fantôme. Ce tutoriel permet également à
             l'autre joueur de s'habituer a l'environnement en VR. Chaque utilisateur joue à tour de rôle le
@@ -193,5 +193,159 @@ p q r s t u v w x y z { | } ~ </pre>
             des points sans se faire attraper par le chasseur. Le chasseur, quant à lui, doit viser le
             fantôme avec son pistolet pour l'attraper. Les points représentent un challenge en plus, car
             chaque joueur veut avoir le meilleur score.</p>
+
+        Grid
+
+        The grid system is a fluid system with a max width of 120rem (1200px), that shrinks with the viewport. The max
+        width can be controlled by changing the --grid-maxWidth in the :root.
+
+        Much like other frameworks, wrap your content in a .container to center it on the page.
+
+        Flexible grid
+
+        A simple way to build flexible responsive columns:
+
+        Add a .row container
+        Add as many .col elements as you want
+
+        Each column will have an equal width, in a row. There is no restriction on number of columns, but it is
+        recommended not to add more than 12 columns in a row.
+        <div class="row">
+            <div class="col">
+                <div class="card is-center">.col</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card is-center">.col </div>
+            </div>
+            <div class="col">
+                <div class="card is-center">.col </div>
+            </div>
+            <div class="col">
+                <div class="card is-center">.col </div>
+            </div>
+        </div>
+
+        Sized
+
+        You can also specify the size of the columns
+
+        Add a .row container
+        Add a .col-n child where n can be from 1 to 12
+
+        Each column class is named after how many columns you want out of 12. So if you want 4 columns out of 12, use
+        .col-4.
+        <div class="row">
+            <div class="col-1">
+                <div class="card is-center"> .col-1 </div>
+            </div>
+            <!-- repeat 11 times -->
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card is-center"> .col-4 </div>
+            </div>
+            <!-- repeat twice -->
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card is-center">.col-12 </div>
+            </div>
+        </div>
+        Responsive grids:
+
+        We now have responsive grids that work based on device width.
+
+        All columns are 100% for device width < 600px .col and .col-N for all device sizes>= 600px
+            .col-N-md for >= 900px sizes
+            .col-N-lg for >= 1200px sizes
+
+            <div class="row">
+                <div class="col-12 col-6-md col-4-lg">
+                    <div class="card is-center">.col-12.col-6-md.col-4-lg</div>
+                </div>
+                <div class="col-6 col-3-md col-4-lg">
+                    <div class="card is-center">.col-6.col-3-md.col-4-lg</div>
+                </div>
+                <div class="col-6 col-3-md col-4-lg">
+                    <div class="card is-center">.col-6.col-3-md.col-4-lg</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-6-lg">
+                    <div class="card is-center">.col.col-6-lg</div>
+                </div>
+                <div class="col col-3-lg">
+                    <div class="card is-center">.col.col-3-lg</div>
+                </div>
+                <div class="col col-3-lg">
+                    <div class="card is-center">.col.col-3-lg</div>
+                </div>
+            </div>
+            Mix-n-Match
+
+            You can use a combination of flexible and sized columns.
+
+            When using a combination, the sized width column takes the size specified and the remaining is filled in by
+            the flexible column.
+            <div class="row">
+                <div class="col-2">
+                    <div class="card is-center">.col-2</div>
+                </div>
+                <div class="col-2">
+                    <div class="card is-center">.col-2</div>
+                </div>
+                <div class="col">
+                    <div class="card is-center">auto</div>
+                </div>
+                <div class="col-3">
+                    <div class="card is-center">.col-3</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <div class="card is-center">.col-10</div>
+                </div>
+                <div class="col">
+                    <div class="card is-center">auto</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card is-center">auto</div>
+                </div>
+                <div class="col">
+                    <div class="card is-center">auto</div>
+                </div>
+                <div class="is-full-width">
+                    <div class="card is-center">full width</div>
+                </div>
+                <div class="col">
+                    <div class="card is-center">auto</div>
+                </div>
+                <div class="col">
+                    <div class="card is-center">auto</div>
+                </div>
+            </div>
+
+            Pro tip: Create equal-width columns that span multiple rows by inserting a .is-full-width where you want the
+            columns to break to a new line. Here .is-full-width is one of the utility class.
+            Reverse Direction
+
+            Add .reverse to the .row to reverse the column direction.
+            <div class="row reverse">
+                <div class="col-6">
+                    <div class="card is-center">.col-6</div>
+                </div>
+                <div class="col-3">
+                    <div class="card is-center">.col-3</div>
+                </div>
+                <div class="col-3">
+                    <div class="card is-center">.col-3</div>
+                </div>
+            </div>
+
+            <h1 style="font-size : clamp(2rem, 10vw, 5rem);">Lorem ipsum dolor sit, amet consectetur adipisicing elit</h1>
     </section>
 </article>

@@ -194,14 +194,30 @@ p q r s t u v w x y z { | } ~ </pre>
             fantôme avec son pistolet pour l'attraper. Les points représentent un challenge en plus, car
             chaque joueur veut avoir le meilleur score.</p>
 
-        Grid
+        <h1>Colors</h1>
+
+        <div class="row">
+            <div class="col">
+                <div class="card" style="background-color: var(--bg-color);">bg-color</div>
+                <div class="card" style="background-color: var(--bg-secondary-color);">bg-secondary-color</div>
+                <div class="card" style="background-color: var(--color-primary);">color-primary</div>
+                <div class="card" style="background-color: var(--color-lightGrey);">color-lightGrey</div>
+                <div class="card" style="background-color: var( --color-grey);">color-grey</div>
+                <div class="card" style="background-color: var(--color-darkGrey);">color-darkGrey</div>
+                <div class="card" style="background-color: var(--color-error);">color-error</div>
+                <div class="card" style="background-color: var(--color-success);">color-success</div>
+                <div class="card" style="background-color: var(--color-mark);">color-mark</div>
+                <div class="card" style="background-color: var(--font-color);">font-color</div>
+            </div>
+        </div>
+        <h1>Grid</h1>
 
         The grid system is a fluid system with a max width of 120rem (1200px), that shrinks with the viewport. The max
         width can be controlled by changing the --grid-maxWidth in the :root.
 
         Much like other frameworks, wrap your content in a .container to center it on the page.
 
-        Flexible grid
+        <h1>Flexible grid</h1>
 
         A simple way to build flexible responsive columns:
 
@@ -227,7 +243,7 @@ p q r s t u v w x y z { | } ~ </pre>
             </div>
         </div>
 
-        Sized
+        <h1>Sized</h1>
 
         You can also specify the size of the columns
 
@@ -253,7 +269,7 @@ p q r s t u v w x y z { | } ~ </pre>
                 <div class="card is-center">.col-12 </div>
             </div>
         </div>
-        Responsive grids:
+        <h1>Responsive grids:</h1>
 
         We now have responsive grids that work based on device width.
 
@@ -283,7 +299,7 @@ p q r s t u v w x y z { | } ~ </pre>
                     <div class="card is-center">.col.col-3-lg</div>
                 </div>
             </div>
-            Mix-n-Match
+            <h1>Mix-n-Match</h1>
 
             You can use a combination of flexible and sized columns.
 
@@ -345,7 +361,5 @@ p q r s t u v w x y z { | } ~ </pre>
                     <div class="card is-center">.col-3</div>
                 </div>
             </div>
-
-            <h1 style="font-size : clamp(2rem, 10vw, 5rem);">Lorem ipsum dolor sit, amet consectetur adipisicing elit</h1>
     </section>
 </article>

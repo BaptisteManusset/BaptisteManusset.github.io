@@ -60,17 +60,6 @@
     filter: invert(0.9);
 }
 
-/* responsive text size */
-.container-adaptive {
-    --font-size: calc(var(--min-size) * 1px + (var(--max-size) - var(--min-size)) * (100cqw - var(--container-min) * 1px) / (var(--container-max) - var(--container-min)));
-    font-size: clamp(var(--min-size) * 1px, var(--font-size), var(--max-size) * 1px);
-}
-
-.viewport-adaptive {
-    --font-size: calc(var(--min-size) * 1px + (var(--max-size) - var(--min-size)) * (100vw - var(--viewport-min) * 1px) / (var(--viewport-max) - var(--viewport-min)));
-    font-size: clamp(var(--min-size) * 1px, var(--font-size), var(--max-size) * 1px);
-}
-
 
 html {
     -webkit-box-sizing: border-box;
@@ -121,31 +110,39 @@ h6 {
 }
 
 h1 {
-    font-size: 12rem;
+    /* font-size: 12rem; */
+    font-size: clamp(5rem, 10vw, 12rem);
     font-weight: 700;
     letter-spacing: .5rem;
 }
 
 h2 {
-    font-size: 8em;
+    /* font-size: 8em; */
+    font-size: clamp(4rem, 10vw, 8rem);
     font-weight: bold;
     line-height: 1em;
 }
 
 h3 {
-    font-size: 6em;
+    font-size: clamp(3rem, 10vw, 6rem);
+    /* font-size: 6em; */
 }
 
 h4 {
-    font-size: 5em;
+    font-size: clamp(2rem, 10vw, 5rem);
+    /* font-size: 5em; */
 }
 
 h5 {
     font-size: 4em;
+    font-size: clamp(1rem, 10vw, 4rem);
+
 }
 
 h6 {
-    font-size: 3em;
+    font-size: clamp(0.75rem, 10vw, 3rem);
+
+    /* font-size: 3em; */
 }
 
 a {
@@ -1194,7 +1191,7 @@ details.dropdown> :last-child {
     padding: 0 !important;
 }
 
-.is-marginless {
+.marginless {
     margin: 0 !important;
 }
 
@@ -1367,11 +1364,51 @@ body {
 }
 
 #landing {
+      --dark-color: #191f1d;
+  --mid-dark: #555a57;
+  --light-color: #ece0c8;
+  --mid-light: #949993;
+  --shadow: #0005;
     height: 100vh;
     position: relative;
+      background-image: linear-gradient(
+    150deg,
+    var(--dark-color) 60.2%,
+    var(--mid-dark) 60.28%,
+    var(--mid-dark) 60.7%,
+    var(--dark-color) 60.78%,
+    var(--dark-color) 61.4%,
+    var(--mid-dark) 61.48%,
+    var(--mid-dark) 62.6%,
+    var(--dark-color) 62.68%,
+    var(--dark-color) 63.4%,
+    var(--mid-dark) 63.48%,
+    var(--mid-dark) 64.6%,
+    var(--dark-color) 64.68%,
+    var(--dark-color) 65.4%,
+    var(--mid-dark) 65.48%,
+    var(--mid-dark) 67.4%,
+    var(--dark-color) 67.48%,
+    var(--dark-color) 68.4%,
+    var(--mid-dark) 68.48%,
+    var(--mid-dark) 71.4%,
+    var(--dark-color) 71.48%,
+    var(--dark-color) 72.4%,
+    var(--mid-dark) 72.48%,
+    var(--mid-dark) 76.4%,
+    var(--dark-color) 76.48%,
+    var(--dark-color) 77.4%,
+    var(--mid-dark) 77.48%,
+    var(--mid-dark) 81.4%,
+    var(--dark-color) 81.48%,
+    var(--dark-color) 82.4%,
+    var(--mid-dark) 82.48%,
+    var(--mid-dark) 87.4%,
+    var(--dark-color) 87.48%
+  );
 }
 
-@media screen and (max-width: 1199px)  {
+@media screen and (max-width: 599px) {
     #landing div {
         text-align: center;
         /* background-color: red; */
@@ -1390,7 +1427,7 @@ body {
     /* overflow: hidden; */
 }
 
-#landing .gradient-background:after {
+/* #landing .gradient-background:after {
     content: "";
     display: block;
     position: absolute;
@@ -1398,16 +1435,16 @@ body {
     bottom: 7rem;
     right: 7rem;
     left: 7rem;
-    background: linear-gradient(0deg, var(--bg-color) 0%, rgba(0, 255, 255, 0) 50%);
-    border: 10px solid black;
+    background: linear-gradient(0deg, var(--bg-color) 0%, rgba(16, 255, 255, 0) 50%);
+    /* border: 10px solid black; */
     /* border-bottom: 0px; */
-    border-radius: 5rem;
+    /* border-radius: 5rem; */
     /* border-bottom-left-radius: 0;
     border-bottom-right-radius: 0; */
     /* margin: 2rem; */
-    z-index: -1;
+    /*z-index: -1;
     overflow: hidden;
-}
+} */
 
 #header .container {
     position: relative
@@ -1510,13 +1547,12 @@ figcaption {
     aspect-ratio: 1;
     border-radius: 1rem;
     overflow: hidden;
-    background-color: red;
     transform: scale(1);
     transition: transform 0.2s;
 }
 
 .entries a:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .entries a * {
@@ -1573,23 +1609,13 @@ figcaption {
     font-size: .9em;
 }
 
-@media screen and (max-width: 599px) {
-
-    /* div{
-        background-color: red;
-    } */
-    .entries {
-        grid-template-columns: 1fr;
-    }
-}
-
 @media screen and (max-width: 899px) {
 
     /* div{
         background-color: rgb(238, 125, 125);
     } */
     .entries {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -1858,20 +1884,21 @@ details summary {
     }
 }
 
-.timeline h3 {
-    font-size: 3em;
-}
-
 .timeline-item {
     border: .75rem solid var(--font-color);
-    border-top: .75rem solid var(--font-color);
-    padding: 5rem 10rem;
+    padding: 2rem 5rem;
     position: relative;
-    border-top-left-radius: 10rem;
-    border-bottom-left-radius: 2rem;
+    border-radius: 2rem;
     margin-bottom: 2rem;
-    border-right: 0;
 }
+
+@media screen and (max-width: 899px) {
+
+    .timeline-item {
+        padding: .5rem 1rem;
+    }
+}
+
 
 .timeline-item article {
     margin-left: var(--grid-gutter);

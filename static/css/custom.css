@@ -4,6 +4,7 @@
  */
 :root {
     --bg-color: #FCE7C8;
+    --mid-dark: #ebd0a8;
     --bg-secondary-color: #f3f3f6;
     --color-primary: #c81717;
     --color-lightGrey: #d2d6dd;
@@ -40,17 +41,22 @@
     font-weight: bold;
 }
 
-.dark-theme {
-    --bg-color: #464035;
-    --bg-secondary-color: #353535;
-    --color-primary: #dc2e2e;
-    --color-lightGrey: #777777;
-    --color-grey: #747681;
-    --color-darkGrey: #3f4144;
-    --color-error: #df1d1d;
-    --color-success: #28bd14;
-    --color-mark: #baa807;
-    --font-color: #c8bfa9;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #464035;
+        --mid-dark: #5c4f3b;
+
+        --bg-secondary-color: #353535;
+        --color-primary: #dc2e2e;
+        --color-lightGrey: #777777;
+        --color-grey: #747681;
+        --color-darkGrey: #3f4144;
+        --color-error: #df1d1d;
+        --color-success: #28bd14;
+        --color-mark: #baa807;
+        --font-color: #c8bfa9;
+
+    }
 }
 
 .dark-theme pre code.hljs {
@@ -1363,52 +1369,66 @@ body {
     margin-bottom: 10rem;
 }
 
-#landing {
-      --dark-color: #191f1d;
-  --mid-dark: #555a57;
-  --light-color: #ece0c8;
-  --mid-light: #949993;
-  --shadow: #0005;
-    height: 100vh;
-    position: relative;
-      background-image: linear-gradient(
-    150deg,
-    var(--dark-color) 60.2%,
-    var(--mid-dark) 60.28%,
-    var(--mid-dark) 60.7%,
-    var(--dark-color) 60.78%,
-    var(--dark-color) 61.4%,
-    var(--mid-dark) 61.48%,
-    var(--mid-dark) 62.6%,
-    var(--dark-color) 62.68%,
-    var(--dark-color) 63.4%,
-    var(--mid-dark) 63.48%,
-    var(--mid-dark) 64.6%,
-    var(--dark-color) 64.68%,
-    var(--dark-color) 65.4%,
-    var(--mid-dark) 65.48%,
-    var(--mid-dark) 67.4%,
-    var(--dark-color) 67.48%,
-    var(--dark-color) 68.4%,
-    var(--mid-dark) 68.48%,
-    var(--mid-dark) 71.4%,
-    var(--dark-color) 71.48%,
-    var(--dark-color) 72.4%,
-    var(--mid-dark) 72.48%,
-    var(--mid-dark) 76.4%,
-    var(--dark-color) 76.48%,
-    var(--dark-color) 77.4%,
-    var(--mid-dark) 77.48%,
-    var(--mid-dark) 81.4%,
-    var(--dark-color) 81.48%,
-    var(--dark-color) 82.4%,
-    var(--mid-dark) 82.48%,
-    var(--mid-dark) 87.4%,
-    var(--dark-color) 87.48%
-  );
+.wavy {
+    animation: slidein 10s infinite alternate;
+    animation-timing-function: cubic-bezier(.68, -0.55, .27, 1.55);
 }
 
-@media screen and (max-width: 599px) {
+@keyframes slidein {
+    from {
+        clip-path: shape(from 0 0, vline to calc(100% - 50px), curve to 6% calc(100% - 30.5px) with 4% calc(100% - 30px), curve to 10% calc(100% - 17px) with 8% calc(100% - 31px), curve to 14% calc(100% - 40px) with 12% calc(100% - 3px), curve to 18% calc(100% - 88.5px) with 16% calc(100% - 77px), curve to 22% calc(100% - 55px) with 20% calc(100% - 100px), curve to 26% calc(100% - 40.5px) with 24% calc(100% - 10px), curve to 30% calc(100% - 46.5px) with 28% calc(100% - 71px), curve to 34% calc(100% - 20.5px) with 32% calc(100% - 22px), curve to 38% calc(100% - 10px) with 36% calc(100% - 19px), curve to 42% calc(100% - 18.5px) with 40% calc(100% - 1px), curve to 46% calc(100% - 23px) with 44% calc(100% - 36px), curve to 50% calc(100% - 39.5px) with 48% calc(100% - 10px), curve to 54% calc(100% - 45.5px) with 52% calc(100% - 69px), curve to 58% calc(100% - 56px) with 56% calc(100% - 22px), curve to 62% calc(100% - 48.5px) with 60% calc(100% - 90px), curve to 66% calc(100% - 50.5px) with 64% calc(100% - 7px), curve to 70% calc(100% - 89px) with 68% calc(100% - 94px), curve to 74% calc(100% - 62.5px) with 72% calc(100% - 84px), curve to 78% calc(100% - 54px) with 76% calc(100% - 41px), curve to 82% calc(100% - 48px) with 80% calc(100% - 67px), curve to 86% calc(100% - 28px) with 84% calc(100% - 29px), curve to 90% calc(100% - 53.5px) with 88% calc(100% - 27px), curve to 94% calc(100% - 82.5px) with 92% calc(100% - 80px), curve to 100% calc(100% - 50px) with 96% calc(100% - 85px), vline to 0, hline to 0);
+    }
+
+    to {
+        clip-path: shape(from 0 0, vline to calc(100% - 25px), curve to 6% calc(100% - 15.5px) with 4% calc(100% - 15px), curve to 10% calc(100% - 9px) with 8% calc(100% - 16px), curve to 14% calc(100% - 20px) with 12% calc(100% - 2px), curve to 18% calc(100% - 44px) with 16% calc(100% - 38px), curve to 22% calc(100% - 27.5px) with 20% calc(100% - 50px), curve to 26% calc(100% - 20.5px) with 24% calc(100% - 5px), curve to 30% calc(100% - 23.5px) with 28% calc(100% - 36px), curve to 34% calc(100% - 10.5px) with 32% calc(100% - 11px), curve to 38% calc(100% - 5.5px) with 36% calc(100% - 10px), curve to 42% calc(100% - 9.5px) with 40% calc(100% - 1px), curve to 46% calc(100% - 11.5px) with 44% calc(100% - 18px), curve to 50% calc(100% - 20px) with 48% calc(100% - 5px), curve to 54% calc(100% - 23px) with 52% calc(100% - 35px), curve to 58% calc(100% - 28px) with 56% calc(100% - 11px), curve to 62% calc(100% - 24.5px) with 60% calc(100% - 45px), curve to 66% calc(100% - 25.5px) with 64% calc(100% - 4px), curve to 70% calc(100% - 44.5px) with 68% calc(100% - 47px), curve to 74% calc(100% - 31px) with 72% calc(100% - 42px), curve to 78% calc(100% - 26.5px) with 76% calc(100% - 20px), curve to 82% calc(100% - 23.5px) with 80% calc(100% - 33px), curve to 86% calc(100% - 13.5px) with 84% calc(100% - 14px), curve to 90% calc(100% - 26.5px) with 88% calc(100% - 13px), curve to 94% calc(100% - 41px) with 92% calc(100% - 40px), curve to 100% calc(100% - 25px) with 96% calc(100% - 42px), vline to 0, hline to 0);
+    }
+}
+
+#landing {
+
+    /* --mid-dark: #555a57; */
+    /* --light-color: #ece0c8;
+    --mid-light: #949993;
+    --shadow: #0005; */
+    height: 80vh;
+    position: relative;
+    background: var(--mid-dark);
+    /* background-image: linear-gradient(150deg,
+            var(--bg-color) 60.2%,
+            var(--mid-dark) 60.28%,
+            var(--mid-dark) 60.7%,
+            var(--bg-color) 60.78%,
+            var(--bg-color) 61.4%,
+            var(--mid-dark) 61.48%,
+            var(--mid-dark) 62.6%,
+            var(--bg-color) 62.68%,
+            var(--bg-color) 63.4%,
+            var(--mid-dark) 63.48%,
+            var(--mid-dark) 64.6%,
+            var(--bg-color) 64.68%,
+            var(--bg-color) 65.4%,
+            var(--mid-dark) 65.48%,
+            var(--mid-dark) 67.4%,
+            var(--bg-color) 67.48%,
+            var(--bg-color) 68.4%,
+            var(--mid-dark) 68.48%,
+            var(--mid-dark) 71.4%,
+            var(--bg-color) 71.48%,
+            var(--bg-color) 72.4%,
+            var(--mid-dark) 72.48%,
+            var(--mid-dark) 76.4%,
+            var(--bg-color) 76.48%,
+            var(--bg-color) 77.4%,
+            var(--mid-dark) 77.48%,
+            var(--mid-dark) 81.4%,
+            var(--bg-color) 81.48%,
+            var(--bg-color) 82.4%,
+            var(--mid-dark) 82.48%,
+            var(--mid-dark) 87.4%,
+            var(--bg-color) 87.48%); */
+}
+
+@media screen and (max-width: 919px) {
     #landing div {
         text-align: center;
         /* background-color: red; */
@@ -1424,27 +1444,7 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
-    /* overflow: hidden; */
 }
-
-/* #landing .gradient-background:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 7rem;
-    bottom: 7rem;
-    right: 7rem;
-    left: 7rem;
-    background: linear-gradient(0deg, var(--bg-color) 0%, rgba(16, 255, 255, 0) 50%);
-    /* border: 10px solid black; */
-    /* border-bottom: 0px; */
-    /* border-radius: 5rem; */
-    /* border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0; */
-    /* margin: 2rem; */
-    /*z-index: -1;
-    overflow: hidden;
-} */
 
 #header .container {
     position: relative
@@ -1465,6 +1465,25 @@ body {
 #header .tags {
     margin-top: 1rem;
     font-size: .9em;
+}
+
+#header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background:
+        linear-gradient(0deg, var(--bg-color) 0%, #0000 30%),
+        linear-gradient(90deg, var(--bg-color) 0%, #0000 20%),
+        linear-gradient(180deg, var(--bg-color) 0%, #0000 20%),
+        linear-gradient(270deg, var(--bg-color) 0%, #0000 20%),
+        radial-gradient(ellipse at 50% 70%, #0000 80%, var(--bg-color) 120%);
+    /* background: linear-gradient(0deg, #39FF10 0%, #0000 30%), 
+    linear-gradient(90deg, #EE3737 0%, #0000 20%), 
+    linear-gradient(180deg, #FF9C09 0%, #0000 20%), 
+    linear-gradient(270deg, var(--bg-color) 0%, #0000 20%); */
 }
 
 #scrolling-container path {
@@ -1551,7 +1570,8 @@ figcaption {
     transition: transform 0.2s;
 }
 
-.entries a:hover {
+
+*/ .entries a:hover {
     transform: scale(1.03);
 }
 
@@ -1572,8 +1592,30 @@ figcaption {
 
 }
 
-.entries a:hover div {}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
+    gap: 2rem;
+    text-align: center;
+
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.grid>* {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+
+}
 
 .entries img {
     height: inherit;
@@ -1830,9 +1872,9 @@ details summary {
     content: "☀️"
 }
 
-.dark-theme .logo {
+/* .dark-theme .logo {
     filter: invert(0.7)
-}
+} */
 
 /* .dark-theme img {
     filter: brightness(0.8) contrast(1.2)
@@ -1868,6 +1910,7 @@ details summary {
     mask-repeat: no-repeat;
     background-color: var(--color-primary);
     font-family: monospace;
+    z-index: 1;
 }
 
 .circTxt p {
@@ -1884,11 +1927,15 @@ details summary {
     }
 }
 
-.timeline-item {
+.border {
     border: .75rem solid var(--font-color);
-    padding: 2rem 5rem;
-    position: relative;
     border-radius: 2rem;
+    padding: 2rem 5rem;
+    border-block: ;
+}
+
+.timeline-item {
+    position: relative;
     margin-bottom: 2rem;
 }
 

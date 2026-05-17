@@ -1,5 +1,5 @@
 <!-- title: Example -->
-<!-- image: images/render.png -->
+<!-- image: images/sail.png -->
 <article class="bigMargin">
 
     <section class="images two">
@@ -27,8 +27,8 @@
         <h4>Title h4</h4>
         <h5>Title h6</h5>
         <p class="first-letter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <b>Dolor neque
-                a
-                voluptatibus</b> ad deleniti reiciendis, <i>tenetur velit id</i>, quia vero corrupti
+            a
+            voluptatibus</b> ad deleniti reiciendis, <i>tenetur velit id</i>, quia vero corrupti
             eaque
             possimus laboriosam iure. Reiciendis provident at ut obcaecati!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, perspiciatis! Repudiandae odit
@@ -158,7 +158,7 @@ p q r s t u v w x y z { | } ~ </pre>
         <p><small>This small text is small for fine print, etc.</small></p>
         <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
         <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline
-                quotation.</q></p>
+            quotation.</q></p>
         <p><cite>This is a citation.</cite></p>
         <p>The <dfn>dfn element</dfn> indicates a definition.</p>
         <p>The
@@ -185,7 +185,7 @@ p q r s t u v w x y z { | } ~ </pre>
             versions supérieures. Nous avons réalisé la totalité des assets de ce jeu en nous inspirant de
             Resident Evil ainsi que Ghost Buster.</p>
         <img alt="" class="focus"
-            src="https://baptistemanusset.github.io/images/projects/nightmaremansion/tutorial%20room.png">
+             src="https://baptistemanusset.github.io/images/projects/nightmaremansion/tutorial%20room.png">
         <p>Chaque partie dure environ 5 minutes, un tutoriel est lancé au début afin de permettre une bonne
             prise en main de l'appareil servant à contrôler le fantôme. Ce tutoriel permet également à
             l'autre joueur de s'habituer a l'environnement en VR. Chaque utilisateur joue à tour de rôle le
@@ -196,107 +196,127 @@ p q r s t u v w x y z { | } ~ </pre>
 
         <h1>Colors</h1>
 
-        <div class="row">
-            <div class="col">
-                <div class="card" style="background-color: var(--bg-color);">bg-color</div>
-                <div class="card" style="background-color: var(--bg-secondary-color);">bg-secondary-color</div>
-                <div class="card" style="background-color: var(--color-primary);">color-primary</div>
-                <div class="card" style="background-color: var(--color-lightGrey);">color-lightGrey</div>
-                <div class="card" style="background-color: var( --color-grey);">color-grey</div>
-                <div class="card" style="background-color: var(--color-darkGrey);">color-darkGrey</div>
-                <div class="card" style="background-color: var(--color-error);">color-error</div>
-                <div class="card" style="background-color: var(--color-success);">color-success</div>
-                <div class="card" style="background-color: var(--color-mark);">color-mark</div>
-                <div class="card" style="background-color: var(--font-color);">font-color</div>
-            </div>
+        <h2>Main color</h2>
+        <div class="grid smallMargin">
+            <div class="border" style="background-color: var(--bg-color);">bg-color</div>
+            <div class="border" style="background-color: var(--bg-secondary-color);">bg-secondary-color</div>
+            <div class="border" style="background-color: var(--color-primary);">color-primary</div>
+            <div class="border" style="background-color: var(--color-lightGrey);">color-lightGrey</div>
+            <div class="border" style="background-color: var( --color-grey);">color-grey</div>
+            <div class="border" style="background-color: var(--color-darkGrey);">color-darkGrey</div>
+            <div class="border" style="background-color: var(--color-error);">color-error</div>
+            <div class="border" style="background-color: var(--color-success);">color-success</div>
+            <div class="border" style="background-color: var(--color-mark);">color-mark</div>
+            <div class="border" style="background-color: var(--font-color);">font-color</div>
+            <div class="border" style="background-color: var(--mid-dark);">mid-dark</div>
         </div>
-        <h1>Grid</h1>
-
-        The grid system is a fluid system with a max width of 120rem (1200px), that shrinks with the viewport. The max
-        width can be controlled by changing the --grid-maxWidth in the :root.
-
-        Much like other frameworks, wrap your content in a .container to center it on the page.
-
-        <h1>Flexible grid</h1>
-
-        A simple way to build flexible responsive columns:
-
-        Add a .row container
-        Add as many .col elements as you want
-
-        Each column will have an equal width, in a row. There is no restriction on number of columns, but it is
-        recommended not to add more than 12 columns in a row.
-        <div class="row">
-            <div class="col">
-                <div class="card is-center">.col</div>
-            </div>
+        <h2>Background color</h2>
+        <div class="grid smallMargin">
+            <div class="border bg-red">red</div>
+            <div class="border bgOrange">orange</div>
+            <div class="border bgSalmon">salmon</div>
+            <div class="border bgBlue">blue</div>
+            <div class="border bgTerracotta">terracotta</div>
+            <div class="border bgBrown">brown</div>
+            <div class="border bgYellow">yellow</div>
+            <div class="border bgLightOrange">lightOrange</div>
+            <div class="border bgLightGreen">lightGreen</div>
+            <div class="border bgPastelGreen">pastelGreen</div>
+            <div class="border bgGreen">green</div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="card is-center">.col </div>
-            </div>
-            <div class="col">
-                <div class="card is-center">.col </div>
-            </div>
-            <div class="col">
-                <div class="card is-center">.col </div>
-            </div>
-        </div>
+    </section>
+    <div class="bgLightOrange mediumMargin">
+        <section>
 
-        <h1>Sized</h1>
+            <h1>Grid</h1>
 
-        You can also specify the size of the columns
+            The grid system is a fluid system with a max width of 120rem (1200px), that shrinks with the viewport. The
+            max
+            width can be controlled by changing the --grid-maxWidth in the :root.
 
-        Add a .row container
-        Add a .col-n child where n can be from 1 to 12
+            Much like other frameworks, wrap your content in a .container to center it on the page.
 
-        Each column class is named after how many columns you want out of 12. So if you want 4 columns out of 12, use
-        .col-4.
-        <div class="row">
-            <div class="col-1">
-                <div class="card is-center"> .col-1 </div>
+            <h1>Flexible grid</h1>
+
+            A simple way to build flexible responsive columns:
+
+            Add a .row container
+            Add as many .col elements as you want
+
+            Each column will have an equal width, in a row. There is no restriction on number of columns, but it is
+            recommended not to add more than 12 columns in a row.
+            <div class="row">
+                <div class="col">
+                    <div class="is-center border">.col</div>
+                </div>
             </div>
-            <!-- repeat 11 times -->
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="card is-center"> .col-4 </div>
+            <div class="row">
+                <div class="col">
+                    <div class="is-center border">.col</div>
+                </div>
+                <div class="col">
+                    <div class="is-center border">.col</div>
+                </div>
+                <div class="col">
+                    <div class="is-center border">.col</div>
+                </div>
             </div>
-            <!-- repeat twice -->
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="card is-center">.col-12 </div>
+
+            <h1>Sized</h1>
+
+            You can also specify the size of the columns
+
+            Add a .row container
+            Add a .col-n child where n can be from 1 to 12
+
+            Each column class is named after how many columns you want out of 12. So if you want 4 columns out of 12,
+            use
+            .col-4.
+            <div class="row">
+                <div class="col-1">
+                    <div class="is-center border"> .col-1</div>
+                </div>
+                <!-- repeat 11 times -->
             </div>
-        </div>
-        <h1>Responsive grids:</h1>
+            <div class="row">
+                <div class="col-4">
+                    <div class="is-center border"> .col-4</div>
+                </div>
+                <!-- repeat twice -->
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="is-center border">.col-12</div>
+                </div>
+            </div>
+            <h1>Responsive grids:</h1>
 
-        We now have responsive grids that work based on device width.
+            We now have responsive grids that work based on device width.
 
-        All columns are 100% for device width < 600px .col and .col-N for all device sizes>= 600px
+            All columns are 100% for device width < 600px .col and .col-N for all device sizes>= 600px
             .col-N-md for >= 900px sizes
             .col-N-lg for >= 1200px sizes
 
             <div class="row">
                 <div class="col-12 col-6-md col-4-lg">
-                    <div class="card is-center">.col-12.col-6-md.col-4-lg</div>
+                    <div class="is-center border">.col-12.col-6-md.col-4-lg</div>
                 </div>
                 <div class="col-6 col-3-md col-4-lg">
-                    <div class="card is-center">.col-6.col-3-md.col-4-lg</div>
+                    <div class="is-center border">.col-6.col-3-md.col-4-lg</div>
                 </div>
                 <div class="col-6 col-3-md col-4-lg">
-                    <div class="card is-center">.col-6.col-3-md.col-4-lg</div>
+                    <div class="is-center border">.col-6.col-3-md.col-4-lg</div>
                 </div>
             </div>
             <div class="row">
                 <div class="col col-6-lg">
-                    <div class="card is-center">.col.col-6-lg</div>
+                    <div class="is-center border">.col.col-6-lg</div>
                 </div>
                 <div class="col col-3-lg">
-                    <div class="card is-center">.col.col-3-lg</div>
+                    <div class="is-center border">.col.col-3-lg</div>
                 </div>
                 <div class="col col-3-lg">
-                    <div class="card is-center">.col.col-3-lg</div>
+                    <div class="is-center border">.col.col-3-lg</div>
                 </div>
             </div>
             <h1>Mix-n-Match</h1>
@@ -307,41 +327,41 @@ p q r s t u v w x y z { | } ~ </pre>
             the flexible column.
             <div class="row">
                 <div class="col-2">
-                    <div class="card is-center">.col-2</div>
+                    <div class="is-center border">.col-2</div>
                 </div>
                 <div class="col-2">
-                    <div class="card is-center">.col-2</div>
+                    <div class="is-center border">.col-2</div>
                 </div>
                 <div class="col">
-                    <div class="card is-center">auto</div>
+                    <div class="is-center border">auto</div>
                 </div>
                 <div class="col-3">
-                    <div class="card is-center">.col-3</div>
+                    <div class="is-center border">.col-3</div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-10">
-                    <div class="card is-center">.col-10</div>
+                    <div class="is-center border">.col-10</div>
                 </div>
                 <div class="col">
-                    <div class="card is-center">auto</div>
+                    <div class="is-center border">auto</div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card is-center">auto</div>
+                    <div class="is-center border">auto</div>
                 </div>
                 <div class="col">
-                    <div class="card is-center">auto</div>
+                    <div class="is-center border">auto</div>
                 </div>
                 <div class="is-full-width">
-                    <div class="card is-center">full width</div>
+                    <div class="is-center border">full width</div>
                 </div>
                 <div class="col">
-                    <div class="card is-center">auto</div>
+                    <div class="is-center border">auto</div>
                 </div>
                 <div class="col">
-                    <div class="card is-center">auto</div>
+                    <div class="is-center border">auto</div>
                 </div>
             </div>
 
@@ -352,13 +372,13 @@ p q r s t u v w x y z { | } ~ </pre>
             Add .reverse to the .row to reverse the column direction.
             <div class="row reverse">
                 <div class="col-6">
-                    <div class="card is-center">.col-6</div>
+                    <div class="is-center border">.col-6</div>
                 </div>
                 <div class="col-3">
-                    <div class="card is-center">.col-3</div>
+                    <div class="is-center border">.col-3</div>
                 </div>
                 <div class="col-3">
-                    <div class="card is-center">.col-3</div>
+                    <div class="is-center border">.col-3</div>
                 </div>
             </div>
 
@@ -368,5 +388,7 @@ p q r s t u v w x y z { | } ~ </pre>
                 <div class="col border">Développement de Shader</div>
                 <div class="col border">Modélisation 3D avec Blender</div>
             </div>
-    </section>
+        </section>
+    </div>
+
 </article>

@@ -120,9 +120,15 @@ def read_content(filename):
 
 def render(template, **params):
     """Replace placeholders in template with values from params."""
-    return re.sub(r'{{\s*([^}\s]+)\s*}}',
+    result = re.sub(r'{{\s*([^}\s]+)\s*}}',
                   lambda match: str(params.get(match.group(1), match.group(0))),
                   template)
+
+    if params.get('minified'):
+        result = result.replace("\n", "")
+        result = re.sub(r">\s+<", "> <", result)
+        result = re.sub(r"(<!--)[\w*\s*]*(-->)", "", result)  # remove big space between balise
+    return result
 
 
 def make_pages(src, dst, layout, **params):
@@ -131,6 +137,8 @@ def make_pages(src, dst, layout, **params):
 
     for src_path in glob.glob(src):
         content = read_content(src_path)
+
+        content['page'] = src_path
 
         page_params = dict(params, **content)
 
@@ -150,14 +158,13 @@ def make_pages(src, dst, layout, **params):
             page_params['tags'] = concatenateTags
             content['tags'] = concatenateTags
 
-
-            if(page_params.get('types') != None):
+            if (page_params.get('types') != None):
                 typesList = page_params.get('types').split(';')
                 typesList = list(filter(None, typesList))
                 concatenateTypes = ""
                 concatenateTypesClass = ""
                 for tag in (typesList):
-                    tag = tag.replace(" ","")
+                    tag = tag.replace(" ", "")
                     tag = tag.lower()
                     concatenateTypes = concatenateTypes + "" + tag + (" ")
                     concatenateTypesClass = concatenateTypesClass + "type_" + tag + (" ")
@@ -188,6 +195,11 @@ def make_list(posts, dst, list_layout, item_layout, **params):
         items.append(item)
 
     params['content'] = ''.join(items)
+    if not 'page' in params.keys():
+        params['page'] = ""
+    if not 'blog' in params.keys():
+        params['blog'] = ""
+
     dst_path = render(dst, **params)
     output = render(list_layout, **params)
 
@@ -221,8 +233,10 @@ def main():
         # 'author': 'Baptiste',
         # 'site_url': 'http://localhost:8000',
         'current_year': datetime.datetime.now().year,
-        # 'tags':''
+        # 'tags':'',
+
     }
+
     # If params.json exists, load it.
     if os.path.isfile('params.json'):
         params.update(json.loads(fread('params.json')))
@@ -254,10 +268,8 @@ def main():
                                          list_layout, item_layout, blog='projects', title='Projects', **params)
 
     # Create site pages.
-    make_pages('content/_index.html', '_site/index.html',
-               page_layout, **params)
-    make_pages('content/[!_]*.html', '_site/{{ slug }}/index.html',
-               page_layout, **params)
+    make_pages('content/_index.html', '_site/index.html', page_layout, **params)
+    make_pages('content/[!_]*.html', '_site/{{ slug }}/index.html', page_layout, **params)
 
     # Create RSS feeds.
     make_list(blog_posts, '_site/blog/rss.xml',

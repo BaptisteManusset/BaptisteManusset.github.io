@@ -3,6 +3,7 @@
   "subtitle": "Baptiste Manusset",
   "author": "Baptiste",
   "site_url": "http://localhost:8000",
+  "minified": false,
   "tags": "",
   "image": "images/test.bmp"
 }

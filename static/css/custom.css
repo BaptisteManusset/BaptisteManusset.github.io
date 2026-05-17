@@ -266,9 +266,7 @@ iframe {
     aspect-ratio: 16/9;
 }
 
-article section.full,
-article figure.full,
-.container-full {
+.full {
     max-width: var(--grid-maxWidth);
     margin: 0 auto;
     width: 96%;
@@ -276,8 +274,7 @@ article figure.full,
     /* background-color: #d43939; */
 }
 
-article section,
-article figure,
+.four,
 .container {
     max-width: var(--grid-narrowWidth);
     margin: 0 auto;
@@ -1226,7 +1223,7 @@ footer#footer .brand img {
     padding-bottom: 16rem
 }
 
-.mediumMargin {
+.margin {
     padding-top: 8rem;
     padding-bottom: 8rem
 }
@@ -1437,6 +1434,7 @@ body {
 
 
 /*#region Images*/
+/*
 figure {
     display: grid;
     width: 100%;
@@ -1466,6 +1464,7 @@ figure.full img {
 figure.full figcaption {
     margin: auto
 }
+*/
 
 figcaption {
     text-align: center;
@@ -1530,11 +1529,11 @@ figcaption {
     }
 }
 
-.grid {
+.two,
+.three,
+.four {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
-
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -1542,7 +1541,18 @@ figcaption {
     width: 100%;
 }
 
-.grid > * {
+.two {
+    grid-template-columns: 1fr 1fr
+}
+
+.three {
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.four {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.square {
     aspect-ratio: 1;
     width: 100%;
     position: relative;

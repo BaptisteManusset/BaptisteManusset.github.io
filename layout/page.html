@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" style="">
 
 <head>
 
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <title>{{ title }}</title>
 
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- CSS -->
     <link rel="stylesheet" href="{{ base_path }}/css/custom.css">
     <link rel="stylesheet" href="{{ base_path }}/css/agate.min.css">
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon.png">
 </head>
 
-<body>
+<body class="{{ slug }} {{ blog }} {{ page }}">
 
-<!-- Primary Page Layout
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<p class="is-center">page: {{ page }} <br>
+blog: {{ blog }} <br>
+slug: {{ slug }}</p>
+<!-- Primary Page Layout -->
 <nav class="nav bold" id="nav-main">
     <div class="nav-left">
         <a class="brand" href="{{ base_path }}/">
@@ -39,6 +37,7 @@
     </div>
 </nav>
 {{ content }}
+
 <footer id="footer" class="is-full-width smallMargin">
     <div class="container-full">
         <div class="row">
@@ -59,6 +58,9 @@
                         <a href="https://github.com/BaptisteManusset">Github</a>
                     </div>
                 </nav>
+                <div class="iscenter smallMargin title-font">
+                    <p>100% Human Made Content, No AI Used.<br>Made with <a href="https://github.com/sunainapai/makesite">makesite.py</a></p>
+                </div>
             </div>
         </div>
     </div>
@@ -82,8 +84,7 @@
 <script src="{{ base_path }}/scripts/main.js"></script>
 
 <script>hljs.highlightAll();</script>
-<!-- End Document
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- End Document -->
 </body>
 
 </html>

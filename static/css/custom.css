@@ -25,13 +25,14 @@
     --color-lightGreen: #FFF19B;
     --color-pastelGreen: #DCF0C3;
     --color-green: #94A378;
+    --fontColor: #333;
+    --fontColorDark: #333;
 
 
     --grid-maxWidth: 160rem;
     --grid-narrowWidth: 90rem;
     --grid-gutter: 2rem;
     --font-size: 1.6rem;
-    --font-color: #333;
     --font-family-sans: -apple-system, "BlinkMacSystemFont", "Avenir",
     "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -59,7 +60,20 @@
         --color-error: #df1d1d;
         --color-success: #28bd14;
         --color-mark: #baa807;
-        --font-color: #c8bfa9;
+        --fontColor: #c8bfa9;
+        --fontColorDark: #c8bfa9;
+
+        --color-red: #902626;
+        --color-orange: #a44106;
+        --color-salmon: #7b1414;
+        --color-blue: #435f75;
+        --color-terracotta: #8a4927;
+        --color-brown: #865720;
+        --color-yellow: #6c5000;
+        --color-lightOrange: #683e00;
+        --color-lightGreen: #534800;
+        --color-pastelGreen: #2b3a0e;
+        --color-green: #4d5339;
 
     }
 }
@@ -94,7 +108,7 @@ body {
     background-color: var(--bg-color);
     line-height: 1.6;
     font-size: var(--font-size);
-    color: var(--font-color);
+    color: var(--fontColor);
     /* fallback */
     font-family: var(--font-family-sans);
     margin: 0;
@@ -114,6 +128,7 @@ h6 {
     position: relative;
     font-family: var(--font-family-mono);
     font-style: italic;
+    margin: 0 0 10px;
 }
 
 h1 {
@@ -166,6 +181,7 @@ button {
 
 p {
     margin-top: 0;
+    text-justify: auto;
 }
 
 blockquote {
@@ -274,7 +290,6 @@ iframe {
     /* background-color: #d43939; */
 }
 
-.four,
 .container {
     max-width: var(--grid-narrowWidth);
     margin: 0 auto;
@@ -960,57 +975,57 @@ details.dropdown > :last-child {
 
 .bg-red {
     background-color: var(--color-red);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgOrange {
     background-color: var(--color-orange);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgSalmon {
     background-color: var(--color-salmon);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgBlue {
     background-color: var(--color-blue);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgTerracotta {
     background-color: var(--color-terracotta);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgBrown {
     background-color: var(--color-brown);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgYellow {
     background-color: var(--color-yellow);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgLightOrange {
     background-color: var(--color-lightOrange);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgLightGreen {
     background-color: var(--color-lightGreen);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgPastelGreen {
     background-color: var(--color-pastelGreen);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .bgGreen {
     background-color: var(--color-green);
-    color: var(--font-color)
+    color: var(--fontColor)
 }
 
 .textPrimary {
@@ -1042,13 +1057,6 @@ details.dropdown > :last-child {
 }
 
 /* Position & alignment */
-.pull-right {
-    float: right !important;
-}
-
-.pull-left {
-    float: left !important;
-}
 
 .text-center {
     text-align: center;
@@ -1076,19 +1084,6 @@ details.dropdown > :last-child {
 
 .text-capitalize {
     text-transform: capitalize;
-}
-
-.is-full-screen {
-    width: 100%;
-    min-height: 100vh;
-}
-
-.is-full-width {
-    width: 100% !important;
-}
-
-.is-full-height {
-    height: 100% !important;
 }
 
 .is-vertical-align {
@@ -1316,12 +1311,6 @@ body {
 }
 
 
-#landing h2,
-#header h2 {
-    font-size: 3rem;
-    line-height: 1;
-}
-
 #landing h1,
 #header h1 {
     line-height: 1;
@@ -1466,13 +1455,13 @@ figure.full figcaption {
 }
 */
 
-figcaption {
+.caption {
     text-align: center;
-    grid-column: 1/-1;
     color: var(--color-grey);
-    background-color: rgba(166, 197, 208, .1);
     padding: 1rem;
-    border-radius: 1rem
+    border-radius: 1rem;
+    background-color: #3f4144;
+    margin-top: 2rem;
 }
 
 /*#endregion*/
@@ -1529,6 +1518,7 @@ figcaption {
     }
 }
 
+.one,
 .two,
 .three,
 .four {
@@ -1539,19 +1529,34 @@ figcaption {
     justify-items: center;
     align-items: center;
     width: 100%;
+    grid-auto-rows: 1fr;
+}
+
+.one > *,
+.two > *,
+.three > *,
+.four > * {
+    width: 100%;
+    height: 100%;
+}
+
+.one {
+    grid-template-columns:  1fr;
 }
 
 .two {
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .three {
-    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: repeat(3, 1fr);
+
 }
 
 .four {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
 }
+
 .square {
     aspect-ratio: 1;
     width: 100%;
@@ -1570,6 +1575,7 @@ figcaption {
 
 .entries div {
     padding: 3rem;
+    hyphens: manual;
 }
 
 .entries a {
@@ -1718,7 +1724,7 @@ figcaption {
 
 .lightbox p {
     color: var(--bg-color);
-    background-color: var(--font-color);
+    background-color: var(--fontColor);
     margin: auto;
     padding: 1rem;
     display: inline-block;
@@ -1903,7 +1909,7 @@ details summary {
 }
 
 .border {
-    border: .75rem solid var(--font-color);
+    border: .75rem solid var(--fontColor);
     border-radius: 2rem;
     padding: 2rem 5rem;
 
@@ -1960,5 +1966,5 @@ textPath {
     font-size: 6rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: var(--font-color);
+    color: var(--fontColor);
 }

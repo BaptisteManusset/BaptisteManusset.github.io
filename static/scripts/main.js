@@ -16,28 +16,30 @@ if (currentTheme == "dark") {
     document.body.classList.toggle("light-theme");
 }
 
+
+if(btn) {
 // Listen for a click on the button
-btn.addEventListener("click", function () {
-    // If the user's OS setting is dark and matches our .dark-theme class...
-    console.log("test " + prefersDarkScheme.matches);
-    // if (prefersDarkScheme.matches) {
+    btn.addEventListener("click", function () {
+        // If the user's OS setting is dark and matches our .dark-theme class...
+        console.log("test " + prefersDarkScheme.matches);
+        // if (prefersDarkScheme.matches) {
 
 
-    //     // ...then toggle the light mode class
-    //     // document.body.classList.toggle("light-theme");
-    //     // // ...but use .dark-theme if the .light-theme class is already on the body,
-    // } else {
-    //     // Otherwise, let's do the same thing, but for .dark-theme
-    //     document.body.classList.toggle("dark-theme");
-    //     var theme = document.body.classList.contains("dark-theme") ? "dark" : "light";
-    // }
+        //     // ...then toggle the light mode class
+        //     // document.body.classList.toggle("light-theme");
+        //     // // ...but use .dark-theme if the .light-theme class is already on the body,
+        // } else {
+        //     // Otherwise, let's do the same thing, but for .dark-theme
+        //     document.body.classList.toggle("dark-theme");
+        //     var theme = document.body.classList.contains("dark-theme") ? "dark" : "light";
+        // }
 
-    document.body.classList.toggle("dark-theme");
-    var theme = document.body.classList.contains("dark-theme") ? "dark" : "light";
-    // Finally, let's save the current preference to localStorage to keep using it
-    localStorage.setItem("theme", theme);
-});
-
+        document.body.classList.toggle("dark-theme");
+        var theme = document.body.classList.contains("dark-theme") ? "dark" : "light";
+        // Finally, let's save the current preference to localStorage to keep using it
+        localStorage.setItem("theme", theme);
+    });
+}
 const lightbox = document.querySelector(".lightbox");
 const article = document.querySelector("article");
 
@@ -48,7 +50,10 @@ lightbox.addEventListener('click', () => {
     article.classList.remove("blur");
 });
 document.querySelectorAll('.focus').forEach(img => {
+    console.log("sub");
     img.addEventListener('click', () => {
+            console.log("on click");
+
         lightboxImg.setAttribute("src", img.getAttribute("src"));
         lightboxText.textContent = img.getAttribute("alt");
         lightbox.classList.remove('hide');

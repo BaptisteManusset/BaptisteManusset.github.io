@@ -1013,7 +1013,7 @@ body {
     fill: var(--color-primary);
 }
 
-#landing::before {
+.bgimg {
     content: "";
     right: 0;
     bottom: 0;
@@ -1139,9 +1139,33 @@ body {
 }
 
 #header-content {
-    bottom: 0;
+    bottom: 5rem;
     left: 0;
-    position: absolute
+    position: absolute;
+      background: var(--bg-color);
+  padding: 2rem 8rem 2rem 2rem;
+    border-radius: 0 10rem 10rem 0;
+}
+
+#header-content::before {
+content: "";
+  bottom: 0;
+  top: 0;
+  right: 100%;
+  left: -300%;
+  position: absolute;
+  background: var(--bg-color);
+}
+#header-content::after {
+content: "";
+  bottom: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background: rgb(255 0 0 / 0.21);
+  border-radius: 10rem;
+  aspect-ratio: 1;
+
 }
 
 .caption {

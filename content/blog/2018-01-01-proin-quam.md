@@ -2,8 +2,8 @@
 <!-- title: Proin Quam -->
 <!-- image: Proin Quam -->
 <!-- tags: ddsdfsdfs;dfsdfsdfs -->
-<!-- image: images/render.png -->
-<!-- image-header: images/render.png -->
+<!-- image: images/placeholder.png -->
+<!-- image-header: images/placeholder.png -->
 <!-- description: blblblbl -->
 <section>
 Proin quam urna, pulvinar id ipsum ac, mattis consectetur ante. Praesent

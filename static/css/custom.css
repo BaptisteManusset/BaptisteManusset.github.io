@@ -133,7 +133,7 @@ h6 {
 
 h1 {
     /* font-size: 12rem; */
-    font-size: clamp(5rem, 10vw, 12rem);
+    font-size: clamp(5rem, 10vw, 10rem);
     font-weight: 700;
     letter-spacing: .5rem;
 }
@@ -156,9 +156,7 @@ h4 {
 }
 
 h5 {
-    font-size: 4em;
     font-size: clamp(1rem, 10vw, 4rem);
-
 }
 
 h6 {
@@ -1156,7 +1154,7 @@ content: "";
   position: absolute;
   background: var(--bg-color);
 }
-#header-content::after {
+/*#header-content::after {
 content: "";
   bottom: 0;
   top: 0;
@@ -1166,7 +1164,7 @@ content: "";
   border-radius: 10rem;
   aspect-ratio: 1;
 
-}
+}*/
 
 .caption {
     text-align: center;

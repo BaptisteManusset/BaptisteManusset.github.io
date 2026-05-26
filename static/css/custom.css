@@ -156,11 +156,11 @@ h4 {
 }
 
 h5 {
-    font-size: clamp(1rem, 10vw, 4rem);
+    font-size: clamp(1rem, 10vw, 3rem);
 }
 
 h6 {
-    font-size: clamp(0.75rem, 10vw, 3rem);
+    font-size: clamp(0.75rem, 10vw, 2rem);
 }
 
 a {
@@ -614,6 +614,10 @@ article.blur {
     justify-content: center;
 }
 
+.nav-url:hover{
+    background-color: var(--bg-color);
+} 
+
 @media screen and (max-width: 480px) {
 
     .nav,
@@ -990,7 +994,8 @@ article > section,
 }
 
 html {
-    height: 100%
+    height: 100%;
+      scrollbar-color: var(--color-primary) var(--color-yellow);
 }
 
 body {
@@ -1140,9 +1145,9 @@ body {
     bottom: 5rem;
     left: 0;
     position: absolute;
-      background: var(--bg-color);
-  padding: 2rem 8rem 2rem 2rem;
-    border-radius: 0 10rem 10rem 0;
+    background: var(--bg-color);
+    padding: 2rem 8rem 2rem 2rem;
+    border-radius: 0 20rem 20rem 0;
 }
 
 #header-content::before {
@@ -1260,6 +1265,12 @@ content: "";
     position: relative;
     overflow: hidden;
 }
+.demisquare {
+    aspect-ratio: 2;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
 
 .entries img,
 .entries div {
@@ -1297,6 +1308,11 @@ content: "";
 
 .entries .description {
     font-size: .9em;
+}
+
+.entries strong{
+    background-color: var(--bg-color);
+    padding: .1rem .2rem;
 }
 
 @media screen and (max-width: 899px) {

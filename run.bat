@@ -1,4 +1,4 @@
 @echo on
-python launcher.py
+python makesite.py
 cd _site
 python -m http.server

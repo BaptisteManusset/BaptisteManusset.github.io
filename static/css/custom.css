@@ -34,8 +34,8 @@
     --grid-gutter: 2rem;
     --font-size: 1.6rem;
     --font-family-sans: -apple-system, "BlinkMacSystemFont", "Avenir",
-    "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+        "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
 
 
@@ -621,7 +621,7 @@ article.blur {
 
 .nav-url:hover{
     background-color: var(--bg-color);
-} 
+}
 
 @media screen and (max-width: 480px) {
 
@@ -1000,7 +1000,7 @@ article > section,
 
 html {
     height: 100%;
-      scrollbar-color: var(--color-primary) var(--color-yellow);
+    scrollbar-color: var(--color-primary) var(--color-yellow);
 }
 
 body {
@@ -1156,13 +1156,13 @@ body {
 }
 
 #header-content::before {
-content: "";
-  bottom: 0;
-  top: 0;
-  right: 100%;
-  left: -300%;
-  position: absolute;
-  background: var(--bg-color);
+    content: "";
+    bottom: 0;
+    top: 0;
+    right: 100%;
+    left: -300%;
+    position: absolute;
+    background: var(--bg-color);
 }
 /*#header-content::after {
 content: "";
@@ -1289,6 +1289,12 @@ content: "";
 .entries div {
     padding: 3rem;
     hyphens: manual;
+}
+
+.entries footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
 }
 
 .entries a {

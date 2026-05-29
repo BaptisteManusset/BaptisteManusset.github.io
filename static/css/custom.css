@@ -1212,11 +1212,11 @@ content: "";
 
 @keyframes idleAnim {
     from {
-        transform: translateY(0);
+        transform: translateY(-1.5rem);
     }
 
     to {
-        transform: translateY(3rem);
+        transform: translateY(1.5rem);
     }
 }
 

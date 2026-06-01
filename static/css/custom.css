@@ -1047,6 +1047,22 @@ body {
 }
 
 
+.bgpixel{
+    
+    background-size: cover;
+    image-rendering: pixelated;  
+    background-position: 50% 50%;
+}
+
+/*.skills h5, */
+/*.software h5,*/
+/*.skills p, */
+/*.software p*/
+/* {*/
+/*background-color: var(--bg-color);*/
+/*}*/
+
+
 #landing h1,
 #header h1 {
     line-height: 1;

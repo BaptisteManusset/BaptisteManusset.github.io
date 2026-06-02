@@ -36,7 +36,7 @@ import datetime
 import http.server
 import socketserver
 import os
-
+import unicodedata
 
 def fread(filename):
     """Read file and close the file."""
@@ -58,6 +58,16 @@ def log(msg, *args):
     """Log message with specified arguments."""
     sys.stderr.write(msg.format(*args) + '\n')
 
+def strip_accents(text):
+
+   return ''.join(c for c in unicodedata.normalize('NFD', text)
+                  if unicodedata.category(c) != 'Mn')
+
+def format_class(text):
+    text = text.lower()
+    text = strip_accents(text)
+    text = text.replace(" ", "")
+    return text
 
 def truncate(text, words=25):
     """Remove tags and truncate text to the specified number of words."""
@@ -152,11 +162,15 @@ def make_pages(src, dst, layout, **params):
             tagsList = page_params.get('tags').split(';')
             tagsList = list(filter(None, tagsList))
             concatenateTags = ""
+            types_concatenateTags = ""
             for tag in (tagsList):
                 concatenateTags = concatenateTags + "<span>" + tag + ("</span>")
+                types_concatenateTags = types_concatenateTags + "tag_" + format_class(tag) + (" ")
 
             page_params['tags'] = concatenateTags
             content['tags'] = concatenateTags
+            page_params['types_tags'] = types_concatenateTags
+            content['types_tags'] = types_concatenateTags
 
             if (page_params.get('types') != None):
                 typesList = page_params.get('types').split(';')

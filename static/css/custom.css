@@ -1036,6 +1036,39 @@ body {
     background-position-x: 0%;
 }
 
+.splash-parent{
+    position: absolute;
+}
+
+.splash{
+position: relative;
+  animation-name: splash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  text-align: center;
+  right: -70%;
+  top: calc(clamp(5rem, 10vw, 10rem)/-2);
+  display: inline-block;
+  rotate: -12deg;
+  font-weight: bold;
+  background: var(--color-primary);
+  color: var(--bg-color);
+  padding: 0 10px;
+  border-radius: ;
+}
+
+@keyframes splash {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+
 @keyframes glider {
     from {
         background-position-x: 0%;
@@ -1305,6 +1338,14 @@ content: "";
     left: 0;
 }
 
+.entries img{
+    transition: all .1;
+}
+
+.entries a:hover img{
+  transform: scale(1.1) rotate(1deg);
+}
+
 .entries div {
     padding: 3rem;
     hyphens: manual;
@@ -1312,8 +1353,11 @@ content: "";
 
 .entries footer {
     position: absolute;
-    bottom: 1rem;
-    left: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  border-radius: 0 2rem 0;
 }
 
 .entries a {
@@ -1328,8 +1372,24 @@ content: "";
     padding: .1rem;
     border-radius: 1rem;
 
+  line-height: 1.6;
+    padding: 2px 0; 
+  width: 400px;
+  margin: 20px auto;
+
 }
 
+.entries h3 span{
+  background: var(--bg-color);
+  color: #fff; 
+  display: inline;
+  padding: 0.45rem;
+  
+  /* Needs prefixing */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  border-radius: 1rem;
+}
 
 
 .entries .tag_pro::before,

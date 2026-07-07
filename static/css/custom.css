@@ -1051,7 +1051,7 @@ body {
     right: -70%;
     top: calc(clamp(5rem, 10vw, 10rem)/-2);
     display: inline-block;
-    : -12deg;
+    rotate: -12deg;
     font-weight: bold;
     background: var(--color-primary);
     color: var(--bg-color);
@@ -1329,6 +1329,10 @@ content: "";
     overflow: hidden;
 }
 
+.entries {
+    overflow-x: hidden;
+}
+
 .entries img,
 .entries div {
     top: 0;
@@ -1364,13 +1368,6 @@ content: "";
 
 .entries a img {
     background-color: var(--mid-dark);
-    transform: rotate(0deg) translate3d(0px, 0px, 0px);
-    transform-origin: 70% 25%;
-    transition: all 0.1s cubic-bezier(.08, .82, .17, 1);
-}
-
-.entries a:hover img {
-    transform: rotate(-5deg) translate3d(0px, 24px, 0px);
 }
 
 .entries {
@@ -1394,7 +1391,6 @@ content: "";
 
 .entries h3 span {
     background: var(--bg-color);
-    /* color: var();  */
     display: inline;
     padding: 0.45rem;
 
@@ -1411,23 +1407,11 @@ content: "";
 .entries .tag_pro::before,
 .entries .tag_perso::before {
     content: " ";
-    /* right: 2rem;
-    top: 0;
-    position: absolute;
-    width: 9rem;
-    aspect-ratio: 1;
-    height: 4rem;
-    border-radius: 0 0 10px 10px;
-    z-index: 1;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem; */
 
 
     top: 0;
     position: absolute;
     aspect-ratio: 1;
-    border-radius: 100%;
     z-index: 0;
     text-align: center;
     font-weight: bold;
@@ -1441,12 +1425,13 @@ content: "";
 }
 
 .entries a:hover::before {
-    top: -25%;
+    top: -15%;
 }
 
 .entries .tag_pro::before {
     content: "Pro";
     background-color: var(--color-green);
+    border-radius: 100%;
 }
 
 .entries .tag_perso::before {

@@ -34,8 +34,8 @@
     --grid-gutter: 2rem;
     --font-size: 1.6rem;
     --font-family-sans: -apple-system, "BlinkMacSystemFont", "Avenir",
-        "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-        "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
 
 
@@ -597,7 +597,7 @@ article.blur {
     max-height: 3rem;
 }
 
-.nav>.container {
+.nav > .container {
     display: flex;
 }
 
@@ -627,7 +627,7 @@ article.blur {
 @media screen and (max-width: 480px) {
 
     .nav,
-    .nav>.container {
+    .nav > .container {
         flex-direction: column;
     }
 
@@ -674,7 +674,7 @@ details.dropdown {
     display: inline-block;
 }
 
-details.dropdown> :last-child {
+details.dropdown > :last-child {
     position: absolute;
     left: 0;
     white-space: nowrap;
@@ -958,7 +958,7 @@ footer#footer .brand img {
     padding-bottom: 16rem
 }
 
-article>section,
+article > section,
 .margin {
     padding-top: 8rem;
     padding-bottom: 8rem
@@ -1049,7 +1049,7 @@ body {
     animation-timing-function: ease-in-out;
     text-align: center;
     right: -70%;
-    top: calc(clamp(5rem, 10vw, 10rem)/-2);
+    top: calc(clamp(5rem, 10vw, 10rem) / -2);
     display: inline-block;
     rotate: -12deg;
     font-weight: bold;
@@ -1201,31 +1201,33 @@ body {
     left: 0;
     position: absolute;
     background: var(--bg-color);
-    padding: 2rem 8rem 2rem 2rem;
-    border-radius: 0 20rem 20rem 0;
+    border-radius: 5rem 10rem 10rem 0;
+    padding: 2rem 2rem 2rem 5rem;
 }
 
 #header-content::before {
     content: "";
     bottom: 0;
-    top: 0;
     right: 100%;
     left: -300%;
     position: absolute;
     background: var(--bg-color);
+      height: calc(50% - 60px);
+
 }
 
-/*#header-content::after {
-content: "";
-  bottom: 0;
-  top: 0;
-  right: 0;
+#header-content::after {
+--dim: 60px;
+  content: "";
+  left: calc(-1 * var(--dim));
   position: absolute;
-  background: rgb(255 0 0 / 0.21);
-  border-radius: 10rem;
-  aspect-ratio: 1;
+  clip-path: url("#clip");
+  width: var(--dim);
+  height: var(--dim);
+    background: var(--bg-color);
+  bottom: calc(50% - var(--dim));
 
-}*/
+}
 
 .caption {
     text-align: center;
@@ -1285,10 +1287,10 @@ content: "";
     grid-auto-rows: 1fr;
 }
 
-.one>*,
-.two>*,
-.three>*,
-.four>* {
+.one > *,
+.two > *,
+.three > *,
+.four > * {
     width: 100%;
     height: 100%;
     padding: 1rem;
@@ -1343,7 +1345,6 @@ content: "";
 }
 
 
-
 .entries div {
     padding: 3rem;
     hyphens: manual;
@@ -1376,17 +1377,23 @@ content: "";
 }
 
 .entries h3 {
-    line-height: 1em;
     word-wrap: break-word;
     display: inline;
-    padding: .1rem;
     border-radius: 1rem;
 
-    line-height: 1.6;
+    line-height: 1.1;
     padding: 2px 0;
     width: 400px;
     margin: 20px auto;
 
+}
+
+.inverted {
+    clip-path: url("#clip");
+    width: 50px;
+    height: 50px;
+    background-color: #513D34;
+    aspect-ratio: 1 / 1;
 }
 
 .entries h3 span {
@@ -1638,7 +1645,7 @@ details {
     background-color: var(--bg-secondary-color)
 }
 
-details>* {
+details > * {
     padding: 0 1rem
 }
 

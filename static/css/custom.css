@@ -12,7 +12,7 @@
     --color-darkGrey: #3f4144;
     --color-error: #d43939;
     --color-success: #28bd14;
-    --color-mark: #eede08;
+    --color-mark: #f2e206;
 
     --color-red: #D25353;
     --color-orange: #F8843F;
@@ -784,6 +784,21 @@ details.dropdown > :last-child {
     color: var(--fontColor)
 }
 
+.bgStrip {
+    background: repeating-linear-gradient(-80deg, transparent 0 18px, var(--color-red) 18px 22px);
+}
+
+.bgDot {
+    background-image: radial-gradient(#5a8ab9 4px, transparent 5px);
+    background-size: 20px 20px;
+}
+
+.bgGrid {
+    background-image: linear-gradient(#5a8ab9 1px, transparent 1px),
+    linear-gradient(90deg, #5a8ab9 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
 .textPrimary {
     color: var(--color-primary) !important;
 }
@@ -962,6 +977,10 @@ article > section,
 .margin {
     padding-top: 8rem;
     padding-bottom: 8rem
+}
+
+article .separator {
+    height: 2rem;
 }
 
 .smallMargin {
@@ -1209,24 +1228,24 @@ body {
     content: "";
     bottom: 0;
     right: 100%;
-    left: -300%;
+    left: -100%;
     position: absolute;
-    background: var(--bg-color);
-      height: calc(50% - 60px);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, var(--bg-color) 90%);
+    height: calc(50% - 60px);
 
 }
 
 #header-content::after {
---dim: 60px;
-  content: "";
-  left: calc(-1 * var(--dim));
-  position: absolute;
-  clip-path: url("#clip");
-  width: var(--dim);
-  height: var(--dim);
+    --dim: 60px;
+    content: "";
+    left: calc(-1 * var(--dim));
+    position: absolute;
+    clip-path: shape(from 0% 0%, hline to 100%, arc to 100% 0% of 0% small cw, vline to 100%, arc to 100% 100% of 0% small cw, hline to 0%, arc to 0% 100% of 0% small cw, vline to 100%, arc to 0% 100% of 0% small cw, hline to 0%, arc to 100% 0% of 100% small ccw, vline to 0%, arc to 100% 0% of 0% small cw);
+    background: linear-gradient(60deg in hsl, #d75252, #852b4f);
+    width: var(--dim);
+    height: var(--dim);
     background: var(--bg-color);
-  bottom: calc(50% - var(--dim));
-
+    bottom: calc(50% - var(--dim));
 }
 
 .caption {
@@ -1234,17 +1253,15 @@ body {
     color: var(--color-grey);
     padding: 1rem;
     border-radius: 1rem;
-    background-color: #3f4144;
+    background-color: var(--color-lightGrey);
     margin-top: 2rem;
 }
-
 
 .hover-scale:hover {
     transform: scale(1.03);
 }
 
 .hover-scale {
-
     transform: scale(1);
     transition: transform 0.2s;
 }
@@ -1352,19 +1369,15 @@ body {
 
 .entries footer {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     padding: 10px;
     border-radius: 0 2rem 0;
-}
-
-.entries a {
-    background-color: var(--mid-dark);
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
 }
 
 .entries a::before {
-    transition: 0.3s;
+    /*transition: 0.3s;*/
 }
 
 .entries a img {
@@ -1388,14 +1401,6 @@ body {
 
 }
 
-.inverted {
-    clip-path: url("#clip");
-    width: 50px;
-    height: 50px;
-    background-color: #513D34;
-    aspect-ratio: 1 / 1;
-}
-
 .entries h3 span {
     background: var(--bg-color);
     display: inline;
@@ -1407,43 +1412,64 @@ body {
     border-radius: 1rem;
 }
 
-.entries a {
-    overflow: visible;
+
+.entries a img {
+    /*transition: clip-path .1s;*/
+    clip-path: shape(from 5.19% 0%, hline to 94.81%, arc to 100% 5.19% of 5.19% 5.19% cw small rotate 0deg, vline to 18.18%, arc to 100% 18.18% of 0% 0% ccw small rotate 0deg, hline to 100%, arc to 100% 18.18% of 0% 0% cw small rotate 0deg, vline to 94.81%, arc to 94.81% 100% of 5.19% 5.19% cw small rotate 0deg, hline to 5.19%, arc to 0% 94.81% of 5.19% 5.19% cw small rotate 0deg, vline to 5.19%, arc to 5.19% 0% of 5.19% 5.19% cw small rotate 0deg, close);
+    border-radius: 2rem;
 }
 
-.entries .tag_pro::before,
-.entries .tag_perso::before {
-    content: " ";
-
-
-    top: 0;
-    position: absolute;
-    aspect-ratio: 1;
-    z-index: 0;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-    right: 1rem;
-    left: 1rem;
-}
-
-.entries a:hover {
-    z-index: 100;
+.entries a:hover img {
+    clip-path: shape(from 5.19% 0%, hline to 68.83%, arc to 74.03% 5.19% of 5.19% 5.19% cw small rotate 0deg, vline to 12.99%, arc to 87.01% 25.97% of 12.99% 12.99% ccw small rotate 0deg, hline to 94.81%, arc to 100% 31.17% of 5.19% 5.19% cw small rotate 0deg, vline to 94.81%, arc to 94.81% 100% of 5.19% 5.19% cw small rotate 0deg, hline to 5.19%, arc to 0% 94.81% of 5.19% 5.19% cw small rotate 0deg, vline to 5.19%, arc to 5.19% 0% of 5.19% 5.19% cw small rotate 0deg, close);
 }
 
 .entries a:hover::before {
-    top: -15%;
+    animation: rotating 8s linear infinite;
+}
+
+.entries a::before {
+    content: " ";
+
+
+    right: 0;
+    top: 0;
+    position: absolute;
+
+    width: calc(100px - 5px);
+    height: calc(100px - 5px);
+    text-align: center;
+    border-radius: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    font-weight: bold;
+    border: 10px solid;
+
+    background-color: var(--mid-dark);
+
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .entries .tag_pro::before {
     content: "Pro";
-    background-color: var(--color-green);
-    border-radius: 100%;
+    border-color: var(--color-green);
 }
 
 .entries .tag_perso::before {
     content: "Perso";
-    background-color: var(--color-grey);
+    border-color: var(--color-grey);
 }
 
 

@@ -1041,19 +1041,7 @@ body {
     fill: var(--color-primary);
 }
 
-.bgimg {
-    content: "";
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    width: clamp(40vw, 500px, 80vw);
-    background-image: url("/images/decors/sail.png");
-    aspect-ratio: 1;
-    background-size: cover;
-    image-rendering: pixelated;
-    animation: glider 1s steps(3, jump-none) infinite alternate;
-    background-position-x: 0%;
-}
+
 
 .splash-parent {
     position: absolute;
@@ -1088,18 +1076,6 @@ body {
 }
 
 
-@keyframes glider {
-    from {
-        background-position-x: 0%;
-    }
-
-    to {
-        background-position-x: 200%;
-    }
-
-}
-
-
 .bgpixel {
 
     background-size: cover;
@@ -1127,18 +1103,57 @@ body {
     background: var(--mid-dark);
 }
 
-#page #header::before {
+.bgimg{
     content: "";
     right: 0;
     bottom: 0;
     position: absolute;
     width: clamp(40vw, 500px, 80vw);
-    background-image: url("/images/decors/building.png");
     aspect-ratio: 1;
     background-size: cover;
     image-rendering: pixelated;
-    animation: glider 1s steps(3, jump-none) infinite alternate;
+    animation: bannerAnimation 1s steps(3, jump-none) infinite alternate;
     background-position-x: 0%;
+}
+#landing .bgimg {
+        background-image: url("/images/decors/sail.png");
+}
+#page #header::before {
+        background-image: url("/images/decors/building.png");
+}
+
+@keyframes bannerAnimation {
+    from {
+        background-position-x: 0%;
+    }
+
+    to {
+        background-position-x: 200%;
+    }
+
+}
+
+.sdCard{
+    background-image: url("/images/decors/sdcard.png");
+    height: 200px;
+    aspect-ratio: 1;
+}
+
+.smallAnim{
+    background-size: cover;
+    image-rendering: pixelated;
+    animation: smallAnimation 2.5s steps(16, jump-none) infinite;
+}
+
+@keyframes smallAnimation {
+    from {
+        background-position-x: 0%;
+    }
+
+    to {
+        background-position-x: 100%;
+    }
+
 }
 
 .wavy {
@@ -1368,12 +1383,17 @@ body {
 }
 
 .entries footer {
+    display: none;
     position: absolute;
     padding: 10px;
     border-radius: 0 2rem 0;
     bottom: 2rem;
     left: 2rem;
     right: 2rem;
+}
+
+.entries a:hover footer{
+    display: block;
 }
 
 .entries a::before {

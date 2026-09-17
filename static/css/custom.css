@@ -1153,9 +1153,6 @@ body {
     background-size: cover;
     image-rendering: pixelated;
     background-position-x: 0%;
-}
-
-.sdCard:hover::before {
     animation: bannerAnimation 3s steps(16, jump-none) infinite;
 }
 

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "image": "sail.png",
+  "width": 768,
+  "height": 256,
+  "columns": 3,
+  "rows": 1,
+  "origin": "top-left",
+  "frames": [
+    {
+      "index": 0,
+      "source_frame": 1,
+      "rotation_degrees": 0.0,
+      "axis": "Z",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "index": 1,
+      "source_frame": 2,
+      "rotation_degrees": 0.0,
+      "axis": "Z",
+      "rect": {
+        "x": 256,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    },
+    {
+      "index": 2,
+      "source_frame": 3,
+      "rotation_degrees": 0.0,
+      "axis": "Z",
+      "rect": {
+        "x": 512,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    }
+  ]
+}

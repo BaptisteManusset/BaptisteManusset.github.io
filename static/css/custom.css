@@ -91,9 +91,6 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
 }
 
@@ -123,7 +120,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     z-index: 10;
     position: relative;
     font-family: var(--font-family-mono);
@@ -1042,7 +1045,6 @@ body {
 }
 
 
-
 .splash-parent {
     position: absolute;
 }
@@ -1103,7 +1105,7 @@ body {
     background: var(--mid-dark);
 }
 
-.bgimg{
+.bgimg {
     content: "";
     right: 0;
     bottom: 0;
@@ -1115,11 +1117,13 @@ body {
     animation: bannerAnimation 1s steps(3, jump-none) infinite alternate;
     background-position-x: 0%;
 }
+
 #landing .bgimg {
-        background-image: url("/images/decors/sail.png");
+    background-image: url("/images/decors/sail.png");
 }
+
 #page #header::before {
-        background-image: url("/images/decors/building.png");
+    background-image: url("/images/decors/building.png");
 }
 
 @keyframes bannerAnimation {
@@ -1133,13 +1137,29 @@ body {
 
 }
 
+
 .sdCard{
+    padding-left: 1em;
+}
+.sdCard::before {
     background-image: url("/images/decors/sdcard.png");
-    height: 200px;
+    height: 1em;
+    width: 1em;
+    content: "";
+    left: 0;
+    bottom: 0;
+    position: absolute;
     aspect-ratio: 1;
+    background-size: cover;
+    image-rendering: pixelated;
+    background-position-x: 0%;
 }
 
-.smallAnim{
+.sdCard:hover::before {
+    animation: bannerAnimation 3s steps(16, jump-none) infinite;
+}
+
+.smallAnim {
     background-size: cover;
     image-rendering: pixelated;
     animation: smallAnimation 2.5s steps(16, jump-none) infinite;
@@ -1392,7 +1412,7 @@ body {
     right: 2rem;
 }
 
-.entries a:hover footer{
+.entries a:hover footer {
     display: block;
 }
 
@@ -1760,7 +1780,7 @@ details summary {
     top: 0%;
     user-select: none;
 
-    animation-name: ;
+    animation-name: rotate;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -1779,13 +1799,12 @@ details summary {
     color: var(--bg-color);
 }
 
-@keyframes {
+@keyframes rotate {
     from {
-        transform: (0);
+        transform: rotate(0);
     }
-
     to {
-        transform: (360deg);
+        transform: rotate(360deg);
     }
 }
 

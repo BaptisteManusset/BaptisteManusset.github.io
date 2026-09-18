@@ -916,10 +916,10 @@ details.dropdown > :last-child {
 img.is-pixelArt {
     image-rendering: pixelated;
 }
-.is-pixelArt img{
+
+.is-pixelArt img {
     image-rendering: pixelated;
 }
-
 
 
 @media screen and (max-width: 599px) {
@@ -1443,28 +1443,19 @@ body {
 }
 
 .entries h3 {
-    word-wrap: break-word;
-    display: inline;
-    border-radius: 1rem;
-
-    line-height: 1.1;
-    padding: 2px 0;
-    width: 400px;
-    margin: 20px auto;
-
+    line-height: .9;
 }
 
-.entries h3 span {
+.entries h3 .background {
     background: var(--bg-color);
-    display: inline;
     padding: 0.45rem;
-
-    /* Needs prefixing */
     box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
     border-radius: 1rem;
 }
 
+.entries h3 .highlight {
+    position: relative;
+}
 
 .entries a img {
     /*transition: clip-path .1s;*/

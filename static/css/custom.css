@@ -1876,3 +1876,40 @@ textPath {
     text-transform: uppercase;
     color: var(--fontColor);
 }
+
+
+/* DEBUGG */
+
+/*.full::before ,*/
+/*.container::before{*/
+/*     content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*}*/
+
+/*.container::before{*/
+/*    content: "container";*/
+/*    background-color: orange;*/
+/*}*/
+
+/*.full::before {*/
+/*    background-color: #7b1414;*/
+/*    content: "Full";*/
+/*}*/
+
+
+/*.container{*/
+/*    outline: 1px orange dotted;*/
+/*    position: relative;*/
+/*}*/
+
+/*.full {*/
+/*    outline: 1px #7b1414 dotted;*/
+/*        position: relative;*/
+/*}*/
+
+/*.container > *,*/
+/*.full > *{*/
+/*    outline: 3px #7bd694 dashed;*/
+/*}*/

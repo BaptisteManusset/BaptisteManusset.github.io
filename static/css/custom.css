@@ -278,14 +278,14 @@ iframe {
     aspect-ratio: 16/9;
 }
 
-.full {
+.lg-container {
     max-width: var(--grid-maxWidth);
     margin: 0 auto;
     width: 96%;
 }
 
 .container > img,
-.full > img {
+.lg-container > img {
     height: auto;
 }
 

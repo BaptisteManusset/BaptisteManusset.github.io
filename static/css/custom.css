@@ -913,11 +913,11 @@ details.dropdown > :last-child {
 }
 
 
-img.is-pixelArt {
+img.pixel {
     image-rendering: pixelated;
 }
 
-.is-pixelArt img {
+.pixel img {
     image-rendering: pixelated;
 }
 
@@ -1228,13 +1228,6 @@ body {
     left: 0;
 }
 
-#header .container {
-    position: relative
-}
-
-#header h1 {
-    margin: 0
-}
 
 #header img {
     min-height: 100%;
@@ -1264,12 +1257,10 @@ body {
 }
 
 #header-content {
-    bottom: 5rem;
-    left: 0;
-    position: absolute;
+    bottom: 10rem;
+    /*left: 0;*/
+    /*position: absolute;*/
     background: var(--bg-color);
-    border-radius: 5rem 10rem 10rem 0;
-    padding: 2rem 2rem 2rem 5rem;
 }
 
 #header-content::before {

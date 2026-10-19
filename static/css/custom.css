@@ -849,6 +849,11 @@ details.dropdown > :last-child {
     text-align: right;
 }
 
+.text-vertical{
+    text-orientation: mixed;
+  writing-mode: vertical-lr;
+}
+
 .is-vertical-align {
     display: flex;
     flex-direction: column;
@@ -1792,6 +1797,23 @@ details summary {
     background-color: var(--color-primary);
     font-family: monospace;
     z-index: 1;
+}
+
+.skill-item{
+    position: relative;
+}
+
+.skill-item .strong{
+    font-weight: bold;
+}
+
+.skill-item .h2{
+position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  word-wrap: break-word;
 }
 
 .circTxt p {

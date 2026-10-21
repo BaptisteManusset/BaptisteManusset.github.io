@@ -1223,16 +1223,15 @@ body {
 }
 
 
-#landing .header-element,
 #header .header-element {
     display: flex;
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 2rem;
     right: 0;
     left: 0;
+      height: 100%;
 }
-
 
 #header img {
     min-height: 100%;
@@ -1266,31 +1265,34 @@ body {
     /*left: 0;*/
     /*position: absolute;*/
     background: var(--bg-color);
+      padding: 2rem;
+  border-radius: 2rem;
+  position: absolute;
 }
 
-#header-content::before {
-    content: "";
-    bottom: 0;
-    right: 100%;
-    left: -100%;
-    position: absolute;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, var(--bg-color) 90%);
-    height: calc(50% - 60px);
+/*#header-content::before {*/
+/*    content: "";*/
+/*    bottom: 0;*/
+/*    right: 100%;*/
+/*    left: -100%;*/
+/*    position: absolute;*/
+/*    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, var(--bg-color) 90%);*/
+/*    height: calc(50% - 60px);*/
 
-}
+/*}*/
 
-#header-content::after {
-    --dim: 60px;
-    content: "";
-    left: calc(-1 * var(--dim));
-    position: absolute;
-    clip-path: shape(from 0% 0%, hline to 100%, arc to 100% 0% of 0% small cw, vline to 100%, arc to 100% 100% of 0% small cw, hline to 0%, arc to 0% 100% of 0% small cw, vline to 100%, arc to 0% 100% of 0% small cw, hline to 0%, arc to 100% 0% of 100% small ccw, vline to 0%, arc to 100% 0% of 0% small cw);
-    background: linear-gradient(60deg in hsl, #d75252, #852b4f);
-    width: var(--dim);
-    height: var(--dim);
-    background: var(--bg-color);
-    bottom: calc(50% - var(--dim));
-}
+/*#header-content::after {*/
+/*    --dim: 60px;*/
+/*    content: "";*/
+/*    left: calc(-1 * var(--dim));*/
+/*    position: absolute;*/
+/*    clip-path: shape(from 0% 0%, hline to 100%, arc to 100% 0% of 0% small cw, vline to 100%, arc to 100% 100% of 0% small cw, hline to 0%, arc to 0% 100% of 0% small cw, vline to 100%, arc to 0% 100% of 0% small cw, hline to 0%, arc to 100% 0% of 100% small ccw, vline to 0%, arc to 100% 0% of 0% small cw);*/
+/*    background: linear-gradient(60deg in hsl, #d75252, #852b4f);*/
+/*    width: var(--dim);*/
+/*    height: var(--dim);*/
+/*    background: var(--bg-color);*/
+/*    bottom: calc(50% - var(--dim));*/
+/*}*/
 
 .caption {
     text-align: center;
@@ -1801,10 +1803,25 @@ details summary {
 
 .skill-item{
     position: relative;
+    padding: 2rem 5rem;
+}
+.skill-item:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+        top: 50%;
+    border: .75rem solid var(--fontColor);
+    border-radius: 2rem;
 }
 
 .skill-item .strong{
     font-weight: bold;
+}
+
+.skill-item img{
+      filter: drop-shadow(0px 0px 20px var(--bg-color));
 }
 
 .skill-item .h2{

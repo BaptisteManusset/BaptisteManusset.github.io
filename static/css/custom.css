@@ -1809,9 +1809,9 @@ details summary {
     content: "";
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
-        top: 50%;
+    left: 3rem;
+    right: 3rem;
+    top: 50%;
     border: .75rem solid var(--fontColor);
     border-radius: 2rem;
 }
